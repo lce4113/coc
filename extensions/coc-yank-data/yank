@@ -1,37 +1,3 @@
-4b1791f1db2d45f6efbb5a2c4080bdf1|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/USACO/2021%20US%20Open/Silver%20%231/main.cpp|53|5|V|cpp
-	    cout << newb << endl;
-81741be7f8a8194609ac2eb66547d269|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/USACO/2021%20US%20Open/Silver%20%231/main.cpp|21|3|V|cpp
-	  cout << ttt[0];
-94da089c7d54478f704d636a01edd1af|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/USACO/2021%20US%20Open/Silver%20%231/main.cpp|21|1|V|cpp
-	  for (int i = 0; i < 3; i++) {
-50687cdc4bc36169eb3b2948c9920715|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/USACO/2021%20US%20Open/Silver%20%231/main.cpp|23|15|v|cpp
-	endl
-22b28270d17bbc80e4ea3f7f01e99caf|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/USACO/2021%20US%20Open/Silver%20%231/main.cpp|23|11|v|cpp
-	 << 
-231eb4afc815e46cfc171afcdca00e7e|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/USACO/2021%20US%20Open/Silver%20%231/main.cpp|60|7|v|cpp
-	ttt[newb.at(1) - 1][newb.at(2) - 1] 
-1189476bd3f9b6bebff5d10abae22d0c|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/USACO/2021%20US%20Open/Silver%20%231/main.cpp|60|26|v|cpp
-	newb.at(1)
-3c242e294f997b33df5bd7c3b26cc475|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/USACO/2021%20US%20Open/Silver%20%231/main.cpp|60|32|v|cpp
-	newb.at(2)
-bd770b40fb2d89f051c65390efe99aeb|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/USACO/2021%20US%20Open/Silver%20%231/main.cpp|60|11|v|cpp
-	int(newb.at(1)) - 1
-1b0a7211b11dff510de1976622b3b2a4|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/USACO/2021%20US%20Open/Silver%20%231/main.cpp|61|34|v|cpp
-	newb.at(1) - 1 
-a84c90d05823e403fb8467861702a0c8|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/USACO/2021%20US%20Open/Silver%20%231/main.cpp|60|32|v|cpp
-	int(newb.at(2)) - 1
-69c7269b88fd1eda4a9a65f18ef85af3|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/USACO/2021%20US%20Open/Silver%20%231/main.cpp|61|63|v|cpp
-	newb.at(2) - 1 
-bc03d14a5f341ef69456ac73457e9619|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/USACO/2021%20US%20Open/Silver%20%231/main.cpp|60|11|v|cpp
-	(int)(newb.at(1)) - 1
-848acf3398384c9fbd777512fcbad6a2|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/USACO/2021%20US%20Open/Silver%20%231/main.cpp|60|34|v|cpp
-	(int)(newb.at(2)) - 1
-070111cf627689d339416ae24a70afed|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/USACO/2021%20US%20Open/Silver%20%231/main.cpp|61|83|v|cpp
-	newb.at(2) 
-771f9d18e6df260cbe26dd43d1a24b8c|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/USACO/2021%20US%20Open/Silver%20%231/main.cpp|60|1|V|cpp
-	      ttt[newb.at(1) - '0' - 1][newb.at(2) - '0' - 1] = 'M';
-1baee6f2be4d268e0adf88fa46a611c0|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/USACO/2021%20US%20Open/Silver%20%231/main.cpp|69|7|V|cpp
-	      ttt[newb.at(1) - 1][newb.at(2) - 1] = 'O';
 6558521bd980eaae5a75782f454e54bc|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/USACO/2021%20US%20Open/Silver%20%231/main.cpp|61|7|V|cpp
 	      cout << newb << ' ' << newb.at(1) + '1' << ' ' << newb.at(2) + '1' << endl;
 bdf412d21999b40ab42dc97f15681df3|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/USACO/2021%20US%20Open/Silver%20%231/main.cpp|60|28|V|cpp
@@ -1424,3 +1390,285 @@ a35e6f1d584fda4780971a1c95790b41|file:///Users/om/.config/nvim/scripts/mappings/
 	" "R" for save, source, and PlugInstall
 	autocmd BufEnter *.snippets nnoremap <LEADER>R :Autoformat \| wa \| source $MYVIMRC \| PlugInstall<CR>:q
 	autocmd BufEnter *.snippets inoremap ‰ <ESC>:Autoformat \| wa \| source $MYVIMRC \| PlugInstall<CR>:q
+989cc547268c4e90e82c67b9473aabdd|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/USACO/test.cpp|25|2|V|cpp
+	  
+	  for
+bb97157d2e2d3fa63a76275b3ce8f8b8|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/USACO/test.cpp|26|11|V|cpp
+	  for (int  = 0;  < n; ++) {
+	    
+	  }
+799fb254cea60dd80a32ca91dcd59042|file:///Users/om/.config/nvim/install.sh|4|1|V|sh
+	BRED=$'\033[1;31m'
+e50f083f6c079be5f43d92cfd6effd8a|file:///Users/om/.config/nvim/install.sh|3|1|V|sh
+	BCYAN=$'\033[1;36m'
+c849b48e5447576b6d39f250b430343b|file:///Users/om/.config/nvim/install.sh|3|1|V|sh
+	BADSF=$'fdsa'
+18b0e828ac7289f5c9151298d6baf0b0|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/USACO/test.cpp|24|1|V|cpp
+	  pi p = mp(1, 2);
+8aafbe3db551084a531f4e6d095fafbf|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|103|14|v|lua
+	(not (vcs.diff_add() ~= nil or vcs.diff_modified() ~= nil or vcs.diff_remove() ~= nil))
+55f552074214c52cf1c98d3e90e42ae1|file:///Users/om/.config/nvim/scripts/mappings/which-key-leader-o.vim|46|24|v|vim
+	tartify
+26be89983f2a4b2100024ce656d1ccc1|file:///Users/om/.config/coc/ultisnips/vim.snippets|18|9|v|snippets
+	snip
+d768137aca8b806e36c33566962132ff|file:///Users/om/.config/coc/ultisnips/vim.snippets|18|8|V|snippets
+	snippet  "Description" b
+		
+	endsnippet
+823e36643e743b83f5b663044f9572b5|file:///Users/om/.config/coc/ultisnips/cpp/other.snippets|1|1|v|snippets
+	# ––– Boilerplates –––
+	
+	snippet main "A header for problems that use stdio" b
+	${1:// HEADER}
+	
+	#include <bits/stdc++.h>
+	
+	#define f first
+	#define s second
+	#define mp make_pair
+	#define pb push_back
+	using str = string;
+	using ll = long long;
+	using pi = pair<int, int>;
+	using pl = pair<ll, ll>;
+	using vi = vector<int>;
+	using vl = vector<ll>;
+	
+	using namespace std;
+	
+	int main()
+	{
+	  int n;
+	  cin >> n;
+	
+	  $0
+	
+	  int m;
+	  cout << m;
+	}
+	endsnippet
+	
+	snippet mainold "A boilerplate for problems that use fileio" b
+	${1:// HEADER}
+	
+	#include <bits/stdc++.h>
+	
+	#define f first
+	#define s second
+	#define mp make_pair
+	#define pb push_back
+	using str = string;
+	using ll = long long;
+	using pi = pair<int, int>;
+	using pl = pair<ll, ll>;
+	using vi = vector<int>;
+	using vl = vector<ll>;
+	
+	usig namespace std;
+	
+	int main()
+	{
+	  /* ifstream cin("main.in", "r", stdin); */
+	  /* ofstream cout("main.out", "w", stdout); */
+	
+	  int n;
+	  cin >> n;
+	
+	  $0
+	
+	  int m;
+	  cout << m;
+	}
+	endsnippet
+	
+	
+	
+76f0b6ff18a309783c9700213a02a4f4|file:///Users/om/.config/coc/ultisnips/cpp/other.snippets|1|1|V|snippets
+	# ––– Boilerplates –––
+	
+	snippet main "A header for problems that use stdio" b
+	${1:// HEADER}
+	
+	#include <bits/stdc++.h>
+	
+	#define f first
+	#define s second
+	#define mp make_pair
+	#define pb push_back
+	using str = string;
+	using ll = long long;
+	using pi = pair<int, int>;
+	using pl = pair<ll, ll>;
+	using vi = vector<int>;
+	using vl = vector<ll>;
+	
+	using namespace std;
+	
+	int main()
+	{
+	  int n;
+	  cin >> n;
+	
+	  $0
+	
+	  int m;
+	  cout << m;
+	}
+	endsnippet
+	
+	snippet mainold "A boilerplate for problems that use fileio" b
+	${1:// HEADER}
+	
+	#include <bits/stdc++.h>
+	
+	#define f first
+	#define s second
+	#define mp make_pair
+	#define pb push_back
+	using str = string;
+	using ll = long long;
+	using pi = pair<int, int>;
+	using pl = pair<ll, ll>;
+	using vi = vector<int>;
+	using vl = vector<ll>;
+	
+	using namespace std;
+	
+	int main()
+	{
+	  /* ifstream cin("main.in", "r", stdin); */
+	  /* ofstream cout("main.out", "w", stdout); */
+	
+	  int n;
+	  cin >> n;
+	
+	  $0
+	
+	  int m;
+	  cout << m;
+	}
+	endsnippet
+	
+	
+059c860487bec7c33dd6fc529a2504b7|file:///Users/om/.config/coc/ultisnips/cpp/other.snippets|1|1|V|snippets
+	# ––– Headers –––
+	
+	snippet usaco "A header for USACO problems" b
+	// ––– ${1:`!v strftime("%Y %B")`}: ${3:Silver} #${4:1} –––$0
+	endsnippet
+	
+	snippet codeforces "A header for CodeForces problems" b
+	// ––– Round #${1:100}: Problem ${2:A} –––$0
+	endsnippet
+	
+	
+c20901c856cf3d886789d350131ba6d4|file:///Users/om/.config/coc/ultisnips/cpp/boilerplates.snippets|61|3|V|snippets
+	  int m;
+473b4bbc31868814003da70430120fdb|file:///Users/om/.config/coc/ultisnips/cpp/other.snippets|1|1|V|snippets
+	# ––– Input + Output –––
+	
+	snippet in "Input values" b
+	for (int ${1:i} = 0; $1 < ${2:n}; $1++) {
+	  ${3:int} ${4:elt};
+	  cin >> $4;
+	  $0
+	}
+	endsnippet
+	
+	snippet inarr "Input an array" b
+	${1:int} ${2:arr}[${3:n}];
+	for (int ${4:i} = 0; $4 < $3; $4++) {
+	  $1 ${5:elt};
+	  cin >> $5;
+	  $2[$4] = $5;
+	}$0
+	endsnippet
+	
+	snippet inpairs "Input pairs" b
+	for (int ${1:i} = 0; $1 < $2; $2++) {
+	  ${3:int} ${4:a};
+	  ${5:int} ${6:b};
+	  cin >> $4 >> $6;
+	  $0
+	}
+	endsnippet
+	
+	snippet inarrpairs "Input an array of pairs" b
+	pair<${1:int}, ${2:int}> ${3:arr}[${4:n}];
+	for (int ${5:i} = 0; $5 < $4; $5++) {
+	  ${3:int} ${4:a};
+	  ${5:int} ${6:b};
+	  cin >> a >> b;
+	  $3[$5].first = a;
+	  $3[$5].second = b;
+	}$0
+	endsnippet
+	
+	snippet outarr "Output an array" b
+	cout << ${1:arr}[0];
+	for (int ${3:i} = 1; $3 < ${2:n}; $3++) {
+	  cout << endl << $1[$3];
+	}$0
+	endsnippet
+	
+	
+4b251096bd4a3f0ced61ce124ded4aad|file:///Users/om/.config/coc/ultisnips/cpp/other.snippets|1|1|V|snippets
+	# ––– For Loops –––
+	
+	snippet for "A for loop" b
+	for (int ${1:i} = ${2:0}; $1 < ${3:n}; $1++) {
+	  $0
+	}
+	endsnippet
+	
+	snippet forin "A for loop that loops through an array" b
+	for (${1:int} ${2:elt} : ${3:arr}) {
+	  $0
+	}
+	endsnippet
+	
+	snippet forn "A for loop that loops through an array using a predefined variable" b
+	for (int ${1:i} = ${2:0}; $1 < ${3:n}; $1++) {
+	  ${4:int} ${5:elt} = ${6:arr}[$1];
+	  $0
+	}
+	endsnippet
+	
+	
+58b16ddbf52c42277c6d17d160f3c1cf|file:///Users/om/.config/coc/ultisnips/cpp/other.snippets|1|1|V|snippets
+	# ––– Basic Statements –––
+	
+	snippet if "An if statement" b
+	if (${1:condition}) {
+	  $0
+	}
+	endsnippet
+	
+	snippet while "An if statement" b
+	while (${1:condition}) {
+	  $0
+	}
+	endsnippet
+	
+	snippet switch "A switch case" b
+	switch (${1:var}) {
+	  case ${2:value}:
+	    $3
+	    break;
+	  $0
+	}
+	endsnippet
+	
+	snippet case "A single case in a switch case" b
+	case ${1:value}:
+	  $0
+	  break;
+	endsnippet
+	
+	snippet default "The default case in a switch case" b
+	default:
+	  $0
+	  break;
+	endsnippet
+	
+	
