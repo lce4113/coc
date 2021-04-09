@@ -1,0 +1,7 @@
+snippets.editSnippets
+document.echoFiletype
+workspace.diffDocument
+workspace.showOutput
+prettier.formatFile
+explorer
+clangd.install

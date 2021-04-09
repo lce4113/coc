@@ -1,0 +1,1426 @@
+4b1791f1db2d45f6efbb5a2c4080bdf1|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/USACO/2021%20US%20Open/Silver%20%231/main.cpp|53|5|V|cpp
+	    cout << newb << endl;
+81741be7f8a8194609ac2eb66547d269|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/USACO/2021%20US%20Open/Silver%20%231/main.cpp|21|3|V|cpp
+	  cout << ttt[0];
+94da089c7d54478f704d636a01edd1af|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/USACO/2021%20US%20Open/Silver%20%231/main.cpp|21|1|V|cpp
+	  for (int i = 0; i < 3; i++) {
+50687cdc4bc36169eb3b2948c9920715|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/USACO/2021%20US%20Open/Silver%20%231/main.cpp|23|15|v|cpp
+	endl
+22b28270d17bbc80e4ea3f7f01e99caf|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/USACO/2021%20US%20Open/Silver%20%231/main.cpp|23|11|v|cpp
+	 << 
+231eb4afc815e46cfc171afcdca00e7e|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/USACO/2021%20US%20Open/Silver%20%231/main.cpp|60|7|v|cpp
+	ttt[newb.at(1) - 1][newb.at(2) - 1] 
+1189476bd3f9b6bebff5d10abae22d0c|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/USACO/2021%20US%20Open/Silver%20%231/main.cpp|60|26|v|cpp
+	newb.at(1)
+3c242e294f997b33df5bd7c3b26cc475|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/USACO/2021%20US%20Open/Silver%20%231/main.cpp|60|32|v|cpp
+	newb.at(2)
+bd770b40fb2d89f051c65390efe99aeb|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/USACO/2021%20US%20Open/Silver%20%231/main.cpp|60|11|v|cpp
+	int(newb.at(1)) - 1
+1b0a7211b11dff510de1976622b3b2a4|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/USACO/2021%20US%20Open/Silver%20%231/main.cpp|61|34|v|cpp
+	newb.at(1) - 1 
+a84c90d05823e403fb8467861702a0c8|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/USACO/2021%20US%20Open/Silver%20%231/main.cpp|60|32|v|cpp
+	int(newb.at(2)) - 1
+69c7269b88fd1eda4a9a65f18ef85af3|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/USACO/2021%20US%20Open/Silver%20%231/main.cpp|61|63|v|cpp
+	newb.at(2) - 1 
+bc03d14a5f341ef69456ac73457e9619|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/USACO/2021%20US%20Open/Silver%20%231/main.cpp|60|11|v|cpp
+	(int)(newb.at(1)) - 1
+848acf3398384c9fbd777512fcbad6a2|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/USACO/2021%20US%20Open/Silver%20%231/main.cpp|60|34|v|cpp
+	(int)(newb.at(2)) - 1
+070111cf627689d339416ae24a70afed|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/USACO/2021%20US%20Open/Silver%20%231/main.cpp|61|83|v|cpp
+	newb.at(2) 
+771f9d18e6df260cbe26dd43d1a24b8c|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/USACO/2021%20US%20Open/Silver%20%231/main.cpp|60|1|V|cpp
+	      ttt[newb.at(1) - '0' - 1][newb.at(2) - '0' - 1] = 'M';
+1baee6f2be4d268e0adf88fa46a611c0|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/USACO/2021%20US%20Open/Silver%20%231/main.cpp|69|7|V|cpp
+	      ttt[newb.at(1) - 1][newb.at(2) - 1] = 'O';
+6558521bd980eaae5a75782f454e54bc|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/USACO/2021%20US%20Open/Silver%20%231/main.cpp|61|7|V|cpp
+	      cout << newb << ' ' << newb.at(1) + '1' << ' ' << newb.at(2) + '1' << endl;
+bdf412d21999b40ab42dc97f15681df3|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/USACO/2021%20US%20Open/Silver%20%231/main.cpp|60|28|V|cpp
+	      ttt[newb.at(1) - '0' - 1][newb.at(2) - '0' - 1] = 'M';
+	      maze[bx + x][by + y] = 'X';
+	      if (check(ttt)) {
+	        total++;
+	        return;
+	      }
+e2e88449dbd6888602dc52c363f1d2e1|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/USACO/2021%20US%20Open/Silver%20%231/main.cpp|52|1|V|cpp
+	  if (maze[bx][by] == 'M') {
+	    ttt[newb.at(1) - '0' - 1][newb.at(2) - '0' - 1] = 'M';
+	    maze[bx + x][by + y] = 'X';
+	    if (check(ttt)) {
+	      total++;
+	      return;
+	    }
+	  }
+98d1130c58531df44a9c9ad54c1197a8|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/USACO/2021%20US%20Open/Silver%20%231/main.cpp|53|7|v|cpp
+	maze[bx][by]
+b24292f6037c48868f6e227ece2fb5d4|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/USACO/2021%20US%20Open/Silver%20%231/main.cpp|54|1|V|cpp
+	    ttt[b.at(1) - '0' - 1][b.at(2) - '0' - 1] = 'M';
+	    maze[bx][by] = 'X';
+	    if (check(ttt)) {
+	      total++;
+	      return;
+	    }
+04c0cd3ac3eb63727a6627981079e610|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/USACO/2021%20US%20Open/Silver%20%231/main.cpp|67|9|V|cpp
+	    ttt[b.at(1) - '0' - 1][b.at(2) - '0' - 1] = 'O';
+	    maze[bx][by] = 'X';
+	    if (check(ttt)) {
+	      total++;
+	      return;
+	    }
+0daad3fc9ef20134d5c7a7820023490b|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/USACO/2021%20US%20Open/Silver%20%231/main.cpp|79|11|V|cpp
+	      ttt[newb.at(1) - '0' - 1][newb.at(2) - '0' - 1] = 'O';
+	      maze[bx + x][by + y] = 'X';
+	      if (check(ttt)) {
+	        total++;
+	        return;
+	      }
+6dcdb99224880be1ac4bf04c4151bcf6|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/USACO/2021%20US%20Open/Silver%20%231/main.cpp|60|4|v|cpp
+	 else if (b.at(0) == 'O') {
+	    ttt[b.at(1) - '0' - 1][b.at(2) - '0' - 1] = 'O';
+	    maze[bx][by] = 'X';
+	    if (check(ttt)) {
+	      total++;
+	      return;
+	    }
+	  }
+ef1602d76f294009690f62ff04ef8818|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/USACO/2021%20US%20Open/Silver%20%231/main.cpp|69|18|V|cpp
+	    ttt[b.at(1) - '0' - 1][b.at(2) - '0' - 1] = 'O';
+	    maze[bx][by] = 'X';
+	    if (check(ttt)) {
+	      total++;
+	      return;
+8493f8a64693ab55138c41a5b1054e5d|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/USACO/2021%20US%20Open/Silver%20%231/main.cpp|78|9|v|cpp
+	newb.at(0) == 'M' || ) {
+	      mov
+fdf8dde42872589ba1713577d6c348a9|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/USACO/2021%20US%20Open/Silver%20%231/main.cpp|78|9|v|cpp
+	newb.at(0) == 'M' 
+c05707613ea4c4e10b8e1f11fb680406|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/USACO/2021%20US%20Open/Silver%20%231/main.cpp|81|21|V|cpp
+	      move(ttt, bx + x, by + y);
+	    } else if (newb == "...") {
+	      move(ttt, bx + x, by + y);
+	    }
+928f857c8c1ae91a524ba1b2d69ed6f9|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/USACO/2021%20US%20Open/Silver%20%231/main.cpp|80|6|v|cpp
+	 else if (newb.at(0) == 'O') {
+0cf31b2c283ce3431794586df7b0996d|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/USACO/2021%20US%20Open/Silver%20%231/main.cpp|21|3|V|cpp
+	    
+b452ff8bcbd5b77f8d40d77846ce822e|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/USACO/2021%20US%20Open/Silver%20%231/main.cpp|89|23|v|cpp
+	 = copy(ttt);
+35b43a77e844c7f35b4a066d3c6be8fb|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/USACO/2021%20US%20Open/Silver%20%231/main.cpp|22|1|V|cpp
+	  for (int i = 0; i < 3; i++) {
+	    for (int j = 0; j < 3; j++) {
+	      newArr[i][j] = ttt[i][j];
+	    }
+	  }
+90d8eaf7c9b051eccda03e2ecc1f8502|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/USACO/2021%20US%20Open/Silver%20%231/main.cpp|92|9|v|cpp
+	newArr
+aa2ef92df6394cd435aa63260a4d07e7|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/USACO/2021%20US%20Open/Silver%20%231/main.cpp|18|1|V|cpp
+	
+	char[][] copy(char ttt[3][3])
+	{
+	  char newArr[3][3];
+	  for (int i = 0; i < 3; i++) {
+	    for (int j = 0; j < 3; j++) {
+	      newArr[i][j] = ttt[i][j];
+	    }
+	  }
+	  return newArr;
+	}
+aa4b0b64028c5ecd9ba6a631e12c1077|file:///Users/om/.config/nvim/scripts/settings.vim|9|1|V|vim
+	
+	" Theme
+	colorscheme sonokai " Set colorscheme
+	let g:airline_theme = "sonokai" " Airline theme
+	set background=dark " Use dark theme
+	set termguicolors
+2f509f6f0e1d92c4b8ded52c9fe541ed|file:///Users/om/.config/nvim/scripts/settings.vim|21|56|v|vim
+	parent directory of the file
+36995f7b5a8356182c061e7e0d32a78f|file:///Users/om/.config/nvim/scripts/mappings/autocommands.vim|32|61|v|vim
+	\| lcd %:p:h 
+011381dc3d11621736e1d536a2873de5|file:///Users/om/.config/nvim/scripts/mappings/autocommands.vim|32|61|v|vim
+	\| lcd %:p:h
+57748fc727f285dda3c13c2580b61d31|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|11|3|V|lua
+	  asdf
+c422c4d1f366c65f702fdf0100f71316|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|16|1|V|lua
+	local x = 1
+649aa783b835b415bf77e4f2217968f0|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|14|3|v|lua
+	vivid_blue
+9f27410725ab8cc8854a2769c7a516b8|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|46|25|v|lua
+	green
+48d6215903dff56238e52e8891380c8f|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|54|25|v|lua
+	blue
+441856c2f0de1cbc684e3ba859d92fc6|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|70|25|v|lua
+	error_red
+133a0d167bec1c3d0d12ced537a5a5f0|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|13|3|v|lua
+	info_yellow
+9b26208382d884593e29399dee447cdf|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|13|3|v|lua
+	diag_hint
+4fcb901c4b6a1ac996a09b0fdcb128ab|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|18|1|V|lua
+	
+	gls.left[1] = {
+	  GitIcon = {
+	    provider = function()
+	      return '  '
+	    end,
+	    condition = condition.check_git_workspace,
+	    separator = ' ',
+	    separator_highlight = {'NONE', colors.bg},
+	    highlight = {colors.text, colors.bg}
+	  }
+	}
+ca3f118acb51f0deed36988591393e89|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|18|1|V|lua
+	
+	gls.left[2] = {
+	  GitBranch = {
+	    provider = 'GitBranch',
+	    condition = condition.check_git_workspace,
+	    separator = ' ',
+	    separator_highlight = {'NONE', colors.bg},
+	    highlight = {colors.text, colors.bg}
+	  }
+	}
+5be8d9f64a2cb2aafb14cd94fe1e96b6|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|17|24|v|lua
+	NvimTree
+32d9f4d6cf5e5479528834998f0cc134|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|132|1|V|lua
+	-- LEFT (Short Line)
+684d325a7303f52e64011467ff5c5758|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|150|4|v|lua
+	LEFT
+d487dd0b55dfcacdd920ccbdaeafa351|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|23|38|v|lua
+	yellow
+4716d70cb3bf60dff5da724bda3bd8a2|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|6|1|V|lua
+	  bg1 = '#C02040',
+148da2c586d6fad057069389922bf14e|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|7|11|v|lua
+	C02040
+5526401f608d19a27a9c99e1ed8cf33c|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|119|1|V|lua
+	-- Space
+	gls.right[9] = {
+	  Space = {
+	    provider = function()
+	      return ' '
+	    end,
+	    separator = ' ',
+	    separator_highlight = {'NONE', colors.bg1},
+	    highlight = {colors.text, colors.bg1}
+	  }
+	}
+7c4f29407893c334a6cb7a87bf045c0d|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|31|5|v|lua
+	right
+776ee56310c9de672782bd4f2870f25c|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|29|1|V|lua
+	
+	-- Space
+	gls.left[2] = {
+	  Space = {
+	    provider = function()
+	      return ' '
+	    end,
+	    separator = ' ',
+	    separator_highlight = {'NONE', colors.bg1},
+	    highlight = {colors.text, colors.bg1}
+	  }
+	}
+011c0be92f136c83d94debcfb31eed7a|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|6|1|V|lua
+	  -- bg1 = '#C02040',
+7f871c168183442ed95a8d934bc94e32|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|137|1|V|lua
+	
+	gls.right[7] = {
+	  PerCent = {
+	    provider = 'LinePercent',
+	    separator = ' ',
+	    separator_highlight = {'NONE', colors.bg1},
+	    highlight = {colors.text, colors.bg1}
+	  }
+b7ecfb58771fbe1851df8d724d2f53e4|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|71|1|v|lua
+	gls.left[6] = {
+	  Space = {
+	    provider = function()
+	      return ' '
+	    end,
+	    separator = ' ',
+	    separator_highlight = {'NONE', colors.bg1},
+	    highlight = {colors.text, colors.bg1}
+	  }
+	}
+	
+2fec39e992caa173c26674399f92cfb7|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|88|22|v|lua
+	get_current_buf_name
+bc95dfc14146aa23e43f2ea7af04d310|file:///Users/om/.config/nvim/scripts/plug-config/plug-config.vim|85|26|v|vim
+	            
+f4a7070c9ed4d83eccbd139e0c15459b|file:///Users/om/.config/nvim/scripts/plug-config/plug-config.vim|85|1|V|vim
+	let g:signify_sign_change = '~'
+eb399bcaca686f8609137153307eecf1|file:///Users/om/.config/nvim/scripts/plug-config/plug-config.vim|86|20|v|vim
+	change
+19eed265de995ebb74a8ab3f842f7041|file:///Users/om/.config/nvim/scripts/plug-config/plug-config.vim|92|1|V|vim
+	let g:signify_sign_change = '~'
+	let g:signify_sign_modif = '~'
+	let g:signify_sign_change = '~'
+	let g:signify_sign_change = '~'
+a2f158ac56eef5a420d2ad123c35c505|file:///Users/om/.config/nvim/scripts/plug-config/plug-config.vim|91|5|V|vim
+	    let g:signify_sign_add               = '+'
+55cc43ed511cd2be35d8ce8d95c9b93f|file:///Users/om/.config/nvim/scripts/plug-config/plug-config.vim|90|5|V|vim
+	    let g:signify_sign_change_delete     = g:signify_sign_change . g:signify_sign_delete_first_line
+c80670a2a55f6226c17e45cc8908b0b4|file:///Users/om/.config/nvim/scripts/plug-config/plug-config.vim|88|5|V|vim
+	    let g:signify_sign_delete_first_line = '‾'
+afa32ff392f261a6f7bbd6a58b4fa577|file:///Users/om/.config/nvim/scripts/plug-config/plug-config.vim|85|23|v|vim
+	               
+f2c3f0a0fd2b00d7092cf647a35b4969|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|83|16|v|lua
+	function() return vim.api.nvim_buf_get_name(0) end
+811882fecd5c7618d7099ebbd39ea254|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|81|5|v|lua
+	left
+cafaacd1749b63620cb40f0afc161141|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|83|16|v|lua
+	function() return vim.api.nvim_buf_get_name(0) end,
+1e621df39e053ff6bc7db7bb1c616cc1|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|83|16|v|lua
+	FileName
+d511f8439ecde36647437fbba67a4394|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|82|3|v|lua
+	Space
+e01734052fba41f1539268d8f918156b|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|86|31|v|lua
+	colors.bg1
+b4dc5f262d96d288cb6ca5eed98719f8|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|97|5|V|lua
+	    separator = ' ',
+a359f1ca2861e286cb573844d54bd64d|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|80|1|V|lua
+	
+	gls.left[1] = {
+	  FileName = {
+	    provider = 'FileName',
+	    separator = ' ',
+	    separator_highlight = {colors.text, colors.bg1},
+	    highlight = {colors.text, colors.bg1}
+	  }
+	}
+11bef68da8f5b888007b56b81ff19def|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|86|1|V|lua
+	
+	
+	-- MID
+	
+46d9f7b9fdadf178bbb4f57f194a2894|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|40|1|V|lua
+	
+	gls.left[3] = {
+	  FileName = {
+	    provider = 'FileName',
+	    separator = ' ',
+	    separator_highlight = {colors.text, colors.bg1},
+	    highlight = {colors.text, colors.bg1}
+	  }
+a46aefa2a35610426c1a82422f217238|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|40|1|V|lua
+	
+	gls.left[3] = {
+	  FileName = {
+	    provider = 'FileName',
+	    separator = ' ',
+	    separator_highlight = {colors.text, colors.bg1},
+	    highlight = {colors.text, colors.bg1}
+	  }
+	}
+49ee3087348e8d44e1feda1917443987|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|43|21|v|lua
+	Name
+8bff1ca54c34ae6afd229e6201018506|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|44|5|V|lua
+	    separator = '',
+a5924719d2378f3e06739d0a5fcfa632|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|40|1|V|lua
+	
+	gls.left[3] = {
+	  FileIcon = {
+	    provider = 'FileIcon',
+	    separator_highlight = {colors.text, colors.bg1},
+	    highlight = {colors.text, colors.bg1}
+	  }
+	}
+	
+	gls.left[4] = {
+	  FileName = {
+	    provider = 'FileName',
+	    separator = ' ',
+	    separator_highlight = {colors.text, colors.bg1},
+	    highlight = {colors.text, colors.bg1}
+	  }
+	}
+ea5c973df2f65c36bd5840e0180c38f1|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|84|5|v|lua
+	pace
+	gls.left[8] = {
+	  Space = {
+	    provider = function() return ' ' end,
+	    separator = ' ',
+	    separator_highlight = {'NONE', colors.bg1},
+	    highlight = {colors.text, colors.bg1}
+	  }
+	}
+34f8c88207f729825c87f597f2b1ab3b|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|84|1|V|lua
+	-- S
+f9b3e6544787b53688a9490f6e216abf|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|30|1|V|lua
+	
+	-- Space
+	gls.left[2] = {
+	  Space = {
+	    provider = function() return ' ' end,
+	    separator = ' ',
+	    separator_highlight = {'NONE', colors.bg1},
+	    highlight = {colors.text, colors.bg1}
+	  }
+	}
+fd4f1e58db275542c9f7b30cf7dac196|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|141|1|V|lua
+	
+	-- Space
+	gls.right[8] = {
+	  Space = {
+	    provider = function() return ' ' end,
+	    separator = ' ',
+	    separator_highlight = {'NONE', colors.bg1},
+	    highlight = {colors.text, colors.bg1}
+	  }
+	}
+9884ee7cc2e4df81c3af5676456206cc|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|30|1|V|lua
+	
+	-- Space
+	gls.right[8] = {
+	  Space = {
+	    provider = function() return ' ' end,
+	    separator = ' ',
+	    separator_highlight = {colors.text, colors.bg2},
+	    highlight = {colors.text, colors.bg2}
+	  }
+	}
+6d805d6df47814ab6d330d25ccd3c4f1|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|30|1|V|lua
+	
+	-- Space
+	gls.left[2] = {
+	  Space = {
+	    provider = function() return ' ' end,
+	    separator = ' ',
+	    separator_highlight = {colors.text, colors.bg2},
+	    highlight = {colors.text, colors.bg2}
+	  }
+	}
+20789f787618b2947540f365cee4c330|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|71|5|V|lua
+	    separator_highlight = {colors.text, colors.bg1},
+0bf3b5acf016b2c41917e7345022c3e9|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|155|36|v|lua
+	"#000000"
+0200feda55cb3fc0ffee8a727821b9da|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|159|1|V|lua
+	
+	-- Space
+	gls.right[8] = {
+	  Space = {
+	    provider = function() return '' end,
+	    separator = '',
+	    separator_highlight = {'NONE', "#FFFFFF"},
+	    highlight = {colors.text, "#FFFFFF"}
+	  }
+	}
+0f05a355fb47f2abb367974200c87a56|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|162|3|V|lua
+	gls.short_line_right[1] = {
+	  BufferType = {
+	    provider = 'FileTypeName',
+	    separator = ' ',
+	    separator_highlight = {'NONE', colors.bg1},
+	    highlight = {colors.text, colors.bg1}
+	  }
+	}
+dbbaadde80356b8ded74cd13784841f0|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|162|5|v|lua
+	short_line_left
+7f90777a6182ba0400718d7e2ac05e34|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|169|1|V|lua
+	
+	
+	-- RIGHT (Short Line)
+	gls.short_line_right[1] = {
+	  BufferIcon = {
+	    provider = 'BufferIcon',
+	    highlight = {colors.text, colors.bg1}
+	  }
+	}
+53dc543b52dee1d7e8ac7386d686b96f|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|166|5|V|lua
+	    condition = condition.buffer_not_empty,
+618a50e70cde2a1e770a86ef18790694|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|76|1|V|lua
+	
+	gls.left[7] = {
+	  FileIcon = {
+	    provider = 'FileIcon',
+	    highlight = {colors.text, colors.bg1}
+	  }
+	}
+2a5f009d6a6fb3f45bbba8500e984192|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|166|22|v|lua
+	condition.buffer_not_empty
+cd9bb34a9bea26848d90db685a4ce316|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|166|40|v|lua
+	vim.api.nvim_buf_get_name(0)
+2cd40cd1abc4359a73c66ef7cf453a05|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|43|1|V|lua
+	    condition = condition.hide_in_width,
+f73a4ca0fb7fd372602e97995cb031bb|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|66|1|V|lua
+	
+	-- Space
+	gls.left[6] = {
+	  Space = {
+	    provider = function() return ' ' end,
+	    separator = ' ',
+	    separator_highlight = {colors.text, colors.bg1},
+	    highlight = {colors.text, colors.bg1}
+	  }
+	}
+8ed822bb165dd5633c71862ed4ff7b30|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|1|1|V|lua
+	local gl = require('galaxyline')
+a6963dff780b5e03359a679d782b0ffd|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|19|1|V|lua
+	local condition = require('galaxyline.condition')
+ef115c0e2934d7737839cf077a15a6e3|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|2|27|v|lua
+	galaxyline
+eea5acf638cbad8d5590867f7eb42ed7|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|5|34|V|lua
+	-- get my theme in galaxyline repo
+	-- local colors = require('galaxyline.theme').default
+ad14d44c215e7afc56893c159895d23c|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|18|52|v|lua
+	'packer'
+7c56958d0439a5da6b5ea2bced2e8c14|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|18|23|v|lua
+	'NERDTree',
+072c7a4c52111d87bd042f530597ea20|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|29|1|V|lua
+	
+	-- Space
+	gls.left[2] = {
+	  Space = {
+	    provider = function() return ' ' end,
+	    separator_highlight = {colors.text, colors.bg2},
+	    highlight = {colors.text, colors.bg2}
+	  }
+	}
+ade6d092bba3e317f86b9fb3a5a4ad9d|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|69|5|V|lua
+	    separator = ' ',
+	    separator_highlight = {colors.text, colors.bg1},
+16fa5cb2218a0bc1412c15aa357f666f|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|38|1|V|lua
+	
+	gls.left[3] = {
+	  DiffAdd = {
+	    provider = 'DiffAdd',
+	    condition = condition.hide_in_width,
+	    icon = '  ',
+	    highlight = {colors.diff_add, colors.bg2}
+	  }
+	}
+6406662688458da8c1485b9c9a2f26b4|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|70|5|V|lua
+	    separator_highlight = {colors.text, colors.bg2},
+b7ad82d31503654ca7affc95698918f4|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|7|3|V|lua
+	  bg1 = '#000000',
+333f71b262c15b0b9f875b5f42ed6dfd|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|8|3|V|lua
+	  -- bg2 = '#000000',
+61e030078ef8bc63b71f202821d62242|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|63|38|v|lua
+	colors.bg2
+d13be54e62df9f3e837c81cd95a71a3d|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|63|38|v|lua
+	"#FFFFFF"
+e6db1b0fc7a3a2332b7e7d4159080cd6|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|65|1|V|lua
+	
+	-- Space
+	gls.left[6] = {
+	  SpaceL6 = {
+	    provider = function() return ' ' end,
+	    highlight = {colors.text, colors.bg1}
+	  }
+	}
+25647ae498855366a3dc5f0e583fb330|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|30|1|V|lua
+	
+	-- Space
+	gls.left[2] = {
+	  SpaceL2 = {
+	    provider = function() return ' ' end,
+	    highlight = {colors.text, colors.bg2}
+	  }
+	}
+1f38cc206826dda22565ebfe8cea053c|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|151|1|V|lua
+	    separator = '  ',
+	    separator_highlight = {'NONE', colors.bg1},
+87c31749fc2ad58c835091428bab7bd6|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|152|28|v|lua
+	'NONE'
+1d2bfc9a2e7f8680df275db099a0f91c|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|151|1|V|lua
+	    separator = '  ',
+	    separator_highlight = {colors.text, colors.bg1},
+b2197dd67aff8dbafb06fc147fcbefdd|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|156|1|V|lua
+	
+	-- Space
+	gls.right[8] = {
+	  SpaceR8 = {
+	    provider = function() return ' ' end,
+	    highlight = {colors.text, colors.bg1}
+	  }
+	}
+e0c1fdfe4b89eb2c931c2267295e918b|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|179|35|v|lua
+	fileinfo.get_file_icon ~= ''
+58f939fdc43d73bac69bcde6c3246856|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|179|1|V|lua
+	    condition = function() return fileinfo.get_file_icon() ~= ' ' end,
+34f6a47f7f7762a4519505a9d9b03f1b|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|61|27|v|lua
+	hide_in_width
+ac5b76810d43cf62fbb8735042d4e762|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|61|1|V|lua
+	    condition = condition.check_git_workspace,
+092717218f6a6fff2a51e9c613e17ae4|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|23|1|V|lua
+	
+	gls.left[1] = {
+	  FirstElement = {
+	    provider = function() return '▋ ' end,
+	    highlight = {colors.text, colors.bg1}
+	  },
+	}
+d16b92c5fae6a1d88b0275d91a68ad8c|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|177|1|V|lua
+	
+	-- Space
+	gls.short_line_left[2] = {
+	  SpaceSL1 = {
+	    provider = function() return ' ' end,
+	    highlight = {colors.text, colors.bg1}
+	  }
+	}
+6457a9c70dd7f5b8cd2dd58a8452cd51|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|158|1|V|lua
+	
+	-- Space
+	gls.right[8] = {
+	  SpaceR8 = {
+	    provider = function() return ' ' end,
+	    highlight = {colors.text, colors.bg2}
+	  }
+	}
+1cb251ec0d568de6a929b520c4aed8d1|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|71|25|v|lua
+	text
+2163ccb2973a32ac1f4de79633ec1ef8|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|8|5|v|lua
+	'#C02040',
+b20547ec3bf1e953d2a97917ced21a75|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|9|12|v|lua
+	'#000000',
+c8a5f83cedcd5634d8fc7ef5742949bc|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|7|1|V|lua
+	'#C02040',
+	'#000000',
+85a93f92a41363646a3d151167674cf4|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|11|5|V|lua
+	    '#FFFFFF'
+6f052f64b1cd8f01e3e62a02a0f4f267|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|11|4|v|lua
+	,'#C02040',
+8cac876e3a39ec2f1288559cc6425968|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|12|3|V|lua
+	  -- bg1 = '#000000',
+	  -- bg2 = '#C02040',
+	  bg2 = '#000000',
+894719a91428a6576c134a0f97285349|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|38|1|V|lua
+	    highlight = {colors.bg[1], colors.bg[2]}
+3dcd0f1abbc7ffa4203edd999b629bc4|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|73|5|V|lua
+	    highlight = {colors.text, colors.bg[2]}
+4a3cd7ad2c0ceda2ecf40e6c6b9279ab|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|8|12|V|lua
+	    -- '#000000',
+	    -- '#C02040',
+e158fd3663c3ef4d46838d9dfe119eff|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|7|1|V|lua
+	    '#C02040',
+	    '#000000',
+a4bf078c1afe77614eba35500f9229fe|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|72|1|V|lua
+	
+	-- Space
+	gls.left[6] = {
+	  SpaceL6 = {
+	    provider = function() return ' ' end,
+	    highlight = {colors.bg[2], colors.bg[3]}
+	  }
+	}
+b267f76c4cbcaad63d7f3a1838a79617|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|92|18|V|lua
+	    separator = '',
+	    separator_highlight = {colors.text, colors.bg[1]},
+9743e0f8efd55d875683d2e3fa73331f|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|95|1|V|lua
+	
+	-- Space
+	gls.left[9] = {
+	  SpaceL9 = {
+	    provider = function() return ' ' end,
+	    highlight = {colors.bg[3], colors.bg[4]}
+	  }
+	}
+978dabb8abe2ae6ebc51a8f92c7c697b|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|106|1|V|lua
+	
+	-- Space
+	gls.right[1] = {
+	  SpaceR1 = {
+	    provider = function() return ' ' end,
+	    highlight = {colors.bg[4], colors.bg[5]}
+	  }
+	}
+f8769dd0a811cb65f321292e93f739c8|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|159|1|V|lua
+	
+	-- Space
+	gls.right[6] = {
+	  SpaceR6 = {
+	    provider = function() return ' ' end,
+	    highlight = {colors.bg[5], colors.bg[6]}
+	  }
+	}
+bc2a28b968b493b67c581785adb6b753|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|176|1|V|lua
+	
+	-- Space
+	gls.right[8] = {
+	  SpaceR6 = {
+	    provider = function() return ' ' end,
+	    highlight = {colors.bg[6], colors.bg[7]}
+	  }
+	}
+2962c8dd6e182a40f8cd4c1177c53a95|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|202|1|V|lua
+	
+	-- Space
+	gls.right[9] = {
+	  SpaceR9 = {
+	    provider = function() return ' ' end,
+	    highlight = {colors.text, colors.bg[2]}
+	  }
+	}
+af6c04f32e9f8969cf3be91ec97564e2|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|194|1|V|lua
+	
+	-- Space
+	gls.right[8] = {
+	  SpaceR8 = {
+	    provider = function() return ' ' end,
+	    highlight = {colors.text, colors.bg[2]}
+	  }
+	}
+9b7c354b35e9ce9d51cfe007d65b45ba|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|36|1|V|lua
+	
+	-- Space
+	gls.left[2] = {
+	  SpaceL2 = {
+	    provider = function() return ' ' end,
+	    condition = condition.check_git_workspace,
+	    highlight = {colors.bg[1], colors.bg[2]}
+	  }
+	}
+69f16ca48303deed876d308212f21365|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|29|1|V|lua
+	
+	gls.left[1] = {
+	  FirstElementL1 = {
+	    provider = function() return '▌ ' end,
+	    highlight = {colors.bg[1], colors.bg[2]}
+	  },
+	}
+e7c979e1facb638e76648a9e65bd47a9|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|6|1|V|lua
+	  bg = {
+	    '#C02040',
+	    '#000000',
+	    '#C02040',
+	    '#000000',
+	    '#C02040',
+	    '#000000',
+	    '#C02040',
+	    '#000000',
+	    '#C02040',
+	    '#000000',
+	  },
+a67b460045c2d9c9381e82543257e5d3|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|22|5|V|lua
+	    '#000000',
+	    '#C02040',
+	    '#000000',
+	    '#C02040',
+	    '#000000',
+	    '#C02040',
+	    '#000000',
+8ecff80815297851eaa2c500677d7205|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|21|3|V|lua
+	    '#C02040',
+04293363301123446519068557387691|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|20|1|V|lua
+	    '#000000',
+b2814f1512d3b82c303000a9b1fc0efd|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|48|23|V|lua
+	    separator = '▌ ',
+	    separator_highlight = {colors.bg[1], colors.bg[2]},
+4d14b33185df61ff673a431d7051207b|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|76|1|V|lua
+	    highlight = {colors.bg[2], colors.bg[3]}
+d4d48ddb772c6fee491c3e1349c3dac1|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|84|16|V|lua
+	    separator = ' ',
+	    separator_highlight = {colors.bg[2], colors.bg[3]},
+ffa603ac6f4db81b888b58d664905ab1|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|73|1|V|lua
+	
+	-- Space
+	-- gls.left[5] = {
+	--   SpaceL6 = {
+	--     provider = function() return ' ' end,
+	--     highlight = {colors.bg[2], colors.bg[3]}
+	--   }
+	-- }
+dbf6886d2bf045d688f7dcc5df8ddc64|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|93|1|V|lua
+	    highlight = {colors.bg[3], colors.bg[4]}
+b0a81c2d8cf460ffd1d864570da385d3|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|90|1|v|lua
+	
+	-- Space
+	-- gls.left[7] = {
+	--   SpaceL9 = {
+	--     provider = function() return ' ' end,
+	--     highlight = {colors.bg[3], colors.bg[4]}
+	--   }
+	-- 
+2ca13d4fc05808f9da346ba2b6fdf315|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|87|5|V|lua
+	    highlight = {colors.text, colors.bg[3]}
+31a571630c272edde711bb2122362560|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|70|5|V|lua
+	    highlight = {colors.diff_remove, colors.bg[2]}
+20d13e75e74c294ff872012bfbe1d591|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|97|10|V|lua
+	    provider = function() return '' end,
+	    highlight = {colors.bg[5], colors.bg[4]}
+b8c57068291f2ba5cd1faf6f16303443|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|86|1|V|lua
+	    separator = ' ',
+	    separator_highlight = {colors.bg[3], colors.bg[4]},
+665635c1f71c84c7b829fef93cb2b9e0|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|93|1|V|lua
+	
+	-- Space
+	gls.right[1] = {
+	  SpaceR1 = {
+	    provider = function() return '' end,
+	    highlight = {colors.bg[5], colors.bg[4]}
+	  }
+	}
+464567c0521655a6f86a32817e0e35c5|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|96|1|V|lua
+	    separator = '',
+	    separator_highlight = {colors.bg[5], colors.bg[4]},
+004195d0ac79f34796b827daa5b9a7e0|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|140|1|V|lua
+	
+	-- Space
+	gls.right[6] = {
+	  SpaceR6 = {
+	    provider = function() return '' end,
+	    highlight = {colors.bg[6], colors.bg[5]}
+	  }
+	}
+997e879abc084af92ee09511a9ce9f57|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|146|17|V|lua
+	    separator = '  ',
+	    separator_highlight = {'NONE', colors.bg[6]},
+b1f8d4375623f11b0e713b2037f76c41|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|136|1|V|lua
+	    icon = '  ',
+dd7ab61beedde9e33add486a8022ed46|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|143|1|V|lua
+	    separator = ' ',
+	    separator_highlight = {colors.bg[6], colors.bg[5]},
+	    icon = ' ',
+00d8d9721f3e93bff20dd408eb61d10f|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|166|5|V|lua
+	    separator = '  ',
+	    separator_highlight = {colors.text, colors.bg[7]},
+d8cc1a070b06f76938c7e6de0bdc70a2|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|166|5|V|lua
+	    highlight = {colors.text, colors.bg[7]}
+fb02f8d54e3722803306c79b256c028b|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|147|5|V|lua
+	    highlight = {colors.text, colors.bg[6]}
+02f9643ea785c135482c9561aed51e47|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|137|5|V|lua
+	    highlight = {colors.text, colors.bg[5]}
+f5d71fc1e03231050ea9ed5d0776d53b|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|124|5|V|lua
+	    highlight = {colors.diag_info, colors.bg[5]}
+966750b6272a7aab497b270f40c7a344|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|116|5|V|lua
+	    highlight = {colors.diag_hint, colors.bg[5]}
+cda828a718c74a49b942902a855dc423|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|108|5|V|lua
+	    highlight = {colors.diag_warn, colors.bg[5]}
+19eb2dc71bb20ce7654bf1a9061517cd|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|108|5|V|lua
+	    icon = '  ',
+c483f68fa7ce4ac384301b31f5d9b506|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|116|5|V|lua
+	    icon = '  ',
+56bfcad058d0797ecdb7770e19f78a04|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|124|5|V|lua
+	    icon = '  ',
+be8112c181a2471cd772b7cb14aa4889|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|99|5|V|lua
+	    icon = '  ',
+f35892e76071db9ffd71ebdc684525ff|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|100|5|V|lua
+	    highlight = {colors.diag_error, colors.bg[5]}
+8017ef6e780ad84340c3bf60ae6332fb|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|150|1|V|lua
+	
+	-- Space
+	gls.right[9] = {
+	  SpaceR6 = {
+	    provider = function() return ' ' end,
+	    highlight = {colors.bg[7], colors.bg[6]},
+	  }
+	}
+5857b5cf926c174d28d6676e0e31f182|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|156|5|V|lua
+	    icon = ' ',
+9de49578509d01c1fa806694275df520|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|190|5|V|lua
+	    separator = ' ',
+	    separator_highlight = {colors.text, colors.bg[1]},
+049633d61270a58abd112078de2c188d|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|191|1|V|lua
+	    separator = ' ',
+	    separator_highlight = {colors.bgs[2], colors.bg[3]},
+c12ffd1874f27d83c40664865f759888|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|49|5|V|lua
+	    icon = '   ',
+8731748fa380d23309843000dce39056|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|50|5|V|lua
+	    highlight = {colors.diff_add, colors.bg[2]}
+c7c48fa38076fec2d98cf96f7ceedf04|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|58|5|V|lua
+	    icon = ' 柳',
+	    highlight = {colors.diff_modified, colors.bg[2]}
+47acc2fa6d023e30ba50efb82ee1db00|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|78|5|V|lua
+	    highlight = {colors.text, colors.bg[3]},
+026a63ef65772448e7c7f4f445768bcd|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|56|5|V|lua
+	    icon = ' 柳',
+c404b41afe0dd734978df28975011c95|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|56|5|V|lua
+	    highlight = {colors.diff_modified, colors.bg[2]},
+c148aadd94ca46b8d820b8a507db77c0|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|47|7|V|lua
+	    icon = '   ',
+	    highlight = {colors.diff_add, colors.bg[2]},
+6048b264922120b3684209de040dea23|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|81|1|V|lua
+	
+	gls.left[6] = {
+	  FileName = {
+	    provider = 'FileName',
+	    highlight = {colors.text, colors.bg[3]},
+	    separator = ' ',
+	    separator_highlight = {colors.bg[3], colors.bg[4]},
+	  }
+	}
+0ef216a3b89c52b7fcbfe7cc17eb8cf2|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|73|1|V|lua
+	
+	gls.left[5] = {
+	  FileIcon = {
+	    provider = 'FileIcon',
+	    condition = function() return fileinfo.get_file_icon() ~= ' ' end,
+	    highlight = {colors.text, colors.bg[3]},
+	  }
+	}
+bc5c0fdf2dd44c302b0db4dd4de97ffe|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|66|17|v|lua
+	condition.check_git_workspace
+4be236a3e49c0762ef93482b7bd10573|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|94|1|V|lua
+	    condition = function()
+	      return fileinfo.get_file_icon() ~= ' ' and !condition.check_git_workspace()
+	    end,
+9a611ef483290ffc2d77f52a87408836|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|37|1|V|lua
+	
+	gls.left[1] = {
+	  FirstElementL1 = {
+	    provider = function() return '▌ ' end,
+	    highlight = {colors.bg[1], colors.bg[2]},
+	  },
+	}
+69e18bd50c3a07f48ae3a9b47b14da74|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|41|27|v|lua
+	check_git_workspace
+875d0e8c0962ccae26330b6222319ae8|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|41|17|v|lua
+	condition.,
+c31351338d914418c17ccb1e69a8b51d|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|2|1|V|lua
+	local fileinfo = require('galaxyline.provider_fileinfo')
+e8b5461c554aa6fc1962fed51ca01308|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|3|7|v|lua
+	fileinfo
+8c7781913a289ec966b7ed224dac3435|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|3|33|v|lua
+	provider_fileinfo
+5b4716ed6fb7fe5b928b0ec186350b0f|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|43|14|v|lua
+	vcs.diff_add() == nil
+97d0988b90fcfab583705869cf1dfa23|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|43|44|v|lua
+	diff_add
+00582f7a89d8ac0bfaafee30aa0ce041|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|42|1|V|lua
+	    condition = function()
+	      return vcs.diff_add() == nil and vcs.diff_modified() == nil and vcs.diff_remove() == nil
+	    end,
+349221f9480b449000d23683abf3ce2d|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|38|1|V|lua
+	
+	gls.left[1] = {
+	  FirstElementL = {
+	    provider = function() return '▌ ' end,
+	    condition = function()
+	      return vcs.diff_add() == nil and vcs.diff_modified() == nil and vcs.diff_remove() == nil
+	    end,
+	    highlight = {colors.bg[2], colors.bg[3]},
+	  },
+	}
+48a711104ddb0354a8e4404326e74391|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|3|13|v|lua
+	require('galaxyline.provider_vcs')
+03583d9bc7d46f566419952cbbf4188c|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|44|14|v|lua
+	vcs.diff_add() ~= nil or vcs.diff_modified() ~= nil or vcs.diff_remove() ~= nil
+ca2cacf5230898ebad24de1cb0300b93|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|54|14|v|lua
+	vcs.diff_add() == nil and vcs.diff_modified() == nil and vcs.diff_remove() == nil
+751a131a65a6c60dac3d870803f6023d|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|49|1|V|lua
+	
+	-- gls.left[2] = {
+	--   FirstElementL2 = {
+	--     provider = function() return '▌ ' end,
+	--     condition = function()
+	--       return vcs.diff_add() == nil and vcs.diff_modified() == nil and vcs.diff_remove() == nil
+	--     end,
+	--     highlight = {colors.bg[2], colors.bg[3]},
+	--   },
+	-- }
+57bf365ad6eca5f01dc5291cdd219bd3|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|38|1|V|lua
+	
+	gls.left[1] = {
+	  FirstElementL1 = {
+	    provider = function() return '▌ ' end,
+	    condition = function()
+	      print(vcs.diff_add())
+	      return (vcs.diff_add() ~= nil or vcs.diff_modified() ~= nil or vcs.diff_remove() ~= nil)
+	    end,
+	    highlight = {colors.bg[2], colors.bg[2]},
+	  },
+	}
+38187d2f5f59ac58fe9186ed2a5cdb3d|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|61|1|V|lua
+	    icon = '  ',
+24ab029d7f19295d1ddca9eb86472f03|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|71|17|v|lua
+	function() return fileinfo.get_file_icon() ~= ' ' end,
+4da54a2937cd450f05c9b27e9a8efcba|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|70|72|v|lua
+	,'FileIcon',
+f4c58969e286a235e0ff3168eb3161be|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|71|16|V|lua
+	    condition = 
+	    icon = ' ',
+002914c06a8cad90ea91465355f00245|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|72|14|v|lua
+	fileinfo.get_file_icon() ~= ' '
+e6b5fa71fd2e008e9d3a10adcf18279c|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|72|9|V|lua
+	        return fileinfo.get_file_icon() ~= ' '
+aa1463b2e22cf749b90189a640c3d9ec|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|74|40|v|lua
+	 ~= ' '
+288c159a6170a5b53ebf60fbb354d893|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|73|9|V|lua
+	        return ' ';
+612ea19edc3e387b5908d404ac988f8b|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|76|9|V|lua
+	      if  then
+	        
+	      end
+9b90da5cb7f8db4128316608de407931|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|71|10|v|lua
+	fileinfo.get_file_icon() == ' '
+0a275533a0f4a3dc16f38b337e9767d9|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|68|1|V|lua
+	gls.left[4] = {
+	  FileIcon = {
+	    provider = function()
+	      if (fileinfo.get_file_icon() == ' ') then
+	        return ' '
+	      else
+	        return fileinfo.get_file_icon()
+	      end
+	    end,
+	    highlight = {colors.text, colors.bg[3]},
+	  }
+	}
+bde002d1005e5da73b43d1207cf93a23|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|83|16|v|lua
+	function()
+	      if (fileinfo.get_file_icon() == ' ') then
+	        return ' '
+	      else
+	        return fileinfo.get_file_icon()
+	      end
+	    end
+ad1783e2dbbdb4c866c7dc74607fb7a9|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|70|16|v|lua
+	function()
+	      if () then
+	        return ' '
+	      else
+	        return fileinfo.get_file_icon()
+	      end
+	    en
+6f4354513ab53a31907dc54beedd8ece|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|69|3|v|lua
+	FileIcon
+326de68b019da976458c97375fe1895b|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|70|16|v|lua
+	'FileIcon',
+f9fd8dfb458388ea76560918482613ba|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|67|1|V|lua
+	
+	gls.left[4] = {
+	  SpaceL4 = {
+	    provider = function() return ' ' end,
+	    condition = function() return fileinfo.get_file_icon() == ' ' end,
+	    highlight = {colors.text, colors.bg[3]},
+	  }
+	}
+012aa10058fbe3c62606b776ed8d240d|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|78|17|v|lua
+	function() return fileinfo.get_file_icon() == ' ' end,
+429dec98e4dbbc36f787c8bffbfb849c|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|77|1|V|lua
+	    provider = function() return ' ' end,
+	    condition = function() return fileinfo.get_file_icon() == ' ' end,
+725df8ac1bb1c8bc1c6ef449c45fb5f2|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|78|1|V|lua
+	    condition = function() return fileinfo.get_file_icon() == ' ' end,
+79c1775d0f58c2edf4acc584439b5375|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|163|1|V|lua
+	
+	gls.right[8] = {
+	  LastElement = {
+	    provider = function() return '  ▐' end,
+	    highlight = {colors.bg[8], colors.bg[7]},
+	  },
+	}
+5e7fe85db14aeefd425508e0c18657c9|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|166|1|V|lua
+	
+	gls.short_line_left[1] = {
+	  FirstElementSL = {
+	    provider = function() return '▌ ' end,
+	    highlight = {colors.bgs[1], colors.bgs[2]},
+	  },
+	}
+1ec461cb4118419431e0b310393ee11f|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|165|3|v|lua
+	FirstElementSL
+d169aa0f0d716b47240d10e212365073|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|159|5|V|lua
+	    provider = 'FileTypeName',
+cb85244df72c93a5a4c38d63ced4a585|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|172|1|V|lua
+	
+	gls.short_line_left[1] = {
+	  FileIconSL = {
+	    provider = 'FileIcon',
+	    condition = function() return fileinfo.get_file_icon() ~= ' ' end,
+	    highlight = {colors.text, colors.bgs[1]},
+	  }
+	}
+af86388975e6b93fcea4fe691aeeafff|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|174|3|v|lua
+	FileIconSL
+cba7bbb8485f7f6aa23f8cef9a83d866|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|58|17|v|lua
+	condition.check_git_workspace,
+885055cbfc6ebfabcdec278f7abccb98|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|58|1|V|lua
+	    condition = function()
+	      return vcs.diff_add() ~= nil or vcs.diff_modified() ~= nil or vcs.diff_remove() ~= nil
+	    end,
+a923b12c71ae3cffb4c3a40210735d92|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|80|1|V|lua
+	
+	gls.left[5] = {
+	  SpaceL4 = {
+	    provider = function() return ' ' end,
+	    condition = function() return fileinfo.get_file_icon() == ' ' end,
+	    highlight = {colors.text, colors.bg[3]},
+	  }
+	}
+2a132713b17dece17d07ba3be7cf2a5a|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|77|9|V|lua
+	      vcs.diff_add() == nil and
+	      vcs.diff_modified() == nil and
+	      vcs.diff_remove() == nil)
+6797c45da4294b5f2d622ff1c4772022|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|71|1|V|lua
+	
+	gls.left[5] = {
+	  SpaceL4 = {
+	    provider = function() return ' ' end,
+	    condition = function()
+	      return fileinfo.get_file_icon() == ' '
+	    end,
+	    highlight = {colors.text, colors.bg[3]},
+	  }
+	}
+0f7e39df8a519472c38f055b0e749009|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|40|9|V|lua
+	    condition = function()
+	      return fileinfo.get_file_icon() == ' '
+	    end,
+87363a4b416dbc9443eecd167d8ab01e|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|76|1|V|lua
+	
+	gls.left[5] = {
+	  FileIcon = {
+	    provider = 'FileIcon',
+	    condition = function() return fileinfo.get_file_icon() ~= ' ' end,
+	    icon = ' ',
+	    highlight = {colors.text, colors.bg[3]},
+	  }
+	}
+e6c0c541628c378cc82a3f2952e2e86f|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|85|1|V|lua
+	
+	gls.left[6] = {
+	  SpaceL4 = {
+	    provider = function() return ' ' end,
+	    condition = function()
+	      return fileinfo.get_file_icon() == ' '
+	    end,
+	    highlight = {colors.text, colors.bg[3]},
+	  }
+	}
+35c4b733df572b798127538e25ad224d|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|81|14|v|lua
+	not (vcs.diff_add() ~= nil or vcs.diff_modified() ~= nil or vcs.diff_remove() ~= nil)
+ea91c76446991b1250a96ebf23152389|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|10|1|V|lua
+	    -- '#C02040',
+a5b951eda78a94063f224a0fa853eee4|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|11|7|v|lua
+	EEEEEE
+e3ceb5881a0a1fdaad01296d7554868d|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|11|7|v|lua
+	222222
+b5d1a9c33a21bf87165b21518a3c7ea1|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|36|3|v|lua
+	SpaceL1
+670b14728ad9902aecba32e22fa4f6bd|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|12|7|v|lua
+	000000
+adb315f6c876abdc01ba6657e607a1ea|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|12|1|V|lua
+	    -- '#999999',
+52c69e3a57331081823331c4e69d3f2e|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|12|10|v|lua
+	999999
+5b1b68a9abf4d2cd155c81a9225fd158|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|15|7|v|lua
+	555555
+1a100d2c0dab19c4430e7d73762b3423|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|17|7|v|lua
+	333333
+f63f4fbc9f8c85d409f2f59f2b9e12d5|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|11|7|v|lua
+	777777
+e07d1a7f130c946911746615edfce232|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|38|1|V|lua
+	
+	gls.left[1] = {
+	  FirstElementL = {
+	    provider = function() return '' end,
+	    highlight = {colors.bg[1], colors.bg[2]},
+	  }
+	}
+8da1feebaf1e743ec3ef604783a71979|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|96|1|V|lua
+	    condition = function()
+	      return not (vcs.diff_add() ~= nil or vcs.diff_modified() ~= nil or vcs.diff_remove() ~= nil)
+	    end,
+992e63080ee1e47b99f42b8d64ede953|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|13|7|v|lua
+	5555555
+f59b7efafd800e27b47a488d30615c73|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|11|13|v|lua
+	FFFFFF
+96e79218965eb72c92a549dd5a330112|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|19|7|v|lua
+	111111
+36d04a9d74392c727b1a9bf97a7bcbac|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|15|7|v|lua
+	AAAAAA
+21218cca77804d2ba1922c33e0151105|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|15|7|v|lua
+	888888
+4740ce750107bd37842a971dd77dc96d|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|17|13|v|lua
+	2040C0
+16502df0e15f8f780242448c6da40a44|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|17|7|v|lua
+	D78797
+ddbab877f2542e2f716e73a847e58d65|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|19|7|v|lua
+	1030C0
+fc5c255ecbed1da94d24296bf99635f4|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|9|13|v|lua
+	20C040
+73882ab1fa529d7273da0db6b49cc4f3|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|15|7|v|lua
+	444444
+f84d980f7644d72b9351510fc5e3c0cb|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|9|13|v|lua
+	2040D0
+e22bba1616cb7261b3b466eeca2db0c3|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|11|13|v|lua
+	2040D0000000
+6753fff671f3d2bba50f11951245cf3a|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|15|13|v|lua
+	109030
+367e4928d1b2a18ae02aa3060fa30d8c|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|17|13|v|lua
+	8050D0
+cc6592c414bd3cd3aef213385043c81c|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|13|7|v|lua
+	400714
+506331f5f243b47b80fbfe2dd9b263c8|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|11|7|v|lua
+	801428
+6dc12e1babf719f12c7f7e4fc06277ea|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|9|7|v|lua
+	C02142
+4ece8e1fae481838176073331352df7d|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|8|1|V|lua
+	    -- '#000000',
+5d2485098730021e4c2c71bce9c2457d|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|10|5|V|lua
+	    '#FFFFFF',
+4a11cbf708c22d97e81e9b308104851d|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|19|7|v|lua
+	3030B0
+7257c870e4c9f45f49876aa59b5fc9a1|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|11|7|v|lua
+	303090
+326a986f3ade9dced7b86d2e3cb76df5|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|9|1|V|lua
+	  bg = {
+	    -- '#000000',
+	    '#000000',
+	    -- '#000000',
+	    '#000000',
+	    -- '#C02040',
+	    '#4060D0',
+	    -- '#000000',
+	    '#6090E0',
+	    -- '#C02040',
+	    '#4060D0',
+	    -- '#000000',
+	    '#2030C0',
+	    -- '#C02040',
+	    '#000090',
+	  },
+	  bgs = {
+	    '#C02040',
+	    '#000000',
+	  },
+	  text = '#FFFFFF',
+	  diff_add = '#80C070',
+	  diff_modified = '#90B0F0',
+	  diff_remove = '#E08080',
+	  diag_error = '#F44747',
+	  diag_warn = '#FF8800',
+	  diag_info = '#FFCC66',
+	  diag_hint = '#4FC1FF',
+	}
+	gl.short_line_list = {'vista', 'dbui'}
+	
+	
+	-- LEFT
+	
+	gls.left[1] = {
+	  FirstElementL1 = {
+	    provider = function() return '' end,
+	    condition = function()
+	      return vcs.diff_add() ~= nil or vcs.diff_modified() ~= nil or vcs.diff_remove() ~= nil
+	    end,
+	    highlight = {colors.bg[1], colors.bg[2]},
+	  }
+	}
+	
+	gls.left[2] = {
+	  FirstElementL2 = {
+	    provider = function() return '' end,
+	    condition = function()
+	      return not (vcs.diff_add() ~= nil or vcs.diff_modified() ~= nil or vcs.diff_remove() ~= nil)
+	    end,
+	    highlight = {colors.bg[1], colors.bg[3]},
+	  }
+	}
+	
+	gls.left[3] = {
+	  DiffAdd = {
+	    provider = 'DiffAdd',
+	    condition = function()
+	      return vcs.diff_add() ~= nil or vcs.diff_modified() ~= nil or vcs.diff_remove() ~= nil
+	    end,
+	    icon = '   ',
+	    highlight = {colors.diff_add, colors.bg[2]},
+	  }
+	}
+	
+	gls.left[4] = {
+	  DiffModified = {
+	    provider = 'DiffModified',
+	    condition = function()
+	      return vcs.diff_add() ~= nil or vcs.diff_modified() ~= nil or vcs.diff_remove() ~= nil
+	    end,
+	    icon = ' 柳',
+	    highlight = {colors.diff_modified, colors.bg[2]},
+	  }
+	}
+	
+	gls.left[5] = {
+	  DiffRemove = {
+	    provider = 'DiffRemove',
+	    condition = function()
+	      return vcs.diff_add() ~= nil or vcs.diff_modified() ~= nil or vcs.diff_remove() ~= nil
+	    end,
+	    icon = '  ',
+	    highlight = {colors.diff_remove, colors.bg[2]},
+	    separator = '',
+	    separator_highlight = {colors.bg[2], colors.bg[3]},
+	  }
+	}
+	
+	gls.left[6] = {
+	  SpaceL5 = {
+	    provider = function() return ' ' end,
+	    condition = function()
+	      return not (vcs.diff_add() ~= nil or vcs.diff_modified() ~= nil or vcs.diff_remove() ~= nil)
+	    end,
+	    highlight = {colors.text, colors.bg[3]},
+	  }
+	}
+	
+	gls.left[7] = {
+	  FileIcon = {
+	    provider = 'FileIcon',
+	    condition = function() return fileinfo.get_file_icon() ~= ' ' end,
+	    icon = ' ',
+	    highlight = {colors.text, colors.bg[3]},
+	  }
+	}
+	
+	gls.left[8] = {
+	  SpaceL7 = {
+	    provider = function() return ' ' end,
+	    condition = function()
+	      return fileinfo.get_file_icon() == ' '
+	    end,
+	    highlight = {colors.text, colors.bg[3]},
+	  }
+	}
+	
+	gls.left[9] = {
+	  FileName = {
+	    provider = 'FileName',
+	    highlight = {colors.text, colors.bg[3]},
+	    separator = ' ',
+	    separator_highlight = {colors.bg[3], colors.bg[4]},
+	  }
+	}
+	
+	
+	-- RIGHT
+	
+	gls.right[1] = {
+	  DiagnosticError = {
+	    icon = '  ',
+	    separator = '',
+	    separator_highlight = {colors.bg[5], colors.bg[4]},
+	    highlight = {colors.diag_error, colors.bg[5]},
+	    provider = 'DiagnosticError',
+	  }
+	}
+	
+	gls.right[2] = {
+	  DiagnosticWarn = {
+	    icon = '  ',
+	    highlight = {colors.diag_warn, colors.bg[5]},
+	    provider = 'DiagnosticWarn',
+	  }
+	}
+	
+	gls.right[3] = {
+	  DiagnosticHint = {
+	    icon = '  ',
+	    highlight = {colors.diag_hint, colors.bg[5]},
+	    provider = 'DiagnosticHint',
+	  }
+	}
+e12eca4f1b91d4a4220b3b50e373fa8e|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|9|1|V|lua
+	  bg = {
+	    -- '#000000',
+	    '#000000',
+	    -- '#000000',
+	    '#000000',
+	    -- '#C02040',
+	    '#4060D0',
+	    -- '#000000',
+	    '#6090E0',
+	    -- '#C02040',
+	    '#4060D0',
+	    -- '#000000',
+	    '#2030C0',
+	    -- '#C02040',
+	    '#000090',
+	  },
+	  bgs = {
+	    '#C02040',
+	    '#000000',
+	  },
+	  text = '#FFFFFF',
+	  diff_add = '#80C070',
+	  diff_modified = '#90B0F0',
+	  diff_remove = '#E08080',
+	  diag_error = '#F44747',
+	  diag_warn = '#FF8800',
+	  diag_info = '#FFCC66',
+	  diag_hint = '#4FC1FF',
+	}
+	gl.short_line_list = {'vista', 'dbui'}
+	
+	
+	-- LEFT
+	
+	gls.left[1] = {
+	  FirstElementL1 = {
+	    provider = function() return '' end,
+	    condition = function()
+	      return vcs.diff_add() ~= nil or vcs.diff_modified() ~= nil or vcs.diff_remove() ~= nil
+	    end,
+	    highlight = {colors.bg[1], colors.bg[2]},
+	  }
+	}
+	
+	gls.left[2] = {
+	  FirstElementL2 = {
+	    provider = function() return '' end,
+	    condition = function()
+	      return not (vcs.diff_add() ~= nil or vcs.diff_modified() ~= nil or vcs.diff_remove() ~= nil)
+	    end,
+	    highlight = {colors.bg[1], colors.bg[3]},
+	  }
+0a79da7ebad047eaba59fd94fb0e6fd4|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|9|1|V|lua
+	  bg = {
+	    -- '#000000',
+	    '#000000',
+	    -- '#000000',
+	    '#000000',
+	    -- '#C02040',
+	    '#4060D0',
+	    -- '#000000',
+	    '#6090E0',
+	    -- '#C02040',
+	    '#4060D0',
+	    -- '#000000',
+	    '#2030C0',
+	    -- '#C02040',
+	    '#000090',
+	  },
+6bc2d3132d2582337a615b143e4fa2de|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|12|5|V|lua
+	    '#4060D0',
+b2dfbf9071d17cdf9ce159f5e52bdb50|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|13|5|V|lua
+	    '#6090E0',
+d2126f0fba93e60813862401756c71c6|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|15|5|V|lua
+	    '#2030C0',
+c7e8157372bc4cf9f61c9482c45074bf|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|16|5|V|lua
+	    '#000090',
+b22a4639c14c330e64c0d3850b420d2c|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|24|7|v|lua
+	000090
+106a18354058d35cb45ea313797ca1b5|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|22|7|v|lua
+	4060D0
+0b4be384c0b851379e0c6b1f5d127421|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|21|7|v|lua
+	6090E0
+d80d800d1d4b5a15eeca8b1a8a0af616|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|28|13|v|lua
+	000060
+6dd8d84e17108e39690fc5a521670d3b|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|23|7|v|lua
+	2030C0
+4a7d1ed414474e4033ac29ccb8653d9b|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|18|9|v|lua
+	0000
+aa07988fd706f34a1440b2b5569945c0|file:///Users/om/.config/coc/ultisnips/cpp.snippets|16|1|V|snippets
+	using vi = vector<int>;
+414a83e2184991f89a7ff8939a5d8a60|file:///Users/om/.config/coc/ultisnips/cpp.snippets|16|1|V|snippets
+	using vi = vector<int>;
+	using vl = vector<ll>;
+051a2a325ff8ea241daa38dd5979a1ac|file:///Users/om/.config/coc/ultisnips/cpp.snippets|33|40|v|snippets
+	USACO
+a2580c3109b26a613798ea4acbf68370|file:///Users/om/.config/coc/ultisnips/cpp.snippets|3|28|v|snippets
+	USACO 
+77ec84cf6e2088b732ccf9de9c701382|file:///Users/om/.config/coc/ultisnips/cpp.snippets|33|50|v|snippets
+	need fileio
+176b10ad51a2842ea9c173bd42b836d8|file:///Users/om/.config/coc/ultisnips/cpp.snippets|3|46|v|snippets
+	standard input and output
+1fc04c28dbd593d16e25dadea9ede3bb|file:///Users/om/.config/nvim/scripts/mappings/autocommands.vim|28|1|V|vim
+	
+	" Vim
+	
+	" "r" for save and source
+	autocmd BufEnter *.vim nnoremap <LEADER>r :Autoformat \| wa \| source $MYVIMRC<CR>
+	autocmd BufEnter *.vim inoremap ® <ESC>:Autoformat \| wa \| source $MYVIMRC<CR>
+	" "R" for save, source, and PlugInstall
+	autocmd BufEnter *.vim nnoremap <LEADER>R :Autoformat \| wa \| source $MYVIMRC \| PlugInstall<CR>:q
+	autocmd BufEnter *.vim inoremap ‰ <ESC>:Autoformat \| wa \| source $MYVIMRC \| PlugInstall<CR>:q
+a35e6f1d584fda4780971a1c95790b41|file:///Users/om/.config/nvim/scripts/mappings/autocommands.vim|43|39|V|vim
+	" "R" for save, source, and PlugInstall
+	autocmd BufEnter *.snippets nnoremap <LEADER>R :Autoformat \| wa \| source $MYVIMRC \| PlugInstall<CR>:q
+	autocmd BufEnter *.snippets inoremap ‰ <ESC>:Autoformat \| wa \| source $MYVIMRC \| PlugInstall<CR>:q
