@@ -1,7 +1,9 @@
+snippets.openSnippetFiles
+prettier.formatFile
+editor.action.pickColor
 snippets.editSnippets
 document.echoFiletype
 workspace.diffDocument
 workspace.showOutput
-prettier.formatFile
 explorer
 clangd.install

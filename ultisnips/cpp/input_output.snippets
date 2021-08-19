@@ -1,0 +1,124 @@
+# ––– INPUT –––
+
+snippet i "Input basic value(s)" b
+int ${1:INPUTS};
+in(${1/(\w+)\([^\)]*\)/$1/g});
+
+$0
+endsnippet
+
+snippet in "Input basic value(s)" b
+${1:int} ${2:INPUTS};
+in(${2/(\w+)\([^\)]*\)/$1/g});
+
+$0
+endsnippet
+
+snippet inv "Input a vector" b
+V<int> ${1:a(n)};
+in(${1/(\w+)\([^\)]*\)/$1/g});
+
+$0
+endsnippet
+
+snippet invv "Input a 2d vector" b
+V<V<int>> ${1:a};
+in(${1/(\w+)\([^\)]*\)/$1/g}, n$2, m$3);
+
+$0
+endsnippet
+
+snippet inva "Input a vector of arrays" b
+V<A<int, ${1:SIZE}>> ${2:a(n)};
+in(${2/(\w+)\([^\)]*\)/$1/g});
+
+$0
+endsnippet
+
+snippet invt "Input a vector with non-primitive types" b
+V<${1:int}> ${2:a(n)};
+in(${2/(\w+)\([^\)]*\)/$1/g});
+
+$0
+endsnippet
+
+snippet ina "Input an array" b
+A<int, ${1:SIZE}> ${2:a};
+in(${2/(\w+)\([^\)]*\)/$1/g});
+
+$0
+endsnippet
+
+snippet ins "Input a set" b
+S<int> ${2:a};
+in(${2/(\w+)\([^\)]*\)/$1/g}, n$3);
+
+$0
+endsnippet
+
+snippet inms "Input a multiset" b
+MS<int> ${2:a};
+in(${2/(\w+)\([^\)]*\)/$1/g}, n$3);
+
+$0
+endsnippet
+
+snippet inpq "Input a priority_queue" b
+PQ<int> ${2:a};
+in(${2/(\w+)\([^\)]*\)/$1/g}, n$3);
+
+$0
+endsnippet
+
+snippet inrpq "Input a reverse priority_queue" b
+RPQ<int> ${2:a};
+in(${2/(\w+)\([^\)]*\)/$1/g}, n$3);
+
+$0
+endsnippet
+
+# Common Inputs
+
+snippet innv "Input both the length of a vector and the vector" b
+int n;
+in(n);
+
+V<int> a(n);
+in(a);
+
+$0
+endsnippet
+
+snippet innvv "Input both the length of a vector and the vector" b
+int n, m;
+in(n, m);
+
+V<V<int>> a;
+in(a, n, m);
+
+$0
+endsnippet
+
+snippet innk "Input two integers, n and k" b
+int n, k;
+in(n, k);
+
+$0
+endsnippet
+
+snippet inab "Input two integers, a and b" b
+int a, b;
+in(a, b);
+
+$0
+endsnippet
+
+# ––– OUTPUT –––
+
+snippet o "Output anything"
+out($1);
+endsnippet
+
+snippet out "Output anything"
+out($1);
+endsnippet

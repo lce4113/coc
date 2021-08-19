@@ -1,32 +1,47 @@
 # ––– BASIC STATEMENTS –––
 
-snippet if "An if statement" b
-if (${1:condition}) {
-  $0
-}
+snippet if "A if statement"
+if (${1:CONDITION}) $0
 endsnippet
 
-snippet while "An if statement" b
-while (${1:condition}) {
-  $0
-}
+snippet w "A while statement"
+while (${1:CONDITION}) $0
+endsnippet
+
+snippet wh "A while statement"
+while (${1:CONDITION}) $0
+endsnippet
+
+snippet whi "A while statement"
+while (${1:CONDITION}) $0
+endsnippet
+
+snippet whil "A while statement"
+while (${1:CONDITION}) $0
+endsnippet
+
+snippet while "A while statement"
+while (${1:CONDITION}) $0
 endsnippet
 
 
 # Switch Case
 snippet switch "A switch case" b
-switch (${1:var}) {
-  case ${2:value}:
+switch (${1:VAR}) {
+  case ${2:VALUE}:
     $3
     break;
   $0
 }
 endsnippet
+
 snippet case "A single case in a switch case" b
-case ${1:value}:
-  $0
+case ${1:VALUE}:
+  $2
   break;
+$0
 endsnippet
+
 snippet default "The default case in a switch case" b
 default:
   $0

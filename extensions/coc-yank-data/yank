@@ -1,1674 +1,1712 @@
-6558521bd980eaae5a75782f454e54bc|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/USACO/2021%20US%20Open/Silver%20%231/main.cpp|61|7|V|cpp
-	      cout << newb << ' ' << newb.at(1) + '1' << ' ' << newb.at(2) + '1' << endl;
-bdf412d21999b40ab42dc97f15681df3|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/USACO/2021%20US%20Open/Silver%20%231/main.cpp|60|28|V|cpp
-	      ttt[newb.at(1) - '0' - 1][newb.at(2) - '0' - 1] = 'M';
-	      maze[bx + x][by + y] = 'X';
-	      if (check(ttt)) {
-	        total++;
-	        return;
-	      }
-e2e88449dbd6888602dc52c363f1d2e1|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/USACO/2021%20US%20Open/Silver%20%231/main.cpp|52|1|V|cpp
-	  if (maze[bx][by] == 'M') {
-	    ttt[newb.at(1) - '0' - 1][newb.at(2) - '0' - 1] = 'M';
-	    maze[bx + x][by + y] = 'X';
-	    if (check(ttt)) {
-	      total++;
-	      return;
+1d153a9447445d8f2ffefba4988a8319|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|479|1|V|cpp
+	tcT int sum(MS<T> a) {
+	  int res = 0;
+	  each(a, x) res = mod(res + sum(x));
+	  rtn res;
+	}
+500bb651e791638cdee0f6e2c5fd3aae|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|466|1|V|cpp
+	
+	// get the sum of values (plain integers, vectors, arrays, etc.)
+	tcT int sum(T a) { rtn mod(a); }
+	tcTUU int sum(T a, U... b) { rtn mod(sum(a) + sum(b)); }
+	tcT int sum(V<T> a) {
+	  int res = 0;
+	  each(a, x) res = mod(res + sum(x));
+	  rtn res;
+	}
+	tcTS int sum(A<T, S> a) {
+	  int res = 0;
+	  each(a, x) res = mod(res + sum(x));
+	  rtn res;
+	}
+	tcT int sum(S<T> a) {
+	  int res = 0;
+	  each(a, x) res = mod(res + sum(x));
+	  rtn res;
+	}
+	tcT int sum(MS<T> a) {
+	  int res = 0;
+	  each(a, x) res = mod(res + sum(x));
+	  rtn res;
+	}
+	tcTU int sum(M<T,U> a) {
+	  int res = 0;
+	  each(a, x) res = mod(res + sum(x.s));
+	  rtn res;
+	}
+fb4ddd15fb547fcea6f3e40dc79cf446|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|461|1|V|cpp
+	// Sum {{{
+	
+	// get the sum of values (plain integers, vectors, arrays, etc.)
+	
+	tcT int sum(T a) { rtn mod(a); }
+	
+	tcTUU int sum(T a, U... b) { rtn mod(sum(a) + sum(b)); }
+	
+	tcT int sum(V<T> a) {
+	  int res = 0;
+	  each(a, x) res = mod(res + sum(x));
+	  rtn res;
+	}
+	
+	tcTS int sum(A<T, S> a) {
+	  int res = 0;
+	  each(a, x) res = mod(res + sum(x));
+	  rtn res;
+	}
+	
+	tcT int sum(S<T> a) {
+	  int res = 0;
+	  each(a, x) res = mod(res + sum(x));
+	  rtn res;
+	}
+	
+	tcT int sum(MS<T> a) {
+	  int res = 0;
+	  each(a, x) res = mod(res + sum(x));
+	  rtn res;
+	}
+	
+	tcTU int sum(M<T,U> a) {
+	  int res = 0;
+	  each(a, x) res = mod(res + sum(x.s));
+	  rtn res;
+	}
+	
+e329a16caf483ca1199ebef66d3ea558|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|464|1|V|cpp
+	// Sum {{{
+fe76712978e70147d63995563b156e10|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|464|1|V|cpp
+	
+	// get the sum of values (plain integers, vectors, arrays, etc.)
+3bd1f68543c785628f73b1c1523cb068|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|465|19|v|cpp
+	 rtn mod(a); 
+670c16732b8747641940b8b7c8c98527|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|465|18|v|cpp
+	{ rtn mod(a); }
+dce7e88966e793ac36e01e9781c918ae|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|467|28|v|cpp
+	{ rtn mod(sum(a) + sum(b)); }
+b56d0a8d00f3e2197ba1e266bb4e1a29|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|469|21|v|cpp
+	{
+	  int res = 0;
+	  each(a, x) res = mod(res + sum(x));
+	  rtn res;
+	}
+89aba044fccd130429cfb730ea2cbe32|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|477|24|v|cpp
+	{
+	  int res = 0;
+	  each(a, x) res = mod(res + sum(x.s));
+	  rtn res;
+	}
+4717a7351a67fa278547828eea06099a|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|655|1|V|cpp
+	  using F = T (*)(T, T);
+076567cb32cffd87cbaddf103457ee91|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|653|1|V|cpp
+	
+	tcT struct ST {
+	  using F = T (*)(T, T);
+	
+	  F comb = sum;
+	  int n, ID = 0;
+	  V<T> seg;
+	
+	  ST(V<T> a) { init(a); }
+	  ST(V<T> a, T _ID) : ID(_ID) { init(a); }
+	  ST(V<T> a, F _comb) : comb(_comb) { init(a); }
+	  ST(V<T> a, F _comb, T ID) : comb(_comb), ID(ID) { init(a); }
+	
+	  void init(V<T> a) {
+	    n = sz(a);
+	    seg.assign(n, 0);
+	    each(a, x) seg.pb(x);
+	    ROF(i, n, 1) calc(i);
+	  }
+	
+	  void calc(int i) { seg[i] = comb(seg[2 * i], seg[2 * i + 1]); }
+	
+	  void u(int i, T val) {
+	    assert(i >= 0), assert(i < n);
+	    seg[i += n] = val;
+	    for (i /= 2; i; i /= 2) calc(i);
+	  }
+	
+	  T q(int L) { rtn q(L, L + 1); }
+	  T q(int L, int R) { rtn q(L, R, 0, n, 1); }
+	  T q(int L, int R, int l, int r, int i) {
+	    assert(L >= 0), assert(L < n);
+	    assert(R > 0), assert(R <= n);
+	    if (l >= R || r <= L) rtn ID;
+	    if (l >= L && r <= R) rtn seg[i];
+	    T ans = ID;
+	    ans = comb(ans, q(L, R, l, (l + r) / 2, 2 * i));
+	    ans = comb(ans, q(L, R, (l + r) / 2, r, 2 * i + 1));
+	    rtn ans;
+	  }
+	};
+	
+72da54b0a8879782ef454d9ef9410e08|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|708|1|V|cpp
+	  ST b(a, sum);
+909bb6dfd74a6a15f93376a2cc2699b4|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|699|1|V|cpp
+	
+	int cmp(int a, int b) { rtn a + b; }
+df1f22a855414aea62a86af2b5bea745|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|622|3|V|cpp
+	  a([&]() { out(1); });
+5efc93a36ab30121b07c985d706f806a|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|613|1|V|cpp
+	
+	template <typename F> void a(F b) { b(); }
+a57fed77c60553836fd5ee092875c955|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23737/Q1/a.cpp|532|11|v|cpp
+	INT_MIN
+c42a000df1fd0f4432e6fb88582d1a01|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23737/Q1/a.cpp|627|3|V|cpp
+	  out(max(a));
+4c14655774564924b4a659cb969da534|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23737/Q1/a.cpp|628|12|v|cpp
+	max(W) 
+f639032a752f43c3087faf1f1276ae5e|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23737/Q1/a.cpp|628|31|v|cpp
+	max(a)) 
+c401b4147eafc4e5787d8f18aa94a66a|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23737/Q1/main.in|3|1|V|
+	3 1 2
+	3
+	-7 -6 -6
+	3
+	2 2 2
+	4
+	17 3 5 -3
+9f768c0bb1c3e84ca086a85211e978ac|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23737/Q2/b.cpp|627|9|v|cpp
+	CONDITION
+6091ef8cc9572a092983c0c2d8884830|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23737/Q2/b.cpp|641|1|V|cpp
+	
+	  out(K);
+466c8c71a14fdbb8feb05d3d46573d9b|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23737/Q2/main.in|3|1|V|
+	6 3 4 2 1
+27bf068f94b43481da0af8281ae2a768|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23737/Q2/main.in|4|1|V|
+	4 2
+	1 -4 0 -2
+	5 1
+	1 2 3 4 5
+42561e83fef0ebc672a5761ee556d422|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23737/Q2/main.in|3|1|V|
+	2 2 2
+54d99d66f80795a1e9135b0b46e0f7b9|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23737/Q2/main.in|1|1|V|
+	1
+	3 1
+e495a0e0e19e9b6d0dcc8c3a2a7ac510|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23737/Q2/main.in|1|1|V|
+	3
+	5 4
+	6 3 4 2 1
+	4 2
+	1 -4 0 -2
+	5 1
+	1 2 3 4 5
+81d987cc8bd40a05241794c77aaf8f5e|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23737/Q2/b.cpp|636|3|V|cpp
+	  pi curr = {0,-1};
+a611fd24dfffadfc19b81c766ca8bb0e|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23737/Q2/main.in|2|1|V|
+	5 4
+	6 3 4 2 1
+	4 2
+	1 -4 0 -2
+	5 1
+	1 2 3 4 5
+e0d8cf145017ae77e0be0b7292ec9939|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23737/Q2/b.cpp|636|1|V|cpp
+	
+	  vp b;
+	  int K = 0, prev = a[0];
+	  FOR(i, 0, n - 1) {
+	    if (a[i] > a[i + 1]) {
+	      b.pb({prev, a[i]});
+	      prev = a[i + 1];
+	      K++;
 	    }
 	  }
-98d1130c58531df44a9c9ad54c1197a8|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/USACO/2021%20US%20Open/Silver%20%231/main.cpp|53|7|v|cpp
-	maze[bx][by]
-b24292f6037c48868f6e227ece2fb5d4|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/USACO/2021%20US%20Open/Silver%20%231/main.cpp|54|1|V|cpp
-	    ttt[b.at(1) - '0' - 1][b.at(2) - '0' - 1] = 'M';
-	    maze[bx][by] = 'X';
-	    if (check(ttt)) {
-	      total++;
-	      return;
-	    }
-04c0cd3ac3eb63727a6627981079e610|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/USACO/2021%20US%20Open/Silver%20%231/main.cpp|67|9|V|cpp
-	    ttt[b.at(1) - '0' - 1][b.at(2) - '0' - 1] = 'O';
-	    maze[bx][by] = 'X';
-	    if (check(ttt)) {
-	      total++;
-	      return;
-	    }
-0daad3fc9ef20134d5c7a7820023490b|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/USACO/2021%20US%20Open/Silver%20%231/main.cpp|79|11|V|cpp
-	      ttt[newb.at(1) - '0' - 1][newb.at(2) - '0' - 1] = 'O';
-	      maze[bx + x][by + y] = 'X';
-	      if (check(ttt)) {
-	        total++;
-	        return;
-	      }
-6dcdb99224880be1ac4bf04c4151bcf6|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/USACO/2021%20US%20Open/Silver%20%231/main.cpp|60|4|v|cpp
-	 else if (b.at(0) == 'O') {
-	    ttt[b.at(1) - '0' - 1][b.at(2) - '0' - 1] = 'O';
-	    maze[bx][by] = 'X';
-	    if (check(ttt)) {
-	      total++;
-	      return;
-	    }
+	
+	  out(K);
+	
+	  if (K >= k) {
+	    goto a;
 	  }
-ef1602d76f294009690f62ff04ef8818|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/USACO/2021%20US%20Open/Silver%20%231/main.cpp|69|18|V|cpp
-	    ttt[b.at(1) - '0' - 1][b.at(2) - '0' - 1] = 'O';
-	    maze[bx][by] = 'X';
-	    if (check(ttt)) {
-	      total++;
-	      return;
-8493f8a64693ab55138c41a5b1054e5d|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/USACO/2021%20US%20Open/Silver%20%231/main.cpp|78|9|v|cpp
-	newb.at(0) == 'M' || ) {
-	      mov
-fdf8dde42872589ba1713577d6c348a9|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/USACO/2021%20US%20Open/Silver%20%231/main.cpp|78|9|v|cpp
-	newb.at(0) == 'M' 
-c05707613ea4c4e10b8e1f11fb680406|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/USACO/2021%20US%20Open/Silver%20%231/main.cpp|81|21|V|cpp
-	      move(ttt, bx + x, by + y);
-	    } else if (newb == "...") {
-	      move(ttt, bx + x, by + y);
+12cba3ee81cf4a793796a51b6327c678|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23737/Q2/b.cpp|635|12|v|cpp
+	copy
+33f09e9778a1245de070109cdb3fbb04|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23737/Q2/b.cpp|637|3|V|cpp
+	  sort()
+1552c2a69822ce133ab469a747a7a0fc|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23737/Q2/b.cpp|640|5|V|cpp
+	    if (b[i] == a[i]) {
+ea5a1cbe764918679997181a3ea281d3|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23737/Q2/b.cpp|641|5|V|cpp
 	    }
-928f857c8c1ae91a524ba1b2d69ed6f9|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/USACO/2021%20US%20Open/Silver%20%231/main.cpp|80|6|v|cpp
-	 else if (newb.at(0) == 'O') {
-0cf31b2c283ce3431794586df7b0996d|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/USACO/2021%20US%20Open/Silver%20%231/main.cpp|21|3|V|cpp
+be32861f7c9020de9b509fdbd99eb382|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23737/Q2/b.cpp|639|5|V|cpp
+	    int x = 0;
+9df22f196a33acd0b372fe502de51211|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23737/Q2/b.cpp|635|3|v|cpp
+	auto
+99aed07678f32119596b7dee1f36206a|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23737/Q2/b.cpp|642|1|V|cpp
+	
+	  j
+eabbb0222358345cb6b31cdf56c5c961|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23737/Q2/b.cpp|648|3|V|cpp
+	  out(x);
+180a1fd0fb92e24011075f4485beb9e4|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23737/Q2/main.in|2|3|V|
+	5 4
+	6 3 4 2 1
+	4 2
+	1 -4 0 -2
+	5 1
+	1 2 3 4 5
+	5 2
+	1 3 5 2 4
+c7cab40575826be2d11c65614ca65692|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23737/Q3/c.cpp|620|7|v|cpp
+	INPUTS
+18496e8e4e0a6d42578d50bad4d8e589|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23737/Q2/b.cpp|644|3|V|cpp
+	  /* out(x, k); */
+27bc78023fed8622a2da658e68b769d6|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23737/Q2/main.in|1|1|V|
+	1
+	2 1
+	1 2
+97d4976549c2f71a56d68437ccec2707|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23737/Q2/main.in|3|1|V|
+	1 4 3 2
+b41254d2b92cbfcf819b0fb9fc4b3e27|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23737/Q2/main.in|3|1|V|
+	1 4 2 3
+caf9fc135ea2055e114e382222e49582|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23737/Q2/main.in|5|1|V|
+	1 3 2 4
+7ca26c5aadcc1f3a423241ff4a8c2673|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23737/Q2/main.in|6|1|V|
+	1 3 4 2
+85e445019f1d8b61ea95bd6e75a063be|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23737/Q2/main.in|5|1|V|
+	1 3 2 4
+	1 3 4 2
+5c21267fe83257f7a59a9b0407fd60b2|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23737/Q2/main.in|3|1|V|
+	1 2 3 4
+	1 2 4 3
+	1 3 2 4
+	1 3 4 2
+	1 4 2 3
+	1 4 3 2
+bf8b8d7abfcd748a681e207a4e650a63|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23737/Q3/c.cpp|620|3|V|cpp
+	  ROF() 
+debe07cd9025ee86ac317f3f146e17b5|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23737/Q3/c.cpp|620|3|V|cpp
+	  ROF(i, n, 0) 
+e4871e600e5ea6d53df9e42ecceabaf1|file:///Users/om/.config/coc/ultisnips/cpp/loops.snippets|11|12|v|snippets
+	A loop that repeats n times without an index
+76ac8153840b3082b96053154b6b3d22|file:///Users/om/.config/coc/ultisnips/cpp/loops.snippets|14|1|V|snippets
+	
+	snippet rep "A loop that repeats n times without an index"
+	FOR($1) $0
+	endsnippet
+64e3cfce0b56548d5cb52898e577d220|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23737/Q3/c.cpp|620|3|V|cpp
+	  FOR() 
+68934a3e9455fa72420237eb05902327|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23737/Q3/c.cpp|619|30|v|cpp
+	false
+0cf31b2c283ce3431794586df7b0996d|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23737/Q3/c.cpp|622|4|V|cpp
 	    
-b452ff8bcbd5b77f8d40d77846ce822e|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/USACO/2021%20US%20Open/Silver%20%231/main.cpp|89|23|v|cpp
-	 = copy(ttt);
-35b43a77e844c7f35b4a066d3c6be8fb|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/USACO/2021%20US%20Open/Silver%20%231/main.cpp|22|1|V|cpp
-	  for (int i = 0; i < 3; i++) {
-	    for (int j = 0; j < 3; j++) {
-	      newArr[i][j] = ttt[i][j];
+f75c49494418f00c521b5564a6272b29|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23737/Q3/c.cpp|634|5|v|cpp
+	FOR(i, 0, n/2) 
+bb006980d9141c2980ef9d6826e90a35|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23737/Q3/c.cpp|635|9|v|cpp
+	ans + 1
+d1fa0615db272e027ef923a0af60d2fe|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23737/Q3/c.cpp|635|9|v|cpp
+	pow()
+e04db183aeeda75a022899f990bc0f93|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23737/Q3/c.cpp|628|1|V|cpp
+	tcT chos
+2d3b191072de9e1f281a6f1927cae63d|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23737/Q3/c.cpp|648|7|V|cpp
+	      ans += exp(n/2, i) * exp(2, (k - i) * n);
+ad5b31768d76b6031db3149c48565524|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23737/Q3/c.cpp|642|1|V|cpp
+	    for (int i = 0; i < n; i += 2) ans += choose(n, i);
+ea6715d5241eb64312848946af5cb5a9|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23737/Q3/c.cpp|648|5|V|cpp
+	      FOR(l, 0, n) 
+d1d62d59f0f27a0e3aac9bf7417aac73|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23737/Q3/c.cpp|650|7|V|cpp
+	      pow()
+eb340815708dd79bf39a3efa6d3b34e5|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|3|1|V|cpp
+	// Uncomment for integer overflow
+	/* #define int ll */
+	
+5f7a00613bfaea09e84d74f6aa67b1a1|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|527|1|V|cpp
+	tcT T max(T a) { rtn a[maxi(a)]; }
+82146eca40f036e870b984baeb703756|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|528|1|V|cpp
+	tcT T max(A<T,S> a) { rtn a[maxi(a)]; }
+abc3e9de671a3457ebf13a8eebe90cc8|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|528|27|v|cpp
+	maxi(a)
+3adbd46af728dc84149c3ed30721ef5e|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|527|1|V|cpp
+	tcT T max(T a) { rtn a[maxi(a)]; }
+	tcT T max(S<T> a) { rtn a.rbegin(); }
+c747bc79e0c6ef42a63cf077f0d6a134|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|531|1|V|cpp
+	tcT T min(S<T> a) { rtn a.rbegin(); }
+598fc8733f461c617553197e6d98b42a|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|528|1|V|cpp
+	tcT T max(S<T> a) { rtn a.rbegin(); }
+d6af6111b120b3b6d0edad7d1d3fc692|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|531|24|v|cpp
+	maxi
+1a3ce776d66dc5743dc43a898b2adee1|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|529|14|v|cpp
+	if () 
+c8d07c75de9c82aaf9f893c4455ee400|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|529|3|V|cpp
+	  each(a, x) if ( > ) 
+47b7a4727d96151f2516c7f3bd56bbc0|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|526|1|V|cpp
+	
+	tcT T maxi(T a) {
+	  int mi = 0;
+	  FOR(i, sz(a)) if (a[i] > a[mi]) mi = i;
+	  rtn mi;
+	}
+4fef45b0b419417da4bcefb5b9702051|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|527|1|V|cpp
+	// ret
+2e6daa7837b8d7e2d080dae8db7e469a|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|528|3|V|cpp
+	  int mi = 0;
+c0907ace16b4a5e287c4ac9a8d9d2b4b|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|530|23|v|cpp
+	mi = i;
+317e1abfae6d258779c66897823b2558|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|530|33|v|cpp
+	, mi.pb();
+83cdc226eb95d5998206a570442bcb66|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|529|3|V|cpp
+	  mi.pb(0);
+1f7c6fa8b208a3657aa57fdc589287cf|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|526|1|V|cpp
+	
+	tcT T amaxi(T a) {
+	  v mi{0};
+	  FOR(i, sz(a)) {
+	    if (a[i] > a[mi[0]]) mi.clear(), mi.pb(i);
+	    else if (a[i] == a[mi[0]]) mi.pb(i);
+	  }
+	  rtn mi;
+	}
+1ef5d302ae07079cb5b97825db76fe3b|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|544|1|V|cpp
+	
+	tcT T amini(T a) {
+	  int mi = 0;
+	  FOR(i, sz(a)) if (a[i] < a[mi]) mi = i;
+	  rtn mi;
+	}
+ec89a043916071267c8c4f0400356b6e|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|545|1|V|cpp
+	tcT T maxi(T a) { rtn amaxi(a)[0]; }
+338bcc6f25b1e95d2166a06daaca7464|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|555|1|V|cpp
+	
+	tcT T max(V<T> a) {
+	  assert(sz(a) > 0);
+	  T mx = -1;
+	  each(a, x) mx = max(mx, x);
+	  rtn mx;
+	}
+16ea9a3e31181d970edd12d286c1bff3|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|555|1|V|cpp
+	
+	tcTS T max(A<T, S> a) {
+	  assert(sz(a) > 0);
+	  T mx = -1;
+	  each(a, x) mx = max(mx, x);
+	  rtn mx;
+	}
+110afdcafa12c0b0b4e03e35fcd69bb5|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|555|1|V|cpp
+	
+	tcT int maxi(V<T> a) {
+	  assert(sz(a) > 0);
+	  T mx = 0;
+	  FOR(i, 1, sz(a)) if (a[i] > a[mx]) mx = i;
+	  rtn mx;
+	}
+b25e71f9deefbd5f5f4e751d91ae43f6|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|555|1|V|cpp
+	
+	tcTS int maxi(A<T, S> a) {
+	  assert(sz(a) > 0);
+	  T mx = 0;
+	  FOR(i, 1, sz(a)) if (a[i] > a[mx]) mx = i;
+	  rtn mx;
+	}
+89776d52b812ddacf3039ad8209a049c|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|555|1|V|cpp
+	
+	tcT T min(V<T> a) {
+	  assert(sz(a) > 0);
+	  T mn = a[0];
+	  FOR(i, 1, sz(a)) mn = min(mn, a[i]);
+	  rtn mn;
+	}
+7eab10964e83ea20fdfa70229da666a9|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|555|1|V|cpp
+	
+	tcTS T min(A<T, S> a) {
+	  assert(sz(a) > 0);
+	  T mn = a[0];
+	  FOR(i, 1, sz(a)) mn = min(mn, a[i]);
+	  rtn mn;
+	}
+98899dbf4888a11a87dc0c26620fd265|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|555|1|V|cpp
+	
+	tcT int mini(V<T> a) {
+	  assert(sz(a) > 0);
+	  T mn = 0;
+	  FOR(i, 1, sz(a)) if (a[i] > a[mn]) mn = i;
+	  rtn mn;
+	}
+2ca2bfbddea42bada7439a013fc1585a|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|555|1|V|cpp
+	
+	tcTS int mini(A<T, S> a) {
+	  assert(sz(a) > 0);
+	  T mn = 0;
+	  FOR(i, 1, sz(a)) if (a[i] > a[mn]) mn = i;
+	  rtn mn;
+	}
+a9c5a50a184d647faa9009ce50c23c82|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|460|1|V|cpp
+	
+	// Sum {{{
+	
+	// get the sum of values (plain integers, vectors, arrays, etc.)
+	
+	tcT int sum(T a);
+	tcTUU int sum(T a, U... b);
+	tcT int sum(V<T> a);
+	tcTS int sum(A<T, S> a);
+	tcT int sum(S<T> a);
+	tcT int sum(MS<T> a);
+	tcTU int sum(M<T, U> a);
+	
+	tcT int sum(T a) { rtn mod(a); }
+	
+	tcTUU int sum(T a, U... b) { rtn mod(sum(a) + sum(b...)); }
+	
+	tcT int sum(V<T> a) {
+	  int res = 0;
+	  each(a, x) res = mod(res + sum(x));
+	  rtn res;
+	}
+	
+	tcTS int sum(A<T, S> a) {
+	  int res = 0;
+	  each(a, x) res = mod(res + sum(x));
+	  rtn res;
+	}
+	
+	tcT int sum(S<T> a) {
+	  int res = 0;
+	  each(a, x) res = mod(res + sum(x));
+	  rtn res;
+	}
+	
+	tcT int sum(MS<T> a) {
+	  int res = 0;
+	  each(a, x) res = mod(res + sum(x));
+	  rtn res;
+	}
+	
+	tcTU int sum(M<T, U> a) {
+	  int res = 0;
+	  each(a, x) res = mod(res + sum(x.s));
+	  rtn res;
+	}
+	
+	// }}}
+	
+1c1b8720ce970720a4165ca8f8023a69|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|462|19|v|cpp
+	value(s)
+3c6575a55946d66573d237ceffd5e39b|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|462|27|v|cpp
+	plain 
+ca08ea8410f117e4edce3adab2fd5429|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|378|3|V|cpp
+	  if () 
+143371f99e975fb96629a9e035575d1a|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|379|5|V|cpp
+	    a *+=
+a8693c7854f1323bc7102eb15a71cb0f|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|105|1|V|cpp
+	#define FOR3(i, a, b) for (int i = (a); i < (b); i++)
+a489752ad53c10fa9f456269b226e810|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|106|23|v|cpp
+	for (int i = (a); i < (b); i++)
+71d2742123aa127c1f8347802e4f58f5|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|105|1|V|cpp
+	#define FOR4(i, a, b, c) for (int i = (a); i < (b); i += (c))
+fb531f5bd5215edfa1058b00eaddc770|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|110|1|V|cpp
+	#define ROF3(i, b, a) for (int i = (b)-1; i >= (a); i--)
+72f7f02c1d7b622c0b3a3029c3ef5d02|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|111|23|v|cpp
+	for (int i = (b)-1; i >= (a); i--)
+d4aaf2954fb3d21a1d32e7194c49495a|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23737/Q3/c.cpp|642|1|v|cpp
+	    for (int i = 0; i < n; i += 2)
+b514ff8d710c1d5b1a4e2d003a263d30|file:///Users/om/.config/coc/ultisnips/cpp/loops.snippets|6|1|V|snippets
+	
+	snippet for "An empty for loop"
+	FOR($1) $0
+	endsnippet
+b6ca631db940b9eed6a033cb59d1cca2|file:///Users/om/.config/coc/ultisnips/cpp/loops.snippets|10|1|V|snippets
+	
+	snippet fors "An empty for loop"
+	FOR($1) $0
+	endsnippet
+bd044bc0febadbe3c3293ed6f4f6ccfa|file:///Users/om/.config/coc/ultisnips/cpp/loops.snippets|2|1|V|snippets
+	
+	snippet f "A for loop"
+	FOR(i, 0, n) $0
+	endsnippet
+b31e9a9e4ed95164b4f5ff351968be27|file:///Users/om/.config/coc/ultisnips/cpp/loops.snippets|14|1|V|snippets
+	
+	snippet r "A reverse for loop"
+	ROF(i, n, 0) $0
+	endsnippet
+c873968c7d6f8016e6ec095544061094|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23737/Q3/c.cpp|649|7|v|cpp
+	for (int i = 0; i < n; i += 2) 
+94df2a6972ca1fa79411645fe9b42339|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|382|4|v|cpp
+	Utility
+93e39a5f1a53e0713c111a58554d7641|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|383|1|V|cpp
+	
+	// exponent function
+	tcT T exp(T a, T b, bool m = true) {
+	  T res = 1;
+	  FOR(b) {
+	    res *= a;
+	    if (m) res %= m;
+	  }
+	  rtn res;
+	}
+49373ad5b4e923df1d3bca1e8458b6bf|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|391|1|V|cpp
+	
+	// prime factorize an integer
+	tcT M<T, T> pfac(T a) {
+	  M<T, T> ans;
+	  T n = a;
+	  for (int i = 2; i * i <= a; i++) {
+	    while (n % i == 0) {
+	      n /= i;
+	      ans[i]++;
 	    }
 	  }
-90d8eaf7c9b051eccda03e2ecc1f8502|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/USACO/2021%20US%20Open/Silver%20%231/main.cpp|92|9|v|cpp
-	newArr
-aa2ef92df6394cd435aa63260a4d07e7|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/USACO/2021%20US%20Open/Silver%20%231/main.cpp|18|1|V|cpp
+	  if (n > 1) ans[n]++;
+	  rtn ans;
+	}
+74d87c77a12ef2a4a8e7cbbaa5ef90af|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|377|1|V|cpp
+	
+	tcT T fact() {  }
+86ee2ba55aa03b06900298d3c1884440|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|378|1|V|cpp
+	int 
+01e75eceda2d7ffaf01bb73fe2ab52dd|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|378|1|V|cpp
+	int fact[]
+a1c3aea0be962a0a12a0def6960625a5|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|136|15|v|cpp
+	 = 0
+3aee0c998b78ba8be7845eed50f90a8a|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|136|1|V|cpp
+	const int MAXN;
+b3947656415ea54f8493d730a06b9c63|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|378|1|V|cpp
+	vi fact(MAXN);
+652114246f3ac3f33a5e7e9fbe0e864c|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|387|3|V|cpp
+	  fact
+8f41bca236ab7a4bbd3ef5aaf08577f4|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|379|3|v|cpp
+	V<ll>
+da5849cf41fc8e2b1bd5852d62c3aa0f|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|379|11|v|cpp
+	MAXN
+b0da275520918e23dd615e2a747528f1|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|380|8|v|cpp
+	build
+394e975fedd742c36db7272d25b2691e|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|382|15|v|cpp
+	fact[i] = (curr *= i);
+3abcd4054f4f1192e6985f4baae6a84f|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|383|7|V|cpp
+	      fact[i] = (curr *= )
+b20c6f69032f9fbc1a4737c056ccdf90|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|385|9|V|cpp
+	        kjk
+19912f3e448189b168b68e4d837513d4|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|392|24|v|cpp
+	a % MOD
+4c6521f3dc2e05898bdbf88fc6af8aa1|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|397|29|v|cpp
+	 % MOD
+230a091930a82c5ae47e29610ee98ceb|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|431|1|V|cpp
 	
-	char[][] copy(char ttt[3][3])
-	{
-	  char newArr[3][3];
-	  for (int i = 0; i < 3; i++) {
-	    for (int j = 0; j < 3; j++) {
-	      newArr[i][j] = ttt[i][j];
-	    }
-	  }
-	  return newArr;
-	}
-aa4b0b64028c5ecd9ba6a631e12c1077|file:///Users/om/.config/nvim/scripts/settings.vim|9|1|V|vim
-	
-	" Theme
-	colorscheme sonokai " Set colorscheme
-	let g:airline_theme = "sonokai" " Airline theme
-	set background=dark " Use dark theme
-	set termguicolors
-2f509f6f0e1d92c4b8ded52c9fe541ed|file:///Users/om/.config/nvim/scripts/settings.vim|21|56|v|vim
-	parent directory of the file
-36995f7b5a8356182c061e7e0d32a78f|file:///Users/om/.config/nvim/scripts/mappings/autocommands.vim|32|61|v|vim
-	\| lcd %:p:h 
-011381dc3d11621736e1d536a2873de5|file:///Users/om/.config/nvim/scripts/mappings/autocommands.vim|32|61|v|vim
-	\| lcd %:p:h
-57748fc727f285dda3c13c2580b61d31|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|11|3|V|lua
-	  asdf
-c422c4d1f366c65f702fdf0100f71316|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|16|1|V|lua
-	local x = 1
-649aa783b835b415bf77e4f2217968f0|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|14|3|v|lua
-	vivid_blue
-9f27410725ab8cc8854a2769c7a516b8|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|46|25|v|lua
-	green
-48d6215903dff56238e52e8891380c8f|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|54|25|v|lua
-	blue
-441856c2f0de1cbc684e3ba859d92fc6|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|70|25|v|lua
-	error_red
-133a0d167bec1c3d0d12ced537a5a5f0|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|13|3|v|lua
-	info_yellow
-9b26208382d884593e29399dee447cdf|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|13|3|v|lua
-	diag_hint
-4fcb901c4b6a1ac996a09b0fdcb128ab|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|18|1|V|lua
-	
-	gls.left[1] = {
-	  GitIcon = {
-	    provider = function()
-	      return '  '
-	    end,
-	    condition = condition.check_git_workspace,
-	    separator = ' ',
-	    separator_highlight = {'NONE', colors.bg},
-	    highlight = {colors.text, colors.bg}
-	  }
-	}
-ca3f118acb51f0deed36988591393e89|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|18|1|V|lua
-	
-	gls.left[2] = {
-	  GitBranch = {
-	    provider = 'GitBranch',
-	    condition = condition.check_git_workspace,
-	    separator = ' ',
-	    separator_highlight = {'NONE', colors.bg},
-	    highlight = {colors.text, colors.bg}
-	  }
-	}
-5be8d9f64a2cb2aafb14cd94fe1e96b6|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|17|24|v|lua
-	NvimTree
-32d9f4d6cf5e5479528834998f0cc134|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|132|1|V|lua
-	-- LEFT (Short Line)
-684d325a7303f52e64011467ff5c5758|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|150|4|v|lua
-	LEFT
-d487dd0b55dfcacdd920ccbdaeafa351|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|23|38|v|lua
-	yellow
-4716d70cb3bf60dff5da724bda3bd8a2|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|6|1|V|lua
-	  bg1 = '#C02040',
-148da2c586d6fad057069389922bf14e|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|7|11|v|lua
-	C02040
-5526401f608d19a27a9c99e1ed8cf33c|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|119|1|V|lua
-	-- Space
-	gls.right[9] = {
-	  Space = {
-	    provider = function()
-	      return ' '
-	    end,
-	    separator = ' ',
-	    separator_highlight = {'NONE', colors.bg1},
-	    highlight = {colors.text, colors.bg1}
-	  }
-	}
-7c4f29407893c334a6cb7a87bf045c0d|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|31|5|v|lua
-	right
-776ee56310c9de672782bd4f2870f25c|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|29|1|V|lua
-	
-	-- Space
-	gls.left[2] = {
-	  Space = {
-	    provider = function()
-	      return ' '
-	    end,
-	    separator = ' ',
-	    separator_highlight = {'NONE', colors.bg1},
-	    highlight = {colors.text, colors.bg1}
-	  }
-	}
-011c0be92f136c83d94debcfb31eed7a|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|6|1|V|lua
-	  -- bg1 = '#C02040',
-7f871c168183442ed95a8d934bc94e32|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|137|1|V|lua
-	
-	gls.right[7] = {
-	  PerCent = {
-	    provider = 'LinePercent',
-	    separator = ' ',
-	    separator_highlight = {'NONE', colors.bg1},
-	    highlight = {colors.text, colors.bg1}
-	  }
-b7ecfb58771fbe1851df8d724d2f53e4|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|71|1|v|lua
-	gls.left[6] = {
-	  Space = {
-	    provider = function()
-	      return ' '
-	    end,
-	    separator = ' ',
-	    separator_highlight = {'NONE', colors.bg1},
-	    highlight = {colors.text, colors.bg1}
-	  }
-	}
-	
-2fec39e992caa173c26674399f92cfb7|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|88|22|v|lua
-	get_current_buf_name
-bc95dfc14146aa23e43f2ea7af04d310|file:///Users/om/.config/nvim/scripts/plug-config/plug-config.vim|85|26|v|vim
-	            
-f4a7070c9ed4d83eccbd139e0c15459b|file:///Users/om/.config/nvim/scripts/plug-config/plug-config.vim|85|1|V|vim
-	let g:signify_sign_change = '~'
-eb399bcaca686f8609137153307eecf1|file:///Users/om/.config/nvim/scripts/plug-config/plug-config.vim|86|20|v|vim
-	change
-19eed265de995ebb74a8ab3f842f7041|file:///Users/om/.config/nvim/scripts/plug-config/plug-config.vim|92|1|V|vim
-	let g:signify_sign_change = '~'
-	let g:signify_sign_modif = '~'
-	let g:signify_sign_change = '~'
-	let g:signify_sign_change = '~'
-a2f158ac56eef5a420d2ad123c35c505|file:///Users/om/.config/nvim/scripts/plug-config/plug-config.vim|91|5|V|vim
-	    let g:signify_sign_add               = '+'
-55cc43ed511cd2be35d8ce8d95c9b93f|file:///Users/om/.config/nvim/scripts/plug-config/plug-config.vim|90|5|V|vim
-	    let g:signify_sign_change_delete     = g:signify_sign_change . g:signify_sign_delete_first_line
-c80670a2a55f6226c17e45cc8908b0b4|file:///Users/om/.config/nvim/scripts/plug-config/plug-config.vim|88|5|V|vim
-	    let g:signify_sign_delete_first_line = '‾'
-afa32ff392f261a6f7bbd6a58b4fa577|file:///Users/om/.config/nvim/scripts/plug-config/plug-config.vim|85|23|v|vim
-	               
-f2c3f0a0fd2b00d7092cf647a35b4969|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|83|16|v|lua
-	function() return vim.api.nvim_buf_get_name(0) end
-811882fecd5c7618d7099ebbd39ea254|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|81|5|v|lua
-	left
-cafaacd1749b63620cb40f0afc161141|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|83|16|v|lua
-	function() return vim.api.nvim_buf_get_name(0) end,
-1e621df39e053ff6bc7db7bb1c616cc1|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|83|16|v|lua
-	FileName
-d511f8439ecde36647437fbba67a4394|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|82|3|v|lua
-	Space
-e01734052fba41f1539268d8f918156b|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|86|31|v|lua
-	colors.bg1
-b4dc5f262d96d288cb6ca5eed98719f8|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|97|5|V|lua
-	    separator = ' ',
-a359f1ca2861e286cb573844d54bd64d|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|80|1|V|lua
-	
-	gls.left[1] = {
-	  FileName = {
-	    provider = 'FileName',
-	    separator = ' ',
-	    separator_highlight = {colors.text, colors.bg1},
-	    highlight = {colors.text, colors.bg1}
-	  }
-	}
-11bef68da8f5b888007b56b81ff19def|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|86|1|V|lua
-	
-	
-	-- MID
-	
-46d9f7b9fdadf178bbb4f57f194a2894|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|40|1|V|lua
-	
-	gls.left[3] = {
-	  FileName = {
-	    provider = 'FileName',
-	    separator = ' ',
-	    separator_highlight = {colors.text, colors.bg1},
-	    highlight = {colors.text, colors.bg1}
-	  }
-a46aefa2a35610426c1a82422f217238|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|40|1|V|lua
-	
-	gls.left[3] = {
-	  FileName = {
-	    provider = 'FileName',
-	    separator = ' ',
-	    separator_highlight = {colors.text, colors.bg1},
-	    highlight = {colors.text, colors.bg1}
-	  }
-	}
-49ee3087348e8d44e1feda1917443987|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|43|21|v|lua
-	Name
-8bff1ca54c34ae6afd229e6201018506|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|44|5|V|lua
-	    separator = '',
-a5924719d2378f3e06739d0a5fcfa632|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|40|1|V|lua
-	
-	gls.left[3] = {
-	  FileIcon = {
-	    provider = 'FileIcon',
-	    separator_highlight = {colors.text, colors.bg1},
-	    highlight = {colors.text, colors.bg1}
-	  }
-	}
-	
-	gls.left[4] = {
-	  FileName = {
-	    provider = 'FileName',
-	    separator = ' ',
-	    separator_highlight = {colors.text, colors.bg1},
-	    highlight = {colors.text, colors.bg1}
-	  }
-	}
-ea5c973df2f65c36bd5840e0180c38f1|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|84|5|v|lua
-	pace
-	gls.left[8] = {
-	  Space = {
-	    provider = function() return ' ' end,
-	    separator = ' ',
-	    separator_highlight = {'NONE', colors.bg1},
-	    highlight = {colors.text, colors.bg1}
-	  }
-	}
-34f8c88207f729825c87f597f2b1ab3b|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|84|1|V|lua
-	-- S
-f9b3e6544787b53688a9490f6e216abf|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|30|1|V|lua
-	
-	-- Space
-	gls.left[2] = {
-	  Space = {
-	    provider = function() return ' ' end,
-	    separator = ' ',
-	    separator_highlight = {'NONE', colors.bg1},
-	    highlight = {colors.text, colors.bg1}
-	  }
-	}
-fd4f1e58db275542c9f7b30cf7dac196|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|141|1|V|lua
-	
-	-- Space
-	gls.right[8] = {
-	  Space = {
-	    provider = function() return ' ' end,
-	    separator = ' ',
-	    separator_highlight = {'NONE', colors.bg1},
-	    highlight = {colors.text, colors.bg1}
-	  }
-	}
-9884ee7cc2e4df81c3af5676456206cc|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|30|1|V|lua
-	
-	-- Space
-	gls.right[8] = {
-	  Space = {
-	    provider = function() return ' ' end,
-	    separator = ' ',
-	    separator_highlight = {colors.text, colors.bg2},
-	    highlight = {colors.text, colors.bg2}
-	  }
-	}
-6d805d6df47814ab6d330d25ccd3c4f1|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|30|1|V|lua
-	
-	-- Space
-	gls.left[2] = {
-	  Space = {
-	    provider = function() return ' ' end,
-	    separator = ' ',
-	    separator_highlight = {colors.text, colors.bg2},
-	    highlight = {colors.text, colors.bg2}
-	  }
-	}
-20789f787618b2947540f365cee4c330|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|71|5|V|lua
-	    separator_highlight = {colors.text, colors.bg1},
-0bf3b5acf016b2c41917e7345022c3e9|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|155|36|v|lua
-	"#000000"
-0200feda55cb3fc0ffee8a727821b9da|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|159|1|V|lua
-	
-	-- Space
-	gls.right[8] = {
-	  Space = {
-	    provider = function() return '' end,
-	    separator = '',
-	    separator_highlight = {'NONE', "#FFFFFF"},
-	    highlight = {colors.text, "#FFFFFF"}
-	  }
-	}
-0f05a355fb47f2abb367974200c87a56|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|162|3|V|lua
-	gls.short_line_right[1] = {
-	  BufferType = {
-	    provider = 'FileTypeName',
-	    separator = ' ',
-	    separator_highlight = {'NONE', colors.bg1},
-	    highlight = {colors.text, colors.bg1}
-	  }
-	}
-dbbaadde80356b8ded74cd13784841f0|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|162|5|v|lua
-	short_line_left
-7f90777a6182ba0400718d7e2ac05e34|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|169|1|V|lua
-	
-	
-	-- RIGHT (Short Line)
-	gls.short_line_right[1] = {
-	  BufferIcon = {
-	    provider = 'BufferIcon',
-	    highlight = {colors.text, colors.bg1}
-	  }
-	}
-53dc543b52dee1d7e8ac7386d686b96f|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|166|5|V|lua
-	    condition = condition.buffer_not_empty,
-618a50e70cde2a1e770a86ef18790694|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|76|1|V|lua
-	
-	gls.left[7] = {
-	  FileIcon = {
-	    provider = 'FileIcon',
-	    highlight = {colors.text, colors.bg1}
-	  }
-	}
-2a5f009d6a6fb3f45bbba8500e984192|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|166|22|v|lua
-	condition.buffer_not_empty
-cd9bb34a9bea26848d90db685a4ce316|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|166|40|v|lua
-	vim.api.nvim_buf_get_name(0)
-2cd40cd1abc4359a73c66ef7cf453a05|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|43|1|V|lua
-	    condition = condition.hide_in_width,
-f73a4ca0fb7fd372602e97995cb031bb|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|66|1|V|lua
-	
-	-- Space
-	gls.left[6] = {
-	  Space = {
-	    provider = function() return ' ' end,
-	    separator = ' ',
-	    separator_highlight = {colors.text, colors.bg1},
-	    highlight = {colors.text, colors.bg1}
-	  }
-	}
-8ed822bb165dd5633c71862ed4ff7b30|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|1|1|V|lua
-	local gl = require('galaxyline')
-a6963dff780b5e03359a679d782b0ffd|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|19|1|V|lua
-	local condition = require('galaxyline.condition')
-ef115c0e2934d7737839cf077a15a6e3|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|2|27|v|lua
-	galaxyline
-eea5acf638cbad8d5590867f7eb42ed7|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|5|34|V|lua
-	-- get my theme in galaxyline repo
-	-- local colors = require('galaxyline.theme').default
-ad14d44c215e7afc56893c159895d23c|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|18|52|v|lua
-	'packer'
-7c56958d0439a5da6b5ea2bced2e8c14|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|18|23|v|lua
-	'NERDTree',
-072c7a4c52111d87bd042f530597ea20|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|29|1|V|lua
-	
-	-- Space
-	gls.left[2] = {
-	  Space = {
-	    provider = function() return ' ' end,
-	    separator_highlight = {colors.text, colors.bg2},
-	    highlight = {colors.text, colors.bg2}
-	  }
-	}
-ade6d092bba3e317f86b9fb3a5a4ad9d|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|69|5|V|lua
-	    separator = ' ',
-	    separator_highlight = {colors.text, colors.bg1},
-16fa5cb2218a0bc1412c15aa357f666f|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|38|1|V|lua
-	
-	gls.left[3] = {
-	  DiffAdd = {
-	    provider = 'DiffAdd',
-	    condition = condition.hide_in_width,
-	    icon = '  ',
-	    highlight = {colors.diff_add, colors.bg2}
-	  }
-	}
-6406662688458da8c1485b9c9a2f26b4|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|70|5|V|lua
-	    separator_highlight = {colors.text, colors.bg2},
-b7ad82d31503654ca7affc95698918f4|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|7|3|V|lua
-	  bg1 = '#000000',
-333f71b262c15b0b9f875b5f42ed6dfd|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|8|3|V|lua
-	  -- bg2 = '#000000',
-61e030078ef8bc63b71f202821d62242|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|63|38|v|lua
-	colors.bg2
-d13be54e62df9f3e837c81cd95a71a3d|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|63|38|v|lua
-	"#FFFFFF"
-e6db1b0fc7a3a2332b7e7d4159080cd6|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|65|1|V|lua
-	
-	-- Space
-	gls.left[6] = {
-	  SpaceL6 = {
-	    provider = function() return ' ' end,
-	    highlight = {colors.text, colors.bg1}
-	  }
-	}
-25647ae498855366a3dc5f0e583fb330|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|30|1|V|lua
-	
-	-- Space
-	gls.left[2] = {
-	  SpaceL2 = {
-	    provider = function() return ' ' end,
-	    highlight = {colors.text, colors.bg2}
-	  }
-	}
-1f38cc206826dda22565ebfe8cea053c|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|151|1|V|lua
-	    separator = '  ',
-	    separator_highlight = {'NONE', colors.bg1},
-87c31749fc2ad58c835091428bab7bd6|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|152|28|v|lua
-	'NONE'
-1d2bfc9a2e7f8680df275db099a0f91c|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|151|1|V|lua
-	    separator = '  ',
-	    separator_highlight = {colors.text, colors.bg1},
-b2197dd67aff8dbafb06fc147fcbefdd|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|156|1|V|lua
-	
-	-- Space
-	gls.right[8] = {
-	  SpaceR8 = {
-	    provider = function() return ' ' end,
-	    highlight = {colors.text, colors.bg1}
-	  }
-	}
-e0c1fdfe4b89eb2c931c2267295e918b|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|179|35|v|lua
-	fileinfo.get_file_icon ~= ''
-58f939fdc43d73bac69bcde6c3246856|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|179|1|V|lua
-	    condition = function() return fileinfo.get_file_icon() ~= ' ' end,
-34f6a47f7f7762a4519505a9d9b03f1b|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|61|27|v|lua
-	hide_in_width
-ac5b76810d43cf62fbb8735042d4e762|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|61|1|V|lua
-	    condition = condition.check_git_workspace,
-092717218f6a6fff2a51e9c613e17ae4|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|23|1|V|lua
-	
-	gls.left[1] = {
-	  FirstElement = {
-	    provider = function() return '▋ ' end,
-	    highlight = {colors.text, colors.bg1}
-	  },
-	}
-d16b92c5fae6a1d88b0275d91a68ad8c|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|177|1|V|lua
-	
-	-- Space
-	gls.short_line_left[2] = {
-	  SpaceSL1 = {
-	    provider = function() return ' ' end,
-	    highlight = {colors.text, colors.bg1}
-	  }
-	}
-6457a9c70dd7f5b8cd2dd58a8452cd51|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|158|1|V|lua
-	
-	-- Space
-	gls.right[8] = {
-	  SpaceR8 = {
-	    provider = function() return ' ' end,
-	    highlight = {colors.text, colors.bg2}
-	  }
-	}
-1cb251ec0d568de6a929b520c4aed8d1|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|71|25|v|lua
-	text
-2163ccb2973a32ac1f4de79633ec1ef8|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|8|5|v|lua
-	'#C02040',
-b20547ec3bf1e953d2a97917ced21a75|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|9|12|v|lua
-	'#000000',
-c8a5f83cedcd5634d8fc7ef5742949bc|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|7|1|V|lua
-	'#C02040',
-	'#000000',
-85a93f92a41363646a3d151167674cf4|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|11|5|V|lua
-	    '#FFFFFF'
-6f052f64b1cd8f01e3e62a02a0f4f267|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|11|4|v|lua
-	,'#C02040',
-8cac876e3a39ec2f1288559cc6425968|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|12|3|V|lua
-	  -- bg1 = '#000000',
-	  -- bg2 = '#C02040',
-	  bg2 = '#000000',
-894719a91428a6576c134a0f97285349|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|38|1|V|lua
-	    highlight = {colors.bg[1], colors.bg[2]}
-3dcd0f1abbc7ffa4203edd999b629bc4|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|73|5|V|lua
-	    highlight = {colors.text, colors.bg[2]}
-4a3cd7ad2c0ceda2ecf40e6c6b9279ab|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|8|12|V|lua
-	    -- '#000000',
-	    -- '#C02040',
-e158fd3663c3ef4d46838d9dfe119eff|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|7|1|V|lua
-	    '#C02040',
-	    '#000000',
-a4bf078c1afe77614eba35500f9229fe|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|72|1|V|lua
-	
-	-- Space
-	gls.left[6] = {
-	  SpaceL6 = {
-	    provider = function() return ' ' end,
-	    highlight = {colors.bg[2], colors.bg[3]}
-	  }
-	}
-b267f76c4cbcaad63d7f3a1838a79617|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|92|18|V|lua
-	    separator = '',
-	    separator_highlight = {colors.text, colors.bg[1]},
-9743e0f8efd55d875683d2e3fa73331f|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|95|1|V|lua
-	
-	-- Space
-	gls.left[9] = {
-	  SpaceL9 = {
-	    provider = function() return ' ' end,
-	    highlight = {colors.bg[3], colors.bg[4]}
-	  }
-	}
-978dabb8abe2ae6ebc51a8f92c7c697b|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|106|1|V|lua
-	
-	-- Space
-	gls.right[1] = {
-	  SpaceR1 = {
-	    provider = function() return ' ' end,
-	    highlight = {colors.bg[4], colors.bg[5]}
-	  }
-	}
-f8769dd0a811cb65f321292e93f739c8|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|159|1|V|lua
-	
-	-- Space
-	gls.right[6] = {
-	  SpaceR6 = {
-	    provider = function() return ' ' end,
-	    highlight = {colors.bg[5], colors.bg[6]}
-	  }
-	}
-bc2a28b968b493b67c581785adb6b753|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|176|1|V|lua
-	
-	-- Space
-	gls.right[8] = {
-	  SpaceR6 = {
-	    provider = function() return ' ' end,
-	    highlight = {colors.bg[6], colors.bg[7]}
-	  }
-	}
-2962c8dd6e182a40f8cd4c1177c53a95|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|202|1|V|lua
-	
-	-- Space
-	gls.right[9] = {
-	  SpaceR9 = {
-	    provider = function() return ' ' end,
-	    highlight = {colors.text, colors.bg[2]}
-	  }
-	}
-af6c04f32e9f8969cf3be91ec97564e2|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|194|1|V|lua
-	
-	-- Space
-	gls.right[8] = {
-	  SpaceR8 = {
-	    provider = function() return ' ' end,
-	    highlight = {colors.text, colors.bg[2]}
-	  }
-	}
-9b7c354b35e9ce9d51cfe007d65b45ba|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|36|1|V|lua
-	
-	-- Space
-	gls.left[2] = {
-	  SpaceL2 = {
-	    provider = function() return ' ' end,
-	    condition = condition.check_git_workspace,
-	    highlight = {colors.bg[1], colors.bg[2]}
-	  }
-	}
-69f16ca48303deed876d308212f21365|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|29|1|V|lua
-	
-	gls.left[1] = {
-	  FirstElementL1 = {
-	    provider = function() return '▌ ' end,
-	    highlight = {colors.bg[1], colors.bg[2]}
-	  },
-	}
-e7c979e1facb638e76648a9e65bd47a9|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|6|1|V|lua
-	  bg = {
-	    '#C02040',
-	    '#000000',
-	    '#C02040',
-	    '#000000',
-	    '#C02040',
-	    '#000000',
-	    '#C02040',
-	    '#000000',
-	    '#C02040',
-	    '#000000',
-	  },
-a67b460045c2d9c9381e82543257e5d3|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|22|5|V|lua
-	    '#000000',
-	    '#C02040',
-	    '#000000',
-	    '#C02040',
-	    '#000000',
-	    '#C02040',
-	    '#000000',
-8ecff80815297851eaa2c500677d7205|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|21|3|V|lua
-	    '#C02040',
-04293363301123446519068557387691|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|20|1|V|lua
-	    '#000000',
-b2814f1512d3b82c303000a9b1fc0efd|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|48|23|V|lua
-	    separator = '▌ ',
-	    separator_highlight = {colors.bg[1], colors.bg[2]},
-4d14b33185df61ff673a431d7051207b|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|76|1|V|lua
-	    highlight = {colors.bg[2], colors.bg[3]}
-d4d48ddb772c6fee491c3e1349c3dac1|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|84|16|V|lua
-	    separator = ' ',
-	    separator_highlight = {colors.bg[2], colors.bg[3]},
-ffa603ac6f4db81b888b58d664905ab1|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|73|1|V|lua
-	
-	-- Space
-	-- gls.left[5] = {
-	--   SpaceL6 = {
-	--     provider = function() return ' ' end,
-	--     highlight = {colors.bg[2], colors.bg[3]}
-	--   }
-	-- }
-dbf6886d2bf045d688f7dcc5df8ddc64|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|93|1|V|lua
-	    highlight = {colors.bg[3], colors.bg[4]}
-b0a81c2d8cf460ffd1d864570da385d3|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|90|1|v|lua
-	
-	-- Space
-	-- gls.left[7] = {
-	--   SpaceL9 = {
-	--     provider = function() return ' ' end,
-	--     highlight = {colors.bg[3], colors.bg[4]}
-	--   }
-	-- 
-2ca13d4fc05808f9da346ba2b6fdf315|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|87|5|V|lua
-	    highlight = {colors.text, colors.bg[3]}
-31a571630c272edde711bb2122362560|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|70|5|V|lua
-	    highlight = {colors.diff_remove, colors.bg[2]}
-20d13e75e74c294ff872012bfbe1d591|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|97|10|V|lua
-	    provider = function() return '' end,
-	    highlight = {colors.bg[5], colors.bg[4]}
-b8c57068291f2ba5cd1faf6f16303443|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|86|1|V|lua
-	    separator = ' ',
-	    separator_highlight = {colors.bg[3], colors.bg[4]},
-665635c1f71c84c7b829fef93cb2b9e0|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|93|1|V|lua
-	
-	-- Space
-	gls.right[1] = {
-	  SpaceR1 = {
-	    provider = function() return '' end,
-	    highlight = {colors.bg[5], colors.bg[4]}
-	  }
-	}
-464567c0521655a6f86a32817e0e35c5|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|96|1|V|lua
-	    separator = '',
-	    separator_highlight = {colors.bg[5], colors.bg[4]},
-004195d0ac79f34796b827daa5b9a7e0|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|140|1|V|lua
-	
-	-- Space
-	gls.right[6] = {
-	  SpaceR6 = {
-	    provider = function() return '' end,
-	    highlight = {colors.bg[6], colors.bg[5]}
-	  }
-	}
-997e879abc084af92ee09511a9ce9f57|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|146|17|V|lua
-	    separator = '  ',
-	    separator_highlight = {'NONE', colors.bg[6]},
-b1f8d4375623f11b0e713b2037f76c41|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|136|1|V|lua
-	    icon = '  ',
-dd7ab61beedde9e33add486a8022ed46|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|143|1|V|lua
-	    separator = ' ',
-	    separator_highlight = {colors.bg[6], colors.bg[5]},
-	    icon = ' ',
-00d8d9721f3e93bff20dd408eb61d10f|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|166|5|V|lua
-	    separator = '  ',
-	    separator_highlight = {colors.text, colors.bg[7]},
-d8cc1a070b06f76938c7e6de0bdc70a2|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|166|5|V|lua
-	    highlight = {colors.text, colors.bg[7]}
-fb02f8d54e3722803306c79b256c028b|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|147|5|V|lua
-	    highlight = {colors.text, colors.bg[6]}
-02f9643ea785c135482c9561aed51e47|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|137|5|V|lua
-	    highlight = {colors.text, colors.bg[5]}
-f5d71fc1e03231050ea9ed5d0776d53b|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|124|5|V|lua
-	    highlight = {colors.diag_info, colors.bg[5]}
-966750b6272a7aab497b270f40c7a344|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|116|5|V|lua
-	    highlight = {colors.diag_hint, colors.bg[5]}
-cda828a718c74a49b942902a855dc423|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|108|5|V|lua
-	    highlight = {colors.diag_warn, colors.bg[5]}
-19eb2dc71bb20ce7654bf1a9061517cd|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|108|5|V|lua
-	    icon = '  ',
-c483f68fa7ce4ac384301b31f5d9b506|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|116|5|V|lua
-	    icon = '  ',
-56bfcad058d0797ecdb7770e19f78a04|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|124|5|V|lua
-	    icon = '  ',
-be8112c181a2471cd772b7cb14aa4889|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|99|5|V|lua
-	    icon = '  ',
-f35892e76071db9ffd71ebdc684525ff|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|100|5|V|lua
-	    highlight = {colors.diag_error, colors.bg[5]}
-8017ef6e780ad84340c3bf60ae6332fb|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|150|1|V|lua
-	
-	-- Space
-	gls.right[9] = {
-	  SpaceR6 = {
-	    provider = function() return ' ' end,
-	    highlight = {colors.bg[7], colors.bg[6]},
-	  }
-	}
-5857b5cf926c174d28d6676e0e31f182|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|156|5|V|lua
-	    icon = ' ',
-9de49578509d01c1fa806694275df520|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|190|5|V|lua
-	    separator = ' ',
-	    separator_highlight = {colors.text, colors.bg[1]},
-049633d61270a58abd112078de2c188d|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|191|1|V|lua
-	    separator = ' ',
-	    separator_highlight = {colors.bgs[2], colors.bg[3]},
-c12ffd1874f27d83c40664865f759888|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|49|5|V|lua
-	    icon = '   ',
-8731748fa380d23309843000dce39056|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|50|5|V|lua
-	    highlight = {colors.diff_add, colors.bg[2]}
-c7c48fa38076fec2d98cf96f7ceedf04|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|58|5|V|lua
-	    icon = ' 柳',
-	    highlight = {colors.diff_modified, colors.bg[2]}
-47acc2fa6d023e30ba50efb82ee1db00|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|78|5|V|lua
-	    highlight = {colors.text, colors.bg[3]},
-026a63ef65772448e7c7f4f445768bcd|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|56|5|V|lua
-	    icon = ' 柳',
-c404b41afe0dd734978df28975011c95|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|56|5|V|lua
-	    highlight = {colors.diff_modified, colors.bg[2]},
-c148aadd94ca46b8d820b8a507db77c0|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|47|7|V|lua
-	    icon = '   ',
-	    highlight = {colors.diff_add, colors.bg[2]},
-6048b264922120b3684209de040dea23|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|81|1|V|lua
-	
-	gls.left[6] = {
-	  FileName = {
-	    provider = 'FileName',
-	    highlight = {colors.text, colors.bg[3]},
-	    separator = ' ',
-	    separator_highlight = {colors.bg[3], colors.bg[4]},
-	  }
-	}
-0ef216a3b89c52b7fcbfe7cc17eb8cf2|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|73|1|V|lua
-	
-	gls.left[5] = {
-	  FileIcon = {
-	    provider = 'FileIcon',
-	    condition = function() return fileinfo.get_file_icon() ~= ' ' end,
-	    highlight = {colors.text, colors.bg[3]},
-	  }
-	}
-bc5c0fdf2dd44c302b0db4dd4de97ffe|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|66|17|v|lua
-	condition.check_git_workspace
-4be236a3e49c0762ef93482b7bd10573|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|94|1|V|lua
-	    condition = function()
-	      return fileinfo.get_file_icon() ~= ' ' and !condition.check_git_workspace()
-	    end,
-9a611ef483290ffc2d77f52a87408836|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|37|1|V|lua
-	
-	gls.left[1] = {
-	  FirstElementL1 = {
-	    provider = function() return '▌ ' end,
-	    highlight = {colors.bg[1], colors.bg[2]},
-	  },
-	}
-69e18bd50c3a07f48ae3a9b47b14da74|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|41|27|v|lua
-	check_git_workspace
-875d0e8c0962ccae26330b6222319ae8|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|41|17|v|lua
-	condition.,
-c31351338d914418c17ccb1e69a8b51d|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|2|1|V|lua
-	local fileinfo = require('galaxyline.provider_fileinfo')
-e8b5461c554aa6fc1962fed51ca01308|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|3|7|v|lua
-	fileinfo
-8c7781913a289ec966b7ed224dac3435|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|3|33|v|lua
-	provider_fileinfo
-5b4716ed6fb7fe5b928b0ec186350b0f|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|43|14|v|lua
-	vcs.diff_add() == nil
-97d0988b90fcfab583705869cf1dfa23|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|43|44|v|lua
-	diff_add
-00582f7a89d8ac0bfaafee30aa0ce041|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|42|1|V|lua
-	    condition = function()
-	      return vcs.diff_add() == nil and vcs.diff_modified() == nil and vcs.diff_remove() == nil
-	    end,
-349221f9480b449000d23683abf3ce2d|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|38|1|V|lua
-	
-	gls.left[1] = {
-	  FirstElementL = {
-	    provider = function() return '▌ ' end,
-	    condition = function()
-	      return vcs.diff_add() == nil and vcs.diff_modified() == nil and vcs.diff_remove() == nil
-	    end,
-	    highlight = {colors.bg[2], colors.bg[3]},
-	  },
-	}
-48a711104ddb0354a8e4404326e74391|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|3|13|v|lua
-	require('galaxyline.provider_vcs')
-03583d9bc7d46f566419952cbbf4188c|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|44|14|v|lua
-	vcs.diff_add() ~= nil or vcs.diff_modified() ~= nil or vcs.diff_remove() ~= nil
-ca2cacf5230898ebad24de1cb0300b93|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|54|14|v|lua
-	vcs.diff_add() == nil and vcs.diff_modified() == nil and vcs.diff_remove() == nil
-751a131a65a6c60dac3d870803f6023d|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|49|1|V|lua
-	
-	-- gls.left[2] = {
-	--   FirstElementL2 = {
-	--     provider = function() return '▌ ' end,
-	--     condition = function()
-	--       return vcs.diff_add() == nil and vcs.diff_modified() == nil and vcs.diff_remove() == nil
-	--     end,
-	--     highlight = {colors.bg[2], colors.bg[3]},
-	--   },
-	-- }
-57bf365ad6eca5f01dc5291cdd219bd3|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|38|1|V|lua
-	
-	gls.left[1] = {
-	  FirstElementL1 = {
-	    provider = function() return '▌ ' end,
-	    condition = function()
-	      print(vcs.diff_add())
-	      return (vcs.diff_add() ~= nil or vcs.diff_modified() ~= nil or vcs.diff_remove() ~= nil)
-	    end,
-	    highlight = {colors.bg[2], colors.bg[2]},
-	  },
-	}
-38187d2f5f59ac58fe9186ed2a5cdb3d|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|61|1|V|lua
-	    icon = '  ',
-24ab029d7f19295d1ddca9eb86472f03|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|71|17|v|lua
-	function() return fileinfo.get_file_icon() ~= ' ' end,
-4da54a2937cd450f05c9b27e9a8efcba|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|70|72|v|lua
-	,'FileIcon',
-f4c58969e286a235e0ff3168eb3161be|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|71|16|V|lua
-	    condition = 
-	    icon = ' ',
-002914c06a8cad90ea91465355f00245|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|72|14|v|lua
-	fileinfo.get_file_icon() ~= ' '
-e6b5fa71fd2e008e9d3a10adcf18279c|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|72|9|V|lua
-	        return fileinfo.get_file_icon() ~= ' '
-aa1463b2e22cf749b90189a640c3d9ec|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|74|40|v|lua
-	 ~= ' '
-288c159a6170a5b53ebf60fbb354d893|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|73|9|V|lua
-	        return ' ';
-612ea19edc3e387b5908d404ac988f8b|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|76|9|V|lua
-	      if  then
-	        
-	      end
-9b90da5cb7f8db4128316608de407931|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|71|10|v|lua
-	fileinfo.get_file_icon() == ' '
-0a275533a0f4a3dc16f38b337e9767d9|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|68|1|V|lua
-	gls.left[4] = {
-	  FileIcon = {
-	    provider = function()
-	      if (fileinfo.get_file_icon() == ' ') then
-	        return ' '
-	      else
-	        return fileinfo.get_file_icon()
-	      end
-	    end,
-	    highlight = {colors.text, colors.bg[3]},
-	  }
-	}
-bde002d1005e5da73b43d1207cf93a23|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|83|16|v|lua
-	function()
-	      if (fileinfo.get_file_icon() == ' ') then
-	        return ' '
-	      else
-	        return fileinfo.get_file_icon()
-	      end
-	    end
-ad1783e2dbbdb4c866c7dc74607fb7a9|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|70|16|v|lua
-	function()
-	      if () then
-	        return ' '
-	      else
-	        return fileinfo.get_file_icon()
-	      end
-	    en
-6f4354513ab53a31907dc54beedd8ece|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|69|3|v|lua
-	FileIcon
-326de68b019da976458c97375fe1895b|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|70|16|v|lua
-	'FileIcon',
-f9fd8dfb458388ea76560918482613ba|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|67|1|V|lua
-	
-	gls.left[4] = {
-	  SpaceL4 = {
-	    provider = function() return ' ' end,
-	    condition = function() return fileinfo.get_file_icon() == ' ' end,
-	    highlight = {colors.text, colors.bg[3]},
-	  }
-	}
-012aa10058fbe3c62606b776ed8d240d|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|78|17|v|lua
-	function() return fileinfo.get_file_icon() == ' ' end,
-429dec98e4dbbc36f787c8bffbfb849c|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|77|1|V|lua
-	    provider = function() return ' ' end,
-	    condition = function() return fileinfo.get_file_icon() == ' ' end,
-725df8ac1bb1c8bc1c6ef449c45fb5f2|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|78|1|V|lua
-	    condition = function() return fileinfo.get_file_icon() == ' ' end,
-79c1775d0f58c2edf4acc584439b5375|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|163|1|V|lua
-	
-	gls.right[8] = {
-	  LastElement = {
-	    provider = function() return '  ▐' end,
-	    highlight = {colors.bg[8], colors.bg[7]},
-	  },
-	}
-5e7fe85db14aeefd425508e0c18657c9|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|166|1|V|lua
-	
-	gls.short_line_left[1] = {
-	  FirstElementSL = {
-	    provider = function() return '▌ ' end,
-	    highlight = {colors.bgs[1], colors.bgs[2]},
-	  },
-	}
-1ec461cb4118419431e0b310393ee11f|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|165|3|v|lua
-	FirstElementSL
-d169aa0f0d716b47240d10e212365073|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|159|5|V|lua
-	    provider = 'FileTypeName',
-cb85244df72c93a5a4c38d63ced4a585|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|172|1|V|lua
-	
-	gls.short_line_left[1] = {
-	  FileIconSL = {
-	    provider = 'FileIcon',
-	    condition = function() return fileinfo.get_file_icon() ~= ' ' end,
-	    highlight = {colors.text, colors.bgs[1]},
-	  }
-	}
-af86388975e6b93fcea4fe691aeeafff|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|174|3|v|lua
-	FileIconSL
-cba7bbb8485f7f6aa23f8cef9a83d866|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|58|17|v|lua
-	condition.check_git_workspace,
-885055cbfc6ebfabcdec278f7abccb98|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|58|1|V|lua
-	    condition = function()
-	      return vcs.diff_add() ~= nil or vcs.diff_modified() ~= nil or vcs.diff_remove() ~= nil
-	    end,
-a923b12c71ae3cffb4c3a40210735d92|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|80|1|V|lua
-	
-	gls.left[5] = {
-	  SpaceL4 = {
-	    provider = function() return ' ' end,
-	    condition = function() return fileinfo.get_file_icon() == ' ' end,
-	    highlight = {colors.text, colors.bg[3]},
-	  }
-	}
-2a132713b17dece17d07ba3be7cf2a5a|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|77|9|V|lua
-	      vcs.diff_add() == nil and
-	      vcs.diff_modified() == nil and
-	      vcs.diff_remove() == nil)
-6797c45da4294b5f2d622ff1c4772022|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|71|1|V|lua
-	
-	gls.left[5] = {
-	  SpaceL4 = {
-	    provider = function() return ' ' end,
-	    condition = function()
-	      return fileinfo.get_file_icon() == ' '
-	    end,
-	    highlight = {colors.text, colors.bg[3]},
-	  }
-	}
-0f7e39df8a519472c38f055b0e749009|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|40|9|V|lua
-	    condition = function()
-	      return fileinfo.get_file_icon() == ' '
-	    end,
-87363a4b416dbc9443eecd167d8ab01e|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|76|1|V|lua
-	
-	gls.left[5] = {
-	  FileIcon = {
-	    provider = 'FileIcon',
-	    condition = function() return fileinfo.get_file_icon() ~= ' ' end,
-	    icon = ' ',
-	    highlight = {colors.text, colors.bg[3]},
-	  }
-	}
-e6c0c541628c378cc82a3f2952e2e86f|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|85|1|V|lua
-	
-	gls.left[6] = {
-	  SpaceL4 = {
-	    provider = function() return ' ' end,
-	    condition = function()
-	      return fileinfo.get_file_icon() == ' '
-	    end,
-	    highlight = {colors.text, colors.bg[3]},
-	  }
-	}
-35c4b733df572b798127538e25ad224d|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|81|14|v|lua
-	not (vcs.diff_add() ~= nil or vcs.diff_modified() ~= nil or vcs.diff_remove() ~= nil)
-ea91c76446991b1250a96ebf23152389|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|10|1|V|lua
-	    -- '#C02040',
-a5b951eda78a94063f224a0fa853eee4|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|11|7|v|lua
-	EEEEEE
-e3ceb5881a0a1fdaad01296d7554868d|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|11|7|v|lua
-	222222
-b5d1a9c33a21bf87165b21518a3c7ea1|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|36|3|v|lua
-	SpaceL1
-670b14728ad9902aecba32e22fa4f6bd|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|12|7|v|lua
-	000000
-adb315f6c876abdc01ba6657e607a1ea|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|12|1|V|lua
-	    -- '#999999',
-52c69e3a57331081823331c4e69d3f2e|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|12|10|v|lua
-	999999
-5b1b68a9abf4d2cd155c81a9225fd158|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|15|7|v|lua
-	555555
-1a100d2c0dab19c4430e7d73762b3423|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|17|7|v|lua
-	333333
-f63f4fbc9f8c85d409f2f59f2b9e12d5|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|11|7|v|lua
-	777777
-e07d1a7f130c946911746615edfce232|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|38|1|V|lua
-	
-	gls.left[1] = {
-	  FirstElementL = {
-	    provider = function() return '' end,
-	    highlight = {colors.bg[1], colors.bg[2]},
-	  }
-	}
-8da1feebaf1e743ec3ef604783a71979|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|96|1|V|lua
-	    condition = function()
-	      return not (vcs.diff_add() ~= nil or vcs.diff_modified() ~= nil or vcs.diff_remove() ~= nil)
-	    end,
-992e63080ee1e47b99f42b8d64ede953|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|13|7|v|lua
-	5555555
-f59b7efafd800e27b47a488d30615c73|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|11|13|v|lua
-	FFFFFF
-96e79218965eb72c92a549dd5a330112|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|19|7|v|lua
-	111111
-36d04a9d74392c727b1a9bf97a7bcbac|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|15|7|v|lua
-	AAAAAA
-21218cca77804d2ba1922c33e0151105|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|15|7|v|lua
-	888888
-4740ce750107bd37842a971dd77dc96d|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|17|13|v|lua
-	2040C0
-16502df0e15f8f780242448c6da40a44|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|17|7|v|lua
-	D78797
-ddbab877f2542e2f716e73a847e58d65|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|19|7|v|lua
-	1030C0
-fc5c255ecbed1da94d24296bf99635f4|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|9|13|v|lua
-	20C040
-73882ab1fa529d7273da0db6b49cc4f3|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|15|7|v|lua
-	444444
-f84d980f7644d72b9351510fc5e3c0cb|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|9|13|v|lua
-	2040D0
-e22bba1616cb7261b3b466eeca2db0c3|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|11|13|v|lua
-	2040D0000000
-6753fff671f3d2bba50f11951245cf3a|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|15|13|v|lua
-	109030
-367e4928d1b2a18ae02aa3060fa30d8c|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|17|13|v|lua
-	8050D0
-cc6592c414bd3cd3aef213385043c81c|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|13|7|v|lua
-	400714
-506331f5f243b47b80fbfe2dd9b263c8|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|11|7|v|lua
-	801428
-6dc12e1babf719f12c7f7e4fc06277ea|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|9|7|v|lua
-	C02142
-4ece8e1fae481838176073331352df7d|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|8|1|V|lua
-	    -- '#000000',
-5d2485098730021e4c2c71bce9c2457d|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|10|5|V|lua
-	    '#FFFFFF',
-4a11cbf708c22d97e81e9b308104851d|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|19|7|v|lua
-	3030B0
-7257c870e4c9f45f49876aa59b5fc9a1|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|11|7|v|lua
-	303090
-326a986f3ade9dced7b86d2e3cb76df5|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|9|1|V|lua
-	  bg = {
-	    -- '#000000',
-	    '#000000',
-	    -- '#000000',
-	    '#000000',
-	    -- '#C02040',
-	    '#4060D0',
-	    -- '#000000',
-	    '#6090E0',
-	    -- '#C02040',
-	    '#4060D0',
-	    -- '#000000',
-	    '#2030C0',
-	    -- '#C02040',
-	    '#000090',
-	  },
-	  bgs = {
-	    '#C02040',
-	    '#000000',
-	  },
-	  text = '#FFFFFF',
-	  diff_add = '#80C070',
-	  diff_modified = '#90B0F0',
-	  diff_remove = '#E08080',
-	  diag_error = '#F44747',
-	  diag_warn = '#FF8800',
-	  diag_info = '#FFCC66',
-	  diag_hint = '#4FC1FF',
-	}
-	gl.short_line_list = {'vista', 'dbui'}
-	
-	
-	-- LEFT
-	
-	gls.left[1] = {
-	  FirstElementL1 = {
-	    provider = function() return '' end,
-	    condition = function()
-	      return vcs.diff_add() ~= nil or vcs.diff_modified() ~= nil or vcs.diff_remove() ~= nil
-	    end,
-	    highlight = {colors.bg[1], colors.bg[2]},
-	  }
-	}
-	
-	gls.left[2] = {
-	  FirstElementL2 = {
-	    provider = function() return '' end,
-	    condition = function()
-	      return not (vcs.diff_add() ~= nil or vcs.diff_modified() ~= nil or vcs.diff_remove() ~= nil)
-	    end,
-	    highlight = {colors.bg[1], colors.bg[3]},
-	  }
-	}
-	
-	gls.left[3] = {
-	  DiffAdd = {
-	    provider = 'DiffAdd',
-	    condition = function()
-	      return vcs.diff_add() ~= nil or vcs.diff_modified() ~= nil or vcs.diff_remove() ~= nil
-	    end,
-	    icon = '   ',
-	    highlight = {colors.diff_add, colors.bg[2]},
-	  }
-	}
-	
-	gls.left[4] = {
-	  DiffModified = {
-	    provider = 'DiffModified',
-	    condition = function()
-	      return vcs.diff_add() ~= nil or vcs.diff_modified() ~= nil or vcs.diff_remove() ~= nil
-	    end,
-	    icon = ' 柳',
-	    highlight = {colors.diff_modified, colors.bg[2]},
-	  }
-	}
-	
-	gls.left[5] = {
-	  DiffRemove = {
-	    provider = 'DiffRemove',
-	    condition = function()
-	      return vcs.diff_add() ~= nil or vcs.diff_modified() ~= nil or vcs.diff_remove() ~= nil
-	    end,
-	    icon = '  ',
-	    highlight = {colors.diff_remove, colors.bg[2]},
-	    separator = '',
-	    separator_highlight = {colors.bg[2], colors.bg[3]},
-	  }
-	}
-	
-	gls.left[6] = {
-	  SpaceL5 = {
-	    provider = function() return ' ' end,
-	    condition = function()
-	      return not (vcs.diff_add() ~= nil or vcs.diff_modified() ~= nil or vcs.diff_remove() ~= nil)
-	    end,
-	    highlight = {colors.text, colors.bg[3]},
-	  }
-	}
-	
-	gls.left[7] = {
-	  FileIcon = {
-	    provider = 'FileIcon',
-	    condition = function() return fileinfo.get_file_icon() ~= ' ' end,
-	    icon = ' ',
-	    highlight = {colors.text, colors.bg[3]},
-	  }
-	}
-	
-	gls.left[8] = {
-	  SpaceL7 = {
-	    provider = function() return ' ' end,
-	    condition = function()
-	      return fileinfo.get_file_icon() == ' '
-	    end,
-	    highlight = {colors.text, colors.bg[3]},
-	  }
-	}
-	
-	gls.left[9] = {
-	  FileName = {
-	    provider = 'FileName',
-	    highlight = {colors.text, colors.bg[3]},
-	    separator = ' ',
-	    separator_highlight = {colors.bg[3], colors.bg[4]},
-	  }
-	}
-	
-	
-	-- RIGHT
-	
-	gls.right[1] = {
-	  DiagnosticError = {
-	    icon = '  ',
-	    separator = '',
-	    separator_highlight = {colors.bg[5], colors.bg[4]},
-	    highlight = {colors.diag_error, colors.bg[5]},
-	    provider = 'DiagnosticError',
-	  }
-	}
-	
-	gls.right[2] = {
-	  DiagnosticWarn = {
-	    icon = '  ',
-	    highlight = {colors.diag_warn, colors.bg[5]},
-	    provider = 'DiagnosticWarn',
-	  }
-	}
-	
-	gls.right[3] = {
-	  DiagnosticHint = {
-	    icon = '  ',
-	    highlight = {colors.diag_hint, colors.bg[5]},
-	    provider = 'DiagnosticHint',
-	  }
-	}
-e12eca4f1b91d4a4220b3b50e373fa8e|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|9|1|V|lua
-	  bg = {
-	    -- '#000000',
-	    '#000000',
-	    -- '#000000',
-	    '#000000',
-	    -- '#C02040',
-	    '#4060D0',
-	    -- '#000000',
-	    '#6090E0',
-	    -- '#C02040',
-	    '#4060D0',
-	    -- '#000000',
-	    '#2030C0',
-	    -- '#C02040',
-	    '#000090',
-	  },
-	  bgs = {
-	    '#C02040',
-	    '#000000',
-	  },
-	  text = '#FFFFFF',
-	  diff_add = '#80C070',
-	  diff_modified = '#90B0F0',
-	  diff_remove = '#E08080',
-	  diag_error = '#F44747',
-	  diag_warn = '#FF8800',
-	  diag_info = '#FFCC66',
-	  diag_hint = '#4FC1FF',
-	}
-	gl.short_line_list = {'vista', 'dbui'}
-	
-	
-	-- LEFT
-	
-	gls.left[1] = {
-	  FirstElementL1 = {
-	    provider = function() return '' end,
-	    condition = function()
-	      return vcs.diff_add() ~= nil or vcs.diff_modified() ~= nil or vcs.diff_remove() ~= nil
-	    end,
-	    highlight = {colors.bg[1], colors.bg[2]},
-	  }
-	}
-	
-	gls.left[2] = {
-	  FirstElementL2 = {
-	    provider = function() return '' end,
-	    condition = function()
-	      return not (vcs.diff_add() ~= nil or vcs.diff_modified() ~= nil or vcs.diff_remove() ~= nil)
-	    end,
-	    highlight = {colors.bg[1], colors.bg[3]},
-	  }
-0a79da7ebad047eaba59fd94fb0e6fd4|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|9|1|V|lua
-	  bg = {
-	    -- '#000000',
-	    '#000000',
-	    -- '#000000',
-	    '#000000',
-	    -- '#C02040',
-	    '#4060D0',
-	    -- '#000000',
-	    '#6090E0',
-	    -- '#C02040',
-	    '#4060D0',
-	    -- '#000000',
-	    '#2030C0',
-	    -- '#C02040',
-	    '#000090',
-	  },
-6bc2d3132d2582337a615b143e4fa2de|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|12|5|V|lua
-	    '#4060D0',
-b2dfbf9071d17cdf9ce159f5e52bdb50|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|13|5|V|lua
-	    '#6090E0',
-d2126f0fba93e60813862401756c71c6|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|15|5|V|lua
-	    '#2030C0',
-c7e8157372bc4cf9f61c9482c45074bf|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|16|5|V|lua
-	    '#000090',
-b22a4639c14c330e64c0d3850b420d2c|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|24|7|v|lua
-	000090
-106a18354058d35cb45ea313797ca1b5|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|22|7|v|lua
-	4060D0
-0b4be384c0b851379e0c6b1f5d127421|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|21|7|v|lua
-	6090E0
-d80d800d1d4b5a15eeca8b1a8a0af616|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|28|13|v|lua
-	000060
-6dd8d84e17108e39690fc5a521670d3b|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|23|7|v|lua
-	2030C0
-4a7d1ed414474e4033ac29ccb8653d9b|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|18|9|v|lua
-	0000
-aa07988fd706f34a1440b2b5569945c0|file:///Users/om/.config/coc/ultisnips/cpp.snippets|16|1|V|snippets
-	using vi = vector<int>;
-414a83e2184991f89a7ff8939a5d8a60|file:///Users/om/.config/coc/ultisnips/cpp.snippets|16|1|V|snippets
-	using vi = vector<int>;
-	using vl = vector<ll>;
-051a2a325ff8ea241daa38dd5979a1ac|file:///Users/om/.config/coc/ultisnips/cpp.snippets|33|40|v|snippets
-	USACO
-a2580c3109b26a613798ea4acbf68370|file:///Users/om/.config/coc/ultisnips/cpp.snippets|3|28|v|snippets
-	USACO 
-77ec84cf6e2088b732ccf9de9c701382|file:///Users/om/.config/coc/ultisnips/cpp.snippets|33|50|v|snippets
-	need fileio
-176b10ad51a2842ea9c173bd42b836d8|file:///Users/om/.config/coc/ultisnips/cpp.snippets|3|46|v|snippets
-	standard input and output
-1fc04c28dbd593d16e25dadea9ede3bb|file:///Users/om/.config/nvim/scripts/mappings/autocommands.vim|28|1|V|vim
-	
-	" Vim
-	
-	" "r" for save and source
-	autocmd BufEnter *.vim nnoremap <LEADER>r :Autoformat \| wa \| source $MYVIMRC<CR>
-	autocmd BufEnter *.vim inoremap ® <ESC>:Autoformat \| wa \| source $MYVIMRC<CR>
-	" "R" for save, source, and PlugInstall
-	autocmd BufEnter *.vim nnoremap <LEADER>R :Autoformat \| wa \| source $MYVIMRC \| PlugInstall<CR>:q
-	autocmd BufEnter *.vim inoremap ‰ <ESC>:Autoformat \| wa \| source $MYVIMRC \| PlugInstall<CR>:q
-a35e6f1d584fda4780971a1c95790b41|file:///Users/om/.config/nvim/scripts/mappings/autocommands.vim|43|39|V|vim
-	" "R" for save, source, and PlugInstall
-	autocmd BufEnter *.snippets nnoremap <LEADER>R :Autoformat \| wa \| source $MYVIMRC \| PlugInstall<CR>:q
-	autocmd BufEnter *.snippets inoremap ‰ <ESC>:Autoformat \| wa \| source $MYVIMRC \| PlugInstall<CR>:q
-989cc547268c4e90e82c67b9473aabdd|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/USACO/test.cpp|25|2|V|cpp
-	  
-	  for
-bb97157d2e2d3fa63a76275b3ce8f8b8|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/USACO/test.cpp|26|11|V|cpp
-	  for (int  = 0;  < n; ++) {
 	    
+e5d8f221cef68451a9636e1d6a95cd38|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|404|10|v|cpp
+	[MAXN]
+8d7233737efe32fc1e3de6454d748055|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|405|3|V|cpp
+	  ll inv;
+4b27c4ba46cc03055886aeeae6c212e4|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|404|1|V|cpp
+	  ll fact;
+59b5623cf4e89cf228d89a834afdf577|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|404|3|V|cpp
+	  int 
+cbc0495164bccafa63526f6a814aaa27|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|408|5|V|cpp
+	    fact[0] = 1;
+282f30bfda397a4e4f9fa5caa7f9b505|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|408|1|V|cpp
+	    fact.assign(n, 1),
+b82c91e2103d0a495c099f0a12f66363|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|409|5|v|cpp
+	fact
+ae253e036622a66c08e1225e6ffe1bfa|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|409|5|V|cpp
+	    inv[0] = 1;
+7729abb21ad30556e270c4a5c7734c48|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|409|5|V|cpp
+	    for (int i = 1; i < n; i++) {
+9ac9c3f5546e207488802e0613aad781|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|417|21|v|cpp
+	a % MOD;
+fd91271771b1a190391849a5886b4cf6|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|393|1|V|cpp
+	
+	  ll binexp(ll a, ll b) {
+	    if (b == 0) rtn 1ll;
+	    if (b == 1) rtn(m ? mod(a) : a);
+	    if (b % 2) rtn(m ? mod(a * binexp(a, b - 1)) : a * binexp(a, b - 1));
+	    rtn binexp(m ? mod(a * a) : a * a, b / 2);
 	  }
-799fb254cea60dd80a32ca91dcd59042|file:///Users/om/.config/nvim/install.sh|4|1|V|sh
-	BRED=$'\033[1;31m'
-e50f083f6c079be5f43d92cfd6effd8a|file:///Users/om/.config/nvim/install.sh|3|1|V|sh
-	BCYAN=$'\033[1;36m'
-c849b48e5447576b6d39f250b430343b|file:///Users/om/.config/nvim/install.sh|3|1|V|sh
-	BADSF=$'fdsa'
-18b0e828ac7289f5c9151298d6baf0b0|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/USACO/test.cpp|24|1|V|cpp
-	  pi p = mp(1, 2);
-8aafbe3db551084a531f4e6d095fafbf|file:///Users/om/.config/nvim/scripts/plug-config/galaxyline.lua|103|14|v|lua
-	(not (vcs.diff_add() ~= nil or vcs.diff_modified() ~= nil or vcs.diff_remove() ~= nil))
-55f552074214c52cf1c98d3e90e42ae1|file:///Users/om/.config/nvim/scripts/mappings/which-key-leader-o.vim|46|24|v|vim
-	tartify
-26be89983f2a4b2100024ce656d1ccc1|file:///Users/om/.config/coc/ultisnips/vim.snippets|18|9|v|snippets
-	snip
-d768137aca8b806e36c33566962132ff|file:///Users/om/.config/coc/ultisnips/vim.snippets|18|8|V|snippets
-	snippet  "Description" b
-		
-	endsnippet
-823e36643e743b83f5b663044f9572b5|file:///Users/om/.config/coc/ultisnips/cpp/other.snippets|1|1|v|snippets
-	# ––– Boilerplates –––
+	}
+3532b33fa6a264b41a4c8c6df960e5c5|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|382|1|V|cpp
 	
-	snippet main "A header for problems that use stdio" b
-	${1:// HEADER}
+	  void Comb(T _n, bool _m = true) : n(_n), m(_m) {
+	    fact.assign(n, 1);
+	    ll curr = 1;
+	    FOR(i, 1, n) {
+	      curr *= i;
+	      if (m) curr %= MOD;
+	      fact[i] = curr;
+	      inv[i] = binexp(fact[i], MOD - 2);
+	    }
+	  }
+9f0f89f2d95d084d8488596dfdec7f98|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|377|1|V|cpp
 	
-	#include <bits/stdc++.h>
+	tcT struct Comb {
+	  T n;
+	  bool m;
+	  vl fact;
+c62921f41abdaea479e428129f436f89|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|406|1|V|cpp
+	tcT ll
+1d1de24c8c482d89759ef8e54d5e48f2|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|404|1|V|cpp
 	
-	#define f first
-	#define s second
-	#define mp make_pair
-	#define pb push_back
-	using str = string;
-	using ll = long long;
-	using pi = pair<int, int>;
-	using pl = pair<ll, ll>;
-	using vi = vector<int>;
-	using vl = vector<ll>;
+	// factorial function
+	fact(T n, bool m = true) {
+	  ll res = 1;
+	  FOR(i, n) {
+	    res *= n;
+	    if (m) res %= MOD;
+	  }
+	  rtn res;
+	}
+cb89593d1f9fe3ecdb2178215eee80ae|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|415|4|v|cpp
+	factorial
+2f10f65768e2849230ef8d96ef0e2950|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|417|9|V|cpp
+	  ll res = 1;
+	  FOR(i, n) {
+	    res *= n;
+	    if (m) res %= MOD;
+	  }
+	  rtn res;
+00331b8602ba65e7240208db292a9a35|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|417|3|V|cpp
+	  rtn fact();
+1b2d55ea69c95dda803de06d00db8775|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|414|1|V|cpp
 	
-	using namespace std;
+	// choose function
+	ll choose(T r, T k, bool m = true) {
+	  ll res = 
+	}
+81aaa0ecbfff46feb2159868ed037dd1|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Random%20Problems/main.in|1|1|V|
+	3
+	11
+	31
+	75
+3f38386e7353e66e751a4843a86c9a8e|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Random%20Problems/1091A.cpp|689|3|V|cpp
+	  if (min()) 
+327ecdadc736ac6c00e9276b79979a44|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Random%20Problems/1091A.cpp|689|3|V|cpp
+	  a = y, b = 
+f77aba003509367dc6e55befdc4ff7db|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Random%20Problems/1091A.cpp|689|3|V|cpp
+	  A = 
+35ada7322ab2945126224a5ded15e9ce|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Random%20Problems/1091A.cpp|689|1|V|cpp
+	  Y = y, B = y + 1, R = y + 2;
+921b99acc3d1267654be1c41054e38a0|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Random%20Problems/1091A.cpp|690|18|v|cpp
+	y + 1
+1ef4de2262ab307af52206c10552741a|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Random%20Problems/1091A.cpp|690|25|v|cpp
+	y + 2
+3d5767f74e4d1946844a4ec4d3981e3b|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Random%20Problems/1091A.cpp|690|1|V|cpp
+	  Y = b - 1, B = b, R = b + 1;
+2117c36a7d4ffb499a7711f2f728394a|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Random%20Problems/1091A.cpp|691|29|v|cpp
+	b + 1
+f2e3feb9955a804631e268a8e0b62689|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Random%20Problems/1091A.cpp|690|1|V|cpp
+	  if (Y <= y && B <= b && R <= r) ans = max(ans, Y + B+R);
+34a57fa375013352939fdcb1cf606048|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Random%20Problems/1091A.cpp|383|3|v|cpp
+	void 
+e93acb146e114b5dfa6ce2d12dcb96e4|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|442|10|v|cpp
+	Functions
+ccdd1bcbcb1d29793d2200a4e0e27960|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Random%20Problems/main.in|1|1|V|
+	8 13 9
+050f4fbc94ede81f5a0f45f8fa64fc37|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Random%20Problems/main.in|1|1|V|
+	Replacing Elements
+b48189d267a2b5ea8e9df094bedc4782|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Random%20Problems/1473A.cpp|737|3|V|cpp
+	  FOR(i, 0, n)
+d01469405f2859135f03ec65ce93d0bd|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Random%20Problems/1473A.cpp|737|3|V|cpp
+	  a[0]
+7c777293365222dc39809c186a272ef7|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Random%20Problems/1473A.cpp|449|1|V|cpp
 	
-	int main()
-	{
+	// seg tree data type
+	tcT struct ST {
+	  using F = T (*)(T, T);
+	
+	  F comb = sum;
+	  int n, ID = 0;
+	  V<T> seg;
+	
+	  ST(V<T> a) { init(a); }
+	  ST(V<T> a, T _ID) : ID(_ID) { init(a); }
+	  ST(V<T> a, F _comb) : comb(_comb) { init(a); }
+	  ST(V<T> a, F _comb, T ID) : comb(_comb), ID(ID) { init(a); }
+	
+	  void init(V<T> a) {
+	    n = sz(a);
+	    seg.assign(n, 0);
+	    each(a, x) seg.pb(x);
+	    ROF(i, n, 1) calc(i);
+	  }
+	
+	  void calc(int i) { seg[i] = comb(seg[2 * i], seg[2 * i + 1]); }
+	
+	  void u(int i, T val) {
+	    assert(i >= 0), assert(i < n);
+	    seg[i += n] = val;
+	    for (i /= 2; i; i /= 2) calc(i);
+	  }
+	
+	  T q(int L) { rtn q(L, L + 1); }
+	  T q(int L, int R) { rtn q(L, R, 0, n, 1); }
+	  T q(int L, int R, int l, int r, int i) {
+	    assert(L >= 0), assert(L < n);
+	    assert(R > 0), assert(R <= n);
+	    if (l >= R || r <= L) rtn ID;
+	    if (l >= L && r <= R) rtn seg[i];
+	    T ans = ID;
+	    ans = comb(ans, q(L, R, l, (l + r) / 2, 2 * i));
+	    ans = comb(ans, q(L, R, (l + r) / 2, r, 2 * i + 1));
+	    rtn ans;
+	  }
+	};
+	
+8eed5a24d0c880defd4fe099832c21d0|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Random%20Problems/1473A.cpp|444|1|V|cpp
+	// Seg Tree {{{
+	
+	// seg tree data type
+	tcT struct ST {
+	  using F = T (*)(T, T);
+	
+	  F comb = sum;
+	  int n, ID = 0;
+	  V<T> seg;
+	
+	  ST(V<T> a) { init(a); }
+	  ST(V<T> a, T _ID) : ID(_ID) { init(a); }
+	  ST(V<T> a, F _comb) : comb(_comb) { init(a); }
+	  ST(V<T> a, F _comb, T ID) : comb(_comb), ID(ID) { init(a); }
+	
+	  void init(V<T> a) {
+	    n = sz(a);
+	    seg.assign(n, 0);
+	    each(a, x) seg.pb(x);
+	    ROF(i, n, 1) calc(i);
+	  }
+	
+	  void calc(int i) { seg[i] = comb(seg[2 * i], seg[2 * i + 1]); }
+	
+	  void u(int i, T val) {
+	    assert(i >= 0), assert(i < n);
+	    seg[i += n] = val;
+	    for (i /= 2; i; i /= 2) calc(i);
+	  }
+	
+	  T q(int L) { rtn q(L, L + 1); }
+	  T q(int L, int R) { rtn q(L, R, 0, n, 1); }
+	  T q(int L, int R, int l, int r, int i) {
+	    assert(L >= 0), assert(L < n);
+	    assert(R > 0), assert(R <= n);
+	    if (l >= R || r <= L) rtn ID;
+	    if (l >= L && r <= R) rtn seg[i];
+	    T ans = ID;
+	    ans = comb(ans, q(L, R, l, (l + r) / 2, 2 * i));
+	    ans = comb(ans, q(L, R, (l + r) / 2, r, 2 * i + 1));
+	    rtn ans;
+	  }
+	};
+	
+	// }}}
+	
+05924302054261823aa7d47fb524792e|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|702|5|v|cpp
+	uery
+e37f0136aa3ffaf149b351f6a4c948e9|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|700|8|v|cpp
+	init
+bf7ff6ff086b26da70386619a34ccbb0|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|700|7|v|cpp
+	 Seg
+3a7e0091527a9fe56df912d178657798|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|700|7|v|cpp
+	int _n
+83d7aa817fc8a57d775157584ed21c8c|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|696|16|v|cpp
+	1e18
+be7acf9150b397faa67be53225cf682f|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|697|28|v|cpp
+	 min(a, b)
+b2c1bc79e7de79d51a475e32656293aa|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|702|1|V|cpp
+	    each(a, x) seg.pb(x);
+24e16103ad7e562396981bf5827b6687|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|704|5|V|cpp
+	    seg.assign(2 * n, ID);
+9da4b5207aff9c24cb3e33a25ae536da|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|702|5|V|cpp
+	    each(a, x) seg.pb(0);
+d826c3b9871d1ae7a262710a5c41ab48|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|702|5|V|cpp
+	    FOR(i, n) {  }
+1927a74dc4c3b6cf44bd7483c29214ca|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|702|5|V|cpp
+	    FOR() 
+614e111f7f35ca8316830c748bed467d|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|703|25|v|cpp
+	, pu
+d321504c1b7af6ef3864fd5d38835683|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|703|25|v|cpp
+	ll()
+9d80840a410019ba536fc8c15222be9b|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.in|1|1|V|
+	8 4
+	3 2 4 5 1 1 5 3
+	2 1 4
+	2 5 6
+	1 2 3
+	2 1 4
+01a368f61e1e127f522bef06a2e3e155|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|704|13|V|cpp
+	    out(seg);
+	    ROF(i, n, 1) pull(i);
+dfaed00f61c97467a180524edcdf6708|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|702|15|v|cpp
+	seg.pb(0);
+49b79f497c7828d4b843178a355e64c0|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|703|18|v|cpp
+	 + 1
+f69fdffb82267fca1be8c6913635b318|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|703|15|v|cpp
+	n - 1
+63be4ea2d87f2da23fdafe1a60c87b99|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|703|5|V|cpp
+	    FOR(i, 1, sz(a) + 1) u(i, a[i - 1]);
+15754aa59c153f650f392de5a28d29bc|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|700|7|v|cpp
+	V<T> a
+45c928ce1fe487c70e6b344e35c7b4ea|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|711|1|V|cpp
+	
+	template <class T> struct Seg { // comb(ID,b) = b
+	  const T ID = 0;
+	  T comb(T a, T b) { return a + b; }
 	  int n;
-	  cin >> n;
+	  vector<T> seg;
+	  Seg(int ) {
+	    n = sz(a) + 1;
+	    seg.assign(2 * n, ID);
+	  }
+	  void pull(int p) { seg[p] = comb(seg[2 * p], seg[2 * p + 1]); }
+	  void u(int p, T val) { // set val at position p
+	    seg[p += n] = val;
+	    for (p /= 2; p; p /= 2) pull(p);
+	  }
+	  T q(int l, int r) { // min on interval [l, r]
+	    T ra = ID, rb = ID;
+	    for (l += n, r += n + 1; l < r; l /= 2, r /= 2) {
+	      if (l & 1) ra = comb(ra, seg[l++]);
+	      if (r & 1) rb = comb(seg[--r], rb);
+	    }
+	    return comb(ra, rb);
+	  }
+	};
+d3626a2599e7960638c67fc8b049984b|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|721|9|V|cpp
+	  V<int> a(n);
+	  in(a);
+3b4937704b893b108b8f7c9f7739d0f4|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|723|3|V|cpp
+	  ST b;
+b11cf00dcdf69d58076c676f6a31a430|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|743|20|v|cpp
+	 - 1
+e93d98574bdf59038e4e02d438941f9b|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|703|18|v|cpp
+	seg.u
+3ddf1d38e4810f976d3c0248ebfc13d2|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|735|10|v|cpp
+	a(n)
+2752a670729db9a0b2b763d94618074e|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|740|1|V|cpp
+	  FOR(i, 1, n + 1) {
+	    int a;
+	    in(a);
+	    b.upd(i - 1, a);
+	  }
+3e56bb3d561eccb8ac4468b64423745c|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|739|1|V|cpp
+	  b.init(n + 1);
+0703fd7bef7575e22a0884b4479e2dee|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|737|6|v|cpp
+	<ll>
+1b1cc7f086b3f074da452bc3129981eb|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|715|5|v|cpp
+	query
+933dd8674c563081260867dfa95b5e74|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|491|3|v|cpp
+	each
+5b328cabedca4f5cc0c835515c82738c|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|465|1|V|cpp
+	#define tcTUVV template<class T, class U, class... V>
+6129b5fa63365731da59ad79bb8e8c2a|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|502|3|v|cpp
+	iUnt
+a7691af96de5caf64579885c5b53482b|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|461|1|V|cpp
+	// Sum {{{
 	
-	  $0
+	// get the sum of values (plain integers, vectors, arrays, etc.)
 	
-	  int m;
-	  cout << m;
+	#define tcTUV template <class T, class U, class V>
+	#define tcTUVV template <class T, class U, class... V>
+	
+	tcTU U sum(T a);
+	tcTUVV U sum(T a, V... b);
+	tcTUV V sum(P<T, U> a);
+	tcTU U sum(V<T> a);
+	tcTUS U sum(A<T, S> a);
+	tcTU U sum(S<T> a);
+	tcTU U sum(MS<T> a);
+	tcTUV V sum(M<T, U> a);
+	
+	tcTU U sum(T a) { rtn mod(a); }
+	
+	tcTUVV U sum(T a, V... b) { rtn mod(sum(a) + sum(b...)); }
+	
+	tcTUV V sum(P<T, U> a) { rtn mod(sum(a.f) + sum(a.s)); }
+	
+	tcTU U sum(V<T> a) {
+	  U res = 0;
+	  each(a, x) res = mod(res + sum(x));
+	  rtn res;
 	}
-	endsnippet
 	
-	snippet mainold "A boilerplate for problems that use fileio" b
-	${1:// HEADER}
+	tcTUS U sum(A<T, S> a) {
+	  U res = 0;
+	  each(a, x) res = mod(res + sum(x));
+	  rtn res;
+	}
 	
-	#include <bits/stdc++.h>
+	tcTU U sum(S<T> a) {
+	  U res = 0;
+	  each(a, x) res = mod(res + sum(x));
+	  rtn res;
+	}
 	
-	#define f first
-	#define s second
-	#define mp make_pair
-	#define pb push_back
-	using str = string;
-	using ll = long long;
-	using pi = pair<int, int>;
-	using pl = pair<ll, ll>;
-	using vi = vector<int>;
-	using vl = vector<ll>;
+	tcTU U sum(MS<T> a) {
+	  U res = 0;
+	  each(a, x) res = mod(res + sum(x));
+	  rtn res;
+	}
 	
-	usig namespace std;
+	tcTUV V sum(M<T, U> a) {
+	  V res = 0;
+	  each(a, x) res = mod(res + sum(x.s));
+	  rtn res;
+	}
 	
-	int main()
-	{
-	  /* ifstream cin("main.in", "r", stdin); */
-	  /* ofstream cout("main.out", "w", stdout); */
+06e5a88cfccf302a17cc2ac9eb7b0289|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|464|10|V|cpp
+	tcT T sum() {  }
 	
+3cf1612a33ec43bd159e5bf5b62b4e5e|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|464|1|V|cpp
+	#define tcTUV template <class T, class U, class V>
+	#define tcTUVV template <class T, class U, class... V>
+489f8ed9e7a8d8098b35e5348d83d50e|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|473|21|v|cpp
+	 mod
+c81abc3e49488bf2282a7b41e2a16d63|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|475|44|v|cpp
+	 rtn mod(sum(a) + sum(b...)); 
+df2559b62e8c264ec6f9ee23c3d9f0bb|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|473|38|v|cpp
+	mod(a)
+870268db1c6f928737ba7851d7cdc6f0|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|479|1|V|cpp
+	
+	tcTU T sum(P<T, U> a) { rtn mod(sum(a.f) + sum(a.s)); }
+152ea584084f1f00535d0841492fdf0c|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|511|3|V|cpp
+	  PQU<>
+9ad039781d6664402f9096d16c59fb01|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|514|3|V|cpp
+	  } 
+95fbc61bedbad98b6a3c57f7ea36e8ca|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|511|11|v|cpp
+	 copy
+38968ff31be91518342286507f69b739|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|513|23|v|cpp
+	 sumw
+b01d6a2b00b2d4f53df97e3fbb4df127|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|506|18|v|cpp
+	= mod(res + 
+740db5a36144a1110c9808c4dcc9124e|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|506|14|v|cpp
+	res += x.s;
+0aba0e811d015d2acc56f7966f6ba82c|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|509|1|V|cpp
+	    res += x;
+	    if (m) res %= x;
+5a98432f9bd1bbe0db538991d957e556|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|503|3|V|cpp
+	  }res = mod(res + sum(x));
+9ada78a6dae4e2de9b5b0e0ff81ad4c1|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|500|1|V|cpp
+	  each(a, x) {
+	    res += x;
+	    if (m) res %= MOD;
+	  }
+00930ad9c8e1759669401896447f0773|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|494|3|V|cpp
+	  each(a, x) { res = mod(res + sum(x)); }
+1bef08914b1f47318de3cb07b8f90bf1|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|488|3|V|cpp
+	  each(a, x) res = mod(res + sum(x));
+e125f81954fdfc2302904186bacf0ea1|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|464|8|V|cpp
+	tcTU U sum(T a);
+	tcTUVV U sum(T a, V... b);
+	tcTUV V sum(P<T, U> a);
+	tcTU U sum(V<T> a);
+	tcTUS U sum(A<T, S> a);
+	tcTU U sum(S<T> a);
+	tcTU U sum(MS<T> a);
+	tcTUV V sum(M<T, U> a);
+	
+1f59dd3dfaaba2e3dda445d973c72137|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|466|24|v|cpp
+	, bool m = false
+405ffd4cd02cd3aad2183112aed52f4b|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|470|3|V|cpp
+	  bool m = false;
+d30b273b679e585a6247b44fad2a6db1|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|469|1|V|cpp
+	tcTUU T sum(T a, U... b, bool m) {
+	  T res = sum(a) + sum(b...);
+	  if (m) res %= MOD;
+	  rtn res;
+	}
+d906f76911a1df1e8a665ccb875db312|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|474|24|v|cpp
+	, bool m
+bed4bc7144d744d6df9402bda76f4dc7|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|465|1|V|cpp
+	tcT T sum(T a) {
+	  bool m = false;
+	  rtn(m ? mod(a) : a);
+	}
+6b4d90f903adc479399c92f7f4e8abdf|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|467|22|V|cpp
+	  rtn(m ? mod(a) : a);
+	}
+f6b04a90b8ef13a066dc7bd104e8ecf6|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|465|1|V|cpp
+	tcT T sum(T a) {
+	  bool m = false;
+82d86fd798d1f18c0fad48388058acc5|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|469|6|v|cpp
+	(m ? mod(a) : a);
+94daaa46c0d8bd37d014df5b221906da|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|477|20|V|cpp
+	  T res = sum(a) + sum(b...);
+	  if (m) res %= MOD;
+	  rtn res;
+3fd29c42ea36137b7c53a13250f1f69c|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|473|44|v|cpp
+	 false
+63c094c00dd976e117ed9a5e896e29d8|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|468|19|v|cpp
+	 = false
+d7e83e47e55201fc29bd5464e23f929b|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|466|34|v|cpp
+	, false
+c46a139c6becd3ee1923329e20c7a572|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|465|11|v|cpp
+	bool m, 
+316c9a9b86b731b040832efe9eee812e|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|468|13|v|cpp
+	bool m
+e297546462b1fad2a07bf85fa485233c|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|717|1|V|cpp
+	
+	template <class T> struct Seg { // comb(ID,b) = b
+	  const T ID = 0;
+	  T comb(T a, T b) { return a + b; }
 	  int n;
-	  cin >> n;
+	  vector<T> seg;
+	  Seg(V<T> a) {
+	    n = sz(a) + 1;
+	    seg.assign(2 * n, ID);
+	    FOR(i, 0, sz(a)) u(i, a[i]);
+	  }
+	  void init(int _n) {
+	    n = _n;
+	    seg.assign(2 * n, ID);
+	  }
+	  void pull(int p) { seg[p] = comb(seg[2 * p], seg[2 * p + 1]); }
+	  void u(int p, T val) { // set val at position p
+	    p++;
+	    seg[p += n] = val;
+	    for (p /= 2; p; p /= 2) pull(p);
+	  }
+	  T q(int l, int r) { // sum on interval [l, r]
+	    l++;
+	    T ra = ID, rb = ID;
+	    for (l += n, r += n + 1; l < r; l /= 2, r /= 2) {
+	      if (l & 1) ra = comb(ra, seg[l++]);
+	      if (r & 1) rb = comb(seg[--r], rb);
+	    }
+	    return comb(ra, rb);
+	  }
+	};
+7774695f8994cf7f995c756e39aff0de|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|723|10|V|cpp
+	    n = _n;
+	    seg.assign(2 * n, ID);
+9597acdc7317a912a9fa3369bec6ad7c|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|724|21|v|cpp
+	 + 2
+995b83369ffbc5f9101fec0cdaeac8b8|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|727|1|V|cpp
+	    out(seg);
+dcdec3496f769012d109a9f9bb951727|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|690|8|v|cpp
+	 ceil
+7b1a5a4dd8df61dc8e4ea38fa24f4490|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|690|8|v|cpp
+	log2
+e488d9e3475ea5008007f43adb156b59|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|691|5|V|cpp
+	    n = pow(2, n);
+98ff67e6d8c22fcfafe5743e4f4efc1a|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|694|9|v|cpp
+	i, 0, n
+6ecc5e84dcc78e7c89245b82d0b3e716|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|690|9|V|cpp
+	    n = pow(2, ceil(log2(sz(a))));
+	    out(n);
+300fc0f5a692b852877ed9d5fff57bba|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|696|5|V|cpp
+	    /* out(seg); */
+5bb6d79da6de606203be18bba0073173|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|691|3|V|cpp
+	    /* out(n); */
+6dcd11763628732d696e35277fad2eeb|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|718|1|V|cpp
 	
-	  $0
-	
-	  int m;
-	  cout << m;
-	}
-	endsnippet
-	
-	
-	
-76f0b6ff18a309783c9700213a02a4f4|file:///Users/om/.config/coc/ultisnips/cpp/other.snippets|1|1|V|snippets
-	# ––– Boilerplates –––
-	
-	snippet main "A header for problems that use stdio" b
-	${1:// HEADER}
-	
-	#include <bits/stdc++.h>
-	
-	#define f first
-	#define s second
-	#define mp make_pair
-	#define pb push_back
-	using str = string;
-	using ll = long long;
-	using pi = pair<int, int>;
-	using pl = pair<ll, ll>;
-	using vi = vector<int>;
-	using vl = vector<ll>;
-	
-	using namespace std;
-	
-	int main()
-	{
+	template <class T> struct Seg { // comb(ID,b) = b
+	  const T ID = 0;
+	  T comb(T a, T b) { return a + b; }
 	  int n;
-	  cin >> n;
+	  vector<T> seg;
+	  Seg(V<T> a) {
+	    n = sz(a);
+	    seg.assign(2 * n + 2, ID);
+	    FOR(i, 0, n) u(i, a[i]);
+	    out(seg);
+	  }
+	  void pull(int p) { seg[p] = comb(seg[2 * p], seg[2 * p + 1]); }
+	  void u(int p, T val) { // set val at position p
+	    p++;
+	    seg[p += n] = val;
+	    for (p /= 2; p; p /= 2) pull(p);
+	  }
+	  T q(int l, int r) { // sum on interval [l, r]
+	    l++;
+	    T ra = ID, rb = ID;
+	    for (l += n, r += n + 1; l < r; l /= 2, r /= 2) {
+	      if (l & 1) ra = comb(ra, seg[l++]);
+	      if (r & 1) rb = comb(seg[--r], rb);
+	    }
+	    return comb(ra, rb);
+	  }
+	};
+a7cafc61e3402cfd6ce3581f2adaf06e|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|614|1|V|cpp
+	min();
+3388fbad3d3997542cda4941948aa7a5|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.in|1|1|V|
+	7 4
+	3 2 4 5 1 1 5
+	2 1 4
+	2 5 6
+	1 3 1
+	2 1 4
+df9e1aa4940f7a34263d65ef41b87cf1|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Sum%20Queries/main.cpp|730|11|v|cpp
+	 min
+754a56a027d2484eb23495a7c7e2afe6|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.in|1|1|V|
 	
-	  $0
+	 wh
+1d17e10dd16b67afff98baa82db9b98d|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Sum%20Queries/main.cpp|676|1|V|cpp
 	
-	  int m;
-	  cout << m;
+	tcT struct Seg {
+	  using F = T (*)(T, T);
+	
+	  F comb = sum;
+	  int n, ID = 0;
+	  V<T> seg;
+	
+	  Seg(V<T> a) { init(a); }
+	  Seg(V<T> a, T _ID) : ID(_ID) { init(a); }
+	  Seg(V<T> a, F _comb) : comb(_comb) { init(a); }
+	  Seg(V<T> a, F _comb, T ID) : comb(_comb), ID(ID) { init(a); }
+	
+	  void init(V<T> a) {
+	    n = pow(2, ceil(log2(sz(a))));
+	    seg.assign(n, 0);
+	    each(a, x) seg.pb(x);
+	    FOR(n - sz(a)) seg.pb(0);
+	    ROF(i, n, 1) calc(i);
+	  }
+	
+	  void calc(int i) { seg[i] = comb(seg[2 * i], seg[2 * i + 1]); }
+	
+	  void u(int i, T val) {
+	    assert(i >= 0), assert(i < n);
+	    seg[i += n] = val;
+	    for (i /= 2; i; i /= 2) calc(i);
+	  }
+	
+	  T q(int L) { rtn q(L, L + 1); }
+	  T q(int L, int R) { rtn q(L, R, 0, n, 1); }
+	  T q(int L, int R, int l, int r, int i) {
+	    assert(L >= 0), assert(L < n);
+	    assert(R > 0), assert(R <= n);
+	    if (l >= R || r <= L) rtn ID;
+	    if (l >= L && r <= R) rtn seg[i];
+	    T ans = ID;
+	    ans = comb(ans, q(L, R, l, (l + r) / 2, 2 * i));
+	    ans = comb(ans, q(L, R, (l + r) / 2, r, 2 * i + 1));
+	    rtn ans;
+	  }
+	};
+	
+17d60674ceab4c9ce8731393c299efd5|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Sum%20Queries/main.cpp|725|1|V|cpp
+	  int n, q;
+	  in(n, q);
+	
+	  V<ll> a(n);
+	  in(a);
+	  Seg b(a);
+	
+	  while (q--) {
+	    int x, c, d;
+	    in(x, c, d);
+	
+	    if (x == 1) {
+	      b.u(c - 1, d);
+	    } else {
+	      out(b.q(c - 1, d));
+	    }
+	  }
+a1d0ec6d56f8833a078b5a7ac4caf2d4|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Sum%20Queries/main.cpp|1|33|v|cpp
+	Minimum
+ee149d705d028b5669aebe01cc60959a|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Sum%20Queries/main.cpp|460|1|V|cpp
+	
+	// Sum {{{
+	
+	// get the sum of values (plain integers, vectors, arrays, etc.)
+	
+	tcT T sum(bool m, T a) { rtn(m ? mod(a) : a); }
+	tcT T sum(T a) { rtn sum(false, a); }
+	
+	tcTUU T sum(bool m, T a, U... b) {
+	  T res = sum(m, a) + sum(m, b...);
+	  if (m) res %= MOD;
+	  rtn res;
 	}
-	endsnippet
+	tcTUU T sum(T a, U... b) { rtn sum(false, a, b...); }
 	
-	snippet mainold "A boilerplate for problems that use fileio" b
-	${1:// HEADER}
+	tcT T sum(V<T> a, bool m = false) {
+	  T res = 0;
+	  each(a, x) {
+	    res += x;
+	    if (m) res %= MOD;
+	  }
+	  rtn res;
+	}
 	
-	#include <bits/stdc++.h>
+	tcTS T sum(A<T, S> a, bool m = false) {
+	  T res = 0;
+	  each(a, x) {
+	    res += x;
+	    if (m) res %= MOD;
+	  }
+	  rtn res;
+	}
 	
-	#define f first
-	#define s second
-	#define mp make_pair
-	#define pb push_back
-	using str = string;
-	using ll = long long;
-	using pi = pair<int, int>;
-	using pl = pair<ll, ll>;
-	using vi = vector<int>;
-	using vl = vector<ll>;
+	tcT T sum(S<T> a, bool m = false) {
+	  T res = 0;
+	  each(a, x) {
+	    res += x;
+	    if (m) res %= MOD;
+	  }
+	  rtn res;
+	}
 	
-	using namespace std;
+	tcT T sum(MS<T> a, bool m = false) {
+	  T res = 0;
+	  each(a, x) {
+	    res += x;
+	    if (m) res %= MOD;
+	  }
+	  rtn res;
+	}
 	
-	int main()
-	{
-	  /* ifstream cin("main.in", "r", stdin); */
-	  /* ofstream cout("main.out", "w", stdout); */
+	tcTU U sum(M<T, U> a, bool m = false) {
+	  U res = 0;
+	  each(a, x) {
+	    res += x.s;
+	    if (m) res %= MOD;
+	  }
+	  rtn res;
+	}
 	
+	tcTU T sum(PQU<T, U> a, bool m = false) {
+	  auto b = copy(a);
+	  T res = 0;
+	  while (sz(b)) {
+	    res += b.top(), b.pop();
+	    if (m) res %= MOD;
+	  }
+	  rtn b;
+	}
+	
+	// }}}
+f78b8b6edbb1e1578a7a3fcadedc5417|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|626|1|V|cpp
+	
+	// Sum {{{
+	
+	// get the sum of things (integers, vectors, arrays, etc.)
+	
+	tcT int sum(T a);
+	tcTUU int sum(T a, U... b);
+	tcT int sum(V<T> a);
+	tcTS int sum(A<T, S> a);
+	tcT int sum(S<T> a);
+	tcT int sum(MS<T> a);
+	tcTU int sum(M<T, U> a);
+	
+	tcT int sum(T a) { rtn mod(a); }
+	
+	tcTUU int sum(T a, U... b) { rtn mod(sum(a) + sum(b...)); }
+	
+	tcT int sum(V<T> a) {
+	  int res = 0;
+	  each(a, x) res = mod(res + sum(x));
+	  rtn res;
+	}
+	
+	tcTS int sum(A<T, S> a) {
+	  int res = 0;
+	  each(a, x) res = mod(res + sum(x));
+	  rtn res;
+	}
+	
+	tcT int sum(S<T> a) {
+	  int res = 0;
+	  each(a, x) res = mod(res + sum(x));
+	  rtn res;
+	}
+	
+	tcT int sum(MS<T> a) {
+	  int res = 0;
+	  each(a, x) res = mod(res + sum(x));
+	  rtn res;
+	}
+	
+	tcTU int sum(M<T, U> a) {
+	  int res = 0;
+	  each(a, x) res = mod(res + sum(x.s));
+	  rtn res;
+	}
+	
+	// }}}
+89f62cddd9e807a618bd753f11674506|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Sum%20Queries/main.cpp|676|1|V|cpp
+	
+	tcT struct Seg {
+	  using F = T (*)(T, T);
+	
+	  F comb = sum;
+	  int n, ID = 0;
+	  V<T> seg;
+	
+	  Seg(V<T> a) { init(a); }
+	  Seg(V<T> a, T _ID) : ID(_ID) { init(a); }
+	  Seg(V<T> a, F _comb) : comb(_comb) { init(a); }
+	  Seg(V<T> a, F _comb, T ID) : comb(_comb), ID(ID) { init(a); }
+	
+	  void init(V<T> a) {
+	    n = pow(2, ceil(log2(sz(a))));
+	    seg.assign(n, 0);
+	    each(a, x) seg.pb(x);
+	    FOR(n - sz(a)) seg.pb(0);
+	    ROF(i, n, 1) calc(i);
+	  }
+	
+	  void calc(int i) { seg[i] = comb(seg[2 * i], seg[2 * i + 1]); }
+	
+	  void u(int i, T val) {
+	    assert(i >= 0), assert(i < n);
+	    seg[i += n] = val;
+	    for (i /= 2; i; i /= 2) calc(i);
+	  }
+	
+	  T q(int L) { rtn q(L, L + 1); }
+	  T q(int L, int R) { rtn q(L, R, 0, n, 1); }
+	  T q(int L, int R, int l, int r, int i) {
+	    assert(L >= 0), assert(L < n);
+	    assert(R > 0), assert(R <= n);
+	    if (l >= R || r <= L) rtn ID;
+	    if (l >= L && r <= R) rtn seg[i];
+	    T ans = ID;
+	    ans = comb(ans, q(L, R, l, (l + r) / 2, 2 * i));
+	    ans = comb(ans, q(L, R, (l + r) / 2, r, 2 * i + 1));
+	    rtn ans;
+	  }
+	};
+	
+	bool TC() {
+	  /* rtn true; // Uncomment this line for multiple test cases */
+	  rtn false;
+	}
+	
+	void solve(int32_t T) {
+	  int n, q;
+	  in(n, q);
+	
+	  V<ll> a(n);
+	  in(a);
+	  Seg b(a);
+	
+	  while (q--) {
+	    int x, c, d;
+	    in(x, c, d);
+	
+	    if (x == 1) {
+	      b.u(c - 1, d);
+	    } else {
+	      out(b.q(c - 1, d));
+	    }
+	  }
+	}
+	
+	/* stuff you should look for
+	 * int overflow, array bounds
+	 * special cases (n=1?)
+	 * do smth instead of nothing and stay organized
+	 * WRITE STUFF DOWN
+	 * DON'T GET STUCK ON ONE APPROACH
+	 */
+f9ad108c3905848af050f1d6d2cc252a|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|755|1|V|cpp
+	
+	/* stuff you should look for
+	 * int overflow, array bounds
+	 * special cases (n=1?)
+	 * do smth instead of nothing and stay organized
+	 * WRITE STUFF DOWN
+	 * DON'T GET STUCK ON ONE APPROACH
+	 */
+063498f936adf14cfd013b92865295fb|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|751|1|V|cpp
+	
+	void solve(int32_t T) {
+7551ba8c314f9e244969b8765b703e78|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|746|1|V|cpp
+	
+	bool TC() {
+	  /* rtn true; // Uncomment this line for multiple test cases */
+	  rtn false;
+	}
+29f72f435580674a27dd0a4cbe1e992f|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|743|1|V|cpp
+	
+	// Uncomment for integer overflow
+	/* #define int ll */
+34ffede0039ac8fc8bf610d98beb8828|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|742|13|V|cpp
+	// ––– CODE –––
+	
+57c577c7df4923024ce1f0d0950aaaaf|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|699|1|V|cpp
+	tcTUU T min(T a, U... b) { rtn min(a, min(b...)); }
+aa891c882cdc039b50148d81e87ea7fc|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|699|16|v|cpp
+	, U... b
+0d2d2501ca0ea87c3e336d727362945b|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|699|24|v|cpp
+	min(a, min(b...))
+3db172154e76f86eb79b729bb4281803|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|756|17|v|cpp
+	INT_MAX
+8f5b3ea3237ff8dc64a483b51fad6bbe|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|716|5|V|cpp
+	    out(ID);
+4c5fceb0b8ba5d3e4be8801adfba86a0|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|702|1|V|cpp
+	tcT struct Seg {
+	  using F = T (*)(T, T);
+	
+	  F comb = sum;
 	  int n;
-	  cin >> n;
+	  T ID = 0;
+	  V<T> seg;
 	
-	  $0
+	  Seg(V<T> a) { init(a); }
+	  Seg(V<T> a, T _ID) : ID(_ID) { init(a); }
+	  Seg(V<T> a, F _comb) : comb(_comb) { init(a); }
+	  Seg(V<T> a, F _comb, T ID) : comb(_comb), ID(ID) { init(a); }
 	
-	  int m;
-	  cout << m;
+	  void init(V<T> a) {
+	    n = pow(2, ceil(log2(sz(a))));
+	    seg.assign(n, 0);
+	    each(a, x) seg.pb(x);
+	    FOR(n - sz(a)) seg.pb(0);
+	    ROF(i, n, 1) calc(i);
+	  }
+	
+	  void calc(int i) { seg[i] = comb(seg[2 * i], seg[2 * i + 1]); }
+	
+	  void u(int i, T val) {
+	    assert(i >= 0), assert(i < n);
+	    seg[i += n] = val;
+	    for (i /= 2; i; i /= 2) calc(i);
+	  }
+	
+	  T q(int L) { rtn q(L, L + 1); }
+	  T q(int L, int R) { rtn q(L, R, 0, n, 1); }
+	  T q(int L, int R, int l, int r, int i) {
+	    assert(L >= 0), assert(L < n);
+	    assert(R > 0), assert(R <= n);
+	    if (l >= R || r <= L) rtn ID;
+	    if (l >= L && r <= R) rtn seg[i];
+	    T ans = ID;
+	    ans = comb(ans, q(L, R, l, (l + r) / 2, 2 * i));
+	    ans = comb(ans, q(L, R, (l + r) / 2, r, 2 * i + 1));
+	    rtn ans;
+	  }
+	};
+1a2e123f0293511f5b5270247d7946e3|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|488|15|v|cpp
+	{
+	  using F = T (*)(T, T);
+	
+	  F comb = sum;
+	  int n, ID = 0;
+	  V<T> seg;
+	
+	  ST(V<T> a) { init(a); }
+	  ST(V<T> a, T _ID) : ID(_ID) { init(a); }
+	  ST(V<T> a, F _comb) : comb(_comb) { init(a); }
+	  ST(V<T> a, F _comb, T ID) : comb(_comb), ID(ID) { init(a); }
+	
+	  void init(V<T> a) {
+	    n = sz(a);
+	    seg.assign(n, 0);
+	    each(a, x) seg.pb(x);
+	    ROF(i, n, 1) calc(i);
+	  }
+	
+	  void calc(int i) { seg[i] = comb(seg[2 * i], seg[2 * i + 1]); }
+	
+	  void u(int i, T val) {
+	    assert(i >= 0), assert(i < n);
+	    seg[i += n] = val;
+	    for (i /= 2; i; i /= 2) calc(i);
+	  }
+	
+	  T q(int L) { rtn q(L, L + 1); }
+	  T q(int L, int R) { rtn q(L, R, 0, n, 1); }
+	  T q(int L, int R, int l, int r, int i) {
+	    assert(L >= 0), assert(L < n);
+	    assert(R > 0), assert(R <= n);
+	    if (l >= R || r <= L) rtn ID;
+	    if (l >= L && r <= R) rtn seg[i];
+	    T ans = ID;
+	    ans = comb(ans, q(L, R, l, (l + r) / 2, 2 * i));
+	    ans = comb(ans, q(L, R, (l + r) / 2, r, 2 * i + 1));
+	    rtn ans;
+	  }
 	}
+dc1ddac6451520bb9940297e0042a102|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|488|1|V|cpp
+	tcT struct ST ;
+476e24ad382dc099e342b23fa449dde4|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|450|1|V|cpp
+	
+	// seg tree data type
+	tcT struct Seg {
+	  using F = T (*)(T, T);
+	
+	  F comb = sum;
+	  int n;
+	  T ID = 0;
+	  V<T> seg;
+	
+	  Seg(V<T> a) { init(a); }
+	  Seg(V<T> a, T _ID) : ID(_ID) { init(a); }
+	  Seg(V<T> a, F _comb) : comb(_comb) { init(a); }
+	  Seg(V<T> a, F _comb, T ID) : comb(_comb), ID(ID) { init(a); }
+	
+	  void init(V<T> a) {
+	    n = pow(2, ceil(log2(sz(a))));
+	    seg.assign(n, 0);
+	    each(a, x) seg.pb(x);
+	    FOR(n - sz(a)) seg.pb(0);
+	    ROF(i, n, 1) calc(i);
+	  }
+	
+	  void calc(int i) { seg[i] = comb(seg[2 * i], seg[2 * i + 1]); }
+	
+	  void u(int i, T val) {
+	    assert(i >= 0), assert(i < n);
+	    seg[i += n] = val;
+	    for (i /= 2; i; i /= 2) calc(i);
+	  }
+	
+	  T q(int L) { rtn q(L, L + 1); }
+	  T q(int L, int R) { rtn q(L, R, 0, n, 1); }
+	  T q(int L, int R, int l, int r, int i) {
+	    assert(L >= 0), assert(L < n);
+	    assert(R > 0), assert(R <= n);
+	    if (l >= R || r <= L) rtn ID;
+	    if (l >= L && r <= R) rtn seg[i];
+	    T ans = ID;
+	    ans = comb(ans, q(L, R, l, (l + r) / 2, 2 * i));
+	    ans = comb(ans, q(L, R, (l + r) / 2, r, 2 * i + 1));
+	    rtn ans;
+	  }
+	};
+	
+e3da06753abde0af082fca8e7a36845b|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|444|1|V|cpp
+	
+	// Seg Tree {{{
+	
+	// seg tree data type
+	tcT struct Seg {
+	  using F = T (*)(T, T);
+	
+	  F comb = sum;
+	  int n;
+	  T ID = 0;
+	  V<T> seg;
+	
+	  Seg(V<T> a) { init(a); }
+	  Seg(V<T> a, T _ID) : ID(_ID) { init(a); }
+	  Seg(V<T> a, F _comb) : comb(_comb) { init(a); }
+	  Seg(V<T> a, F _comb, T ID) : comb(_comb), ID(ID) { init(a); }
+	
+	  void init(V<T> a) {
+	    n = pow(2, ceil(log2(sz(a))));
+	    seg.assign(n, 0);
+	    each(a, x) seg.pb(x);
+	    FOR(n - sz(a)) seg.pb(0);
+	    ROF(i, n, 1) calc(i);
+	  }
+	
+	  void calc(int i) { seg[i] = comb(seg[2 * i], seg[2 * i + 1]); }
+	
+	  void u(int i, T val) {
+	    assert(i >= 0), assert(i < n);
+	    seg[i += n] = val;
+	    for (i /= 2; i; i /= 2) calc(i);
+	  }
+	
+	  T q(int L) { rtn q(L, L + 1); }
+	  T q(int L, int R) { rtn q(L, R, 0, n, 1); }
+	  T q(int L, int R, int l, int r, int i) {
+	    assert(L >= 0), assert(L < n);
+	    assert(R > 0), assert(R <= n);
+	    if (l >= R || r <= L) rtn ID;
+	    if (l >= L && r <= R) rtn seg[i];
+	    T ans = ID;
+	    ans = comb(ans, q(L, R, l, (l + r) / 2, 2 * i));
+	    ans = comb(ans, q(L, R, (l + r) / 2, r, 2 * i + 1));
+	    rtn ans;
+	  }
+	};
+	
+	// }}}
+f87a7a16716eba675e81dbe4c08da159|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|698|1|V|cpp
+	
+	tcT T min(T a, T b) { rtn(a <= b ? a : b); }
+	tcTUU T min(T a, U... b) { rtn min(a, min(b...)); }
+08c955376ace3300601c7b62f47f32de|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Sum%20Queries/main.cpp|771|9|V|cpp
+	  Seg a() {
+	
+	  }
+c709e62cb76452888098c89f4a94c868|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Sum%20Queries/main.cpp|777|1|V|cpp
+	    if (x == 1) b.u(a, b);
+b5c55343fd0f7ccc5e44d08dd64affc1|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Sum%20Queries/main.cpp|778|5|v|cpp
+	if (x == 1) 
+ff1ef1408be78e4fce0f62b2ad1b5b64|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Sum%20Queries/main.cpp|781|7|v|cpp
+	b.q(a, b);
+a127fd1f86e4ab650f2216f09992afa4|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Sum%20Queries/main.cpp|781|6|V|cpp
+	      
+72ffe5ab515029dab95d1589b2d97344|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Sum%20Queries/main.cpp|684|1|V|cpp
+	// seg tree data type
+cf2140b30f84f65868d32dec23d17af1|file:///Users/om/.config/coc/ultisnips/cpp/basic.snippets|11|1|V|snippets
+	
+	snippet while "A while statement"
+	while (${1:CONDITION}) $0
 	endsnippet
+1243c0ea0fd0e27e8c84cd4837bb5bab|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|771|5|V|cpp
+	  while (q--) {
 	
+	  }
+7b6ebeef7042c11acff3fbf49e98c634|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|771|9|v|cpp
+	, [&](int a, int b) { ; 
+02584cda0d87e4bbdd6dcb91f8d81de5|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|771|11|v|cpp
+	[&](int a
+a386660baa537f74b3039a242d0386a9|file:///Users/om/.config/coc/ultisnips/cpp/other.snippets|26|1|V|snippets
 	
-059c860487bec7c33dd6fc529a2504b7|file:///Users/om/.config/coc/ultisnips/cpp/other.snippets|1|1|V|snippets
-	# ––– Headers –––
-	
-	snippet usaco "A header for USACO problems" b
-	// ––– ${1:`!v strftime("%Y %B")`}: ${3:Silver} #${4:1} –––$0
+	snippet seg "A seg tree" b
+	ST b$1(a$2${3:, [&](${4:int} a, $4 b) { $5; }}${6:, ${7:ID}});
 	endsnippet
+1e05b11a9eecb5d1af6c7cfcc8b3cee5|file:///Users/om/.config/coc/ultisnips/cpp/other.snippets|28|12|v|snippets
+	${3:, [&](${4:int} a, $4 b
+ce516df52dbe2b049b5828371cb4e8c2|file:///Users/om/.config/coc/ultisnips/cpp/other.snippets|28|12|v|snippets
+	) { $5; }}${6:, ${7:ID}}
+b04c26159019ebc533fb3504b725089c|file:///Users/om/.config/coc/ultisnips/cpp/other.snippets|28|1|V|snippets
+	Seg b$1(a$2, sum$3, 0$4);
+416a44c489a98592fd7e419ac721e279|file:///Users/om/.config/coc/ultisnips/cpp/other.snippets|33|1|V|snippets
+	ST b$1(a$2${3:, [&](${4:int} a, $4 b) { $5; }}${6:, ${7:ID}});
+1ba97dc733f7e628b69ca4ffec40ca01|file:///Users/om/.config/coc/ultisnips/cpp/other.snippets|22|1|V|snippets
 	
-	snippet codeforces "A header for CodeForces problems" b
-	// ––– Round #${1:100}: Problem ${2:A} –––$0
+	snippet lambda "A lambda function"
+	[&]($1) { $0 }
 	endsnippet
+62cee4f6615d45910cb610c1689c530b|file:///Users/om/.config/coc/ultisnips/cpp/other.snippets|4|1|V|snippets
+	sort(${1:a}, $1 + n$2);
+39b63355ba457980999d1c1b3580ff98|file:///Users/om/.config/coc/ultisnips/cpp/other.snippets|4|1|V|snippets
+	sor(a$1);
+a5518a41392bd44466e9f3e8e6a7bddc|file:///Users/om/.config/coc/ultisnips/cpp/other.snippets|2|1|V|snippets
 	
-	
-c20901c856cf3d886789d350131ba6d4|file:///Users/om/.config/coc/ultisnips/cpp/boilerplates.snippets|61|3|V|snippets
-	  int m;
-473b4bbc31868814003da70430120fdb|file:///Users/om/.config/coc/ultisnips/cpp/other.snippets|1|1|V|snippets
-	# ––– Input + Output –––
-	
-	snippet in "Input values" b
-	for (int ${1:i} = 0; $1 < ${2:n}; $1++) {
-	  ${3:int} ${4:elt};
-	  cin >> $4;
-	  $0
-	}
+	snippet sort "Sort an array or vector"
+	sor(a$1);
 	endsnippet
+efe8b4d4b1728f273116ea625bc39b34|file:///Users/om/.config/coc/ultisnips/cpp/other.snippets|18|1|V|snippets
 	
-	snippet inarr "Input an array" b
-	${1:int} ${2:arr}[${3:n}];
-	for (int ${4:i} = 0; $4 < $3; $4++) {
-	  $1 ${5:elt};
-	  cin >> $5;
-	  $2[$4] = $5;
-	}$0
+	snippet sortr "Sort an array in reverse"
+	sort(${1:a}, $1 + n$2, greater<${3:int}>());
 	endsnippet
+743e601b0f2a84d355b24ca2d409570c|file:///Users/om/.config/coc/ultisnips/cpp/other.snippets|18|1|V|snippets
 	
-	snippet inpairs "Input pairs" b
-	for (int ${1:i} = 0; $1 < $2; $2++) {
-	  ${3:int} ${4:a};
-	  ${5:int} ${6:b};
-	  cin >> $4 >> $6;
-	  $0
-	}
+	snippet sr "Sort an array in reverse"
+	sort(${1:a}, $1 + n$2, greater<${3:int}>());
 	endsnippet
+ba3faec7f7db97c2f935a73b1ef13d62|file:///Users/om/.config/coc/ultisnips/cpp/other.snippets|20|1|V|snippets
+	sort(${1:a}, $1 + n$2, greater<${3:int}>());
+6a5f99846ebbe44b9c81edc0aca98e8e|file:///Users/om/.config/coc/ultisnips/cpp/other.snippets|20|1|V|snippets
+	rsor(a$1);
+97c4350aff6339ef53f8b059013cf938|file:///Users/om/.config/coc/ultisnips/cpp/other.snippets|26|1|V|snippets
 	
-	snippet inarrpairs "Input an array of pairs" b
-	pair<${1:int}, ${2:int}> ${3:arr}[${4:n}];
-	for (int ${5:i} = 0; $5 < $4; $5++) {
-	  ${3:int} ${4:a};
-	  ${5:int} ${6:b};
-	  cin >> a >> b;
-	  $3[$5].first = a;
-	  $3[$5].second = b;
-	}$0
+	snippet sortr "Sort an array in reverse"
+	rsor(a$1);
 	endsnippet
+819f4d411b826566eee923125ed21921|file:///Users/om/.config/coc/ultisnips/cpp/other.snippets|31|9|v|snippets
+	sortr
+7aa2b00b983d895e8bf8e8dd09c6caaa|file:///Users/om/.config/coc/ultisnips/cpp/other.snippets|30|1|V|snippets
 	
-	snippet outarr "Output an array" b
-	cout << ${1:arr}[0];
-	for (int ${3:i} = 1; $3 < ${2:n}; $3++) {
-	  cout << endl << $1[$3];
-	}$0
+	snippet rs "Sort an array in reverse"
+	rsor(a$1);
 	endsnippet
+7b10590bca0b64ee1bed9c88059a6292|file:///Users/om/.config/coc/ultisnips/cpp/other.snippets|30|1|V|snippets
 	
-	
-4b251096bd4a3f0ced61ce124ded4aad|file:///Users/om/.config/coc/ultisnips/cpp/other.snippets|1|1|V|snippets
-	# ––– For Loops –––
-	
-	snippet for "A for loop" b
-	for (int ${1:i} = ${2:0}; $1 < ${3:n}; $1++) {
-	  $0
-	}
+	snippet rsor "Sort an array in reverse"
+	rsor(a$1);
 	endsnippet
+4526ce756359eeb725a4baeaedc864bc|file:///Users/om/.config/coc/ultisnips/cpp/other.snippets|18|1|V|snippets
 	
-	snippet forin "A for loop that loops through an array" b
-	for (${1:int} ${2:elt} : ${3:arr}) {
-	  $0
-	}
+	snippet sr "Sort an array in reverse"
+	rsor(a$1);
 	endsnippet
+fe7d3eee558d69b49a0ddcba1c93a6c1|file:///Users/om/.config/coc/ultisnips/cpp/other.snippets|46|1|V|snippets
 	
-	snippet forn "A for loop that loops through an array using a predefined variable" b
-	for (int ${1:i} = ${2:0}; $1 < ${3:n}; $1++) {
-	  ${4:int} ${5:elt} = ${6:arr}[$1];
-	  $0
-	}
+	snippet sortv "Sort a vector"
+	sort(${1:a}.begin(), $1.end());
 	endsnippet
+36f34bc206f0a3b39d588f1e34e62ba0|file:///Users/om/.config/coc/ultisnips/cpp/other.snippets|46|1|V|snippets
 	
-	
-58b16ddbf52c42277c6d17d160f3c1cf|file:///Users/om/.config/coc/ultisnips/cpp/other.snippets|1|1|V|snippets
-	# ––– Basic Statements –––
-	
-	snippet if "An if statement" b
-	if (${1:condition}) {
-	  $0
-	}
+	snippet sortrv "Sort a vector in reverse"
+	sort(${1:a}.rbegin(), $1.rend());
 	endsnippet
-	
-	snippet while "An if statement" b
-	while (${1:condition}) {
-	  $0
-	}
-	endsnippet
-	
-	snippet switch "A switch case" b
-	switch (${1:var}) {
-	  case ${2:value}:
-	    $3
-	    break;
-	  $0
-	}
-	endsnippet
-	
-	snippet case "A single case in a switch case" b
-	case ${1:value}:
-	  $0
-	  break;
-	endsnippet
-	
-	snippet default "The default case in a switch case" b
-	default:
-	  $0
-	  break;
-	endsnippet
-	
-	
+f9d6e8dd9256d774bcee119eaaf19442|file:///Users/om/.config/coc/ultisnips/cpp/other.snippets|13|34|v|snippets
+	 or vector
+b104454adf7641d0983fc27d0e18b364|file:///Users/om/.config/coc/ultisnips/cpp/other.snippets|13|14|v|snippets
+	Sort an array/vector
+913c4b9ef49727cff32f8d4a0bd3ea66|file:///Users/om/.config/coc/ultisnips/cpp/other.snippets|9|33|v|snippets
+	Sort an array or vector

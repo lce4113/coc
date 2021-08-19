@@ -1,28 +1,92 @@
 # ––– OTHER –––
 
-snippet #inc "An include statement" b
-#include <${1:bits/stdc++.h}>$0
+# Sort
+
+snippet s "Sort an array/vector"
+sor(a$1);
 endsnippet
 
-snippet inc "An include statement" b
-#include <${1:bits/stdc++.h}>$0
+snippet so "Sort an array/vector"
+sor(a$1);
 endsnippet
 
-snippet mac "A macro" b
-#define ${1:NAME} ${2:VALUE}$0
+snippet sor "Sort an array/vector"
+sor(a$1);
 endsnippet
 
-snippet def "A macro" b
-#define ${1:NAME} ${2:VALUE}$0
+snippet sort "Sort an array/vector"
+sor(a$1);
 endsnippet
 
-snippet alias "A type alias" b
-using ${1:SHORT} = ${2:LONG};$0
+# Reverse Sort
+
+snippet rs "Sort an array/vector in reverse"
+rsor(a$1);
 endsnippet
 
-snippet range "Define a range of integers" b
-int ${1:arr}[${2:n}];
-for (int ${3:i} = 0; $3 < $2; $3++) {
-  $1[$3] = $3 + 1;
-}$0
+snippet rso "Sort an array/vector in reverse"
+rsor(a$1);
+endsnippet
+
+snippet rsor "Sort an array/vector in reverse"
+rsor(a$1);
+endsnippet
+
+snippet rsort "Sort an array/vector in reverse"
+rsor(a$1);
+endsnippet
+
+snippet sr "Sort an array/vector in reverse"
+rsor(a$1);
+endsnippet
+
+snippet sortr "Sort an array/vector in reverse"
+rsor(a$1);
+endsnippet
+
+snippet l "A lambda function"
+[&]($1) { $0 }
+endsnippet
+
+snippet la "A lambda function"
+[&]($1) { $0 }
+endsnippet
+
+snippet lam "A lambda function"
+[&]($1) { $0 }
+endsnippet
+
+snippet lamb "A lambda function"
+[&]($1) { $0 }
+endsnippet
+
+snippet lambd "A lambda function"
+[&]($1) { $0 }
+endsnippet
+
+snippet lambda "A lambda function"
+[&]($1) { $0 }
+endsnippet
+
+snippet seg "A seg tree" b
+Seg b$1(a$2, sum$3, 0$4);
+endsnippet
+
+snippet Seg "A seg tree" b
+Seg b$1(a$2, sum$3, 0$4);
+endsnippet
+
+snippet fold "A fold section" b
+// $1 {{{
+
+$0
+
+// }}}
+endsnippet
+
+snippet yn "Output Yes/No using goto" b
+out("Yes");
+rtn;
+a:
+out("No");
 endsnippet
