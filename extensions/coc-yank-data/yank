@@ -1,1200 +1,311 @@
-1d153a9447445d8f2ffefba4988a8319|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|479|1|V|cpp
-	tcT int sum(MS<T> a) {
-	  int res = 0;
-	  each(a, x) res = mod(res + sum(x));
-	  rtn res;
-	}
-500bb651e791638cdee0f6e2c5fd3aae|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|466|1|V|cpp
+3cc13536a68f2e4f635774f4d0343f0a|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23710/Q4/d.cpp|772|1|V|cpp
 	
-	// get the sum of values (plain integers, vectors, arrays, etc.)
-	tcT int sum(T a) { rtn mod(a); }
-	tcTUU int sum(T a, U... b) { rtn mod(sum(a) + sum(b)); }
-	tcT int sum(V<T> a) {
-	  int res = 0;
-	  each(a, x) res = mod(res + sum(x));
-	  rtn res;
-	}
-	tcTS int sum(A<T, S> a) {
-	  int res = 0;
-	  each(a, x) res = mod(res + sum(x));
-	  rtn res;
-	}
-	tcT int sum(S<T> a) {
-	  int res = 0;
-	  each(a, x) res = mod(res + sum(x));
-	  rtn res;
-	}
-	tcT int sum(MS<T> a) {
-	  int res = 0;
-	  each(a, x) res = mod(res + sum(x));
-	  rtn res;
-	}
-	tcTU int sum(M<T,U> a) {
-	  int res = 0;
-	  each(a, x) res = mod(res + sum(x.s));
-	  rtn res;
-	}
-fb4ddd15fb547fcea6f3e40dc79cf446|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|461|1|V|cpp
-	// Sum {{{
-	
-	// get the sum of values (plain integers, vectors, arrays, etc.)
-	
-	tcT int sum(T a) { rtn mod(a); }
-	
-	tcTUU int sum(T a, U... b) { rtn mod(sum(a) + sum(b)); }
-	
-	tcT int sum(V<T> a) {
-	  int res = 0;
-	  each(a, x) res = mod(res + sum(x));
-	  rtn res;
-	}
-	
-	tcTS int sum(A<T, S> a) {
-	  int res = 0;
-	  each(a, x) res = mod(res + sum(x));
-	  rtn res;
-	}
-	
-	tcT int sum(S<T> a) {
-	  int res = 0;
-	  each(a, x) res = mod(res + sum(x));
-	  rtn res;
-	}
-	
-	tcT int sum(MS<T> a) {
-	  int res = 0;
-	  each(a, x) res = mod(res + sum(x));
-	  rtn res;
-	}
-	
-	tcTU int sum(M<T,U> a) {
-	  int res = 0;
-	  each(a, x) res = mod(res + sum(x.s));
-	  rtn res;
-	}
-	
-e329a16caf483ca1199ebef66d3ea558|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|464|1|V|cpp
-	// Sum {{{
-fe76712978e70147d63995563b156e10|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|464|1|V|cpp
-	
-	// get the sum of values (plain integers, vectors, arrays, etc.)
-3bd1f68543c785628f73b1c1523cb068|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|465|19|v|cpp
-	 rtn mod(a); 
-670c16732b8747641940b8b7c8c98527|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|465|18|v|cpp
-	{ rtn mod(a); }
-dce7e88966e793ac36e01e9781c918ae|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|467|28|v|cpp
-	{ rtn mod(sum(a) + sum(b)); }
-b56d0a8d00f3e2197ba1e266bb4e1a29|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|469|21|v|cpp
-	{
-	  int res = 0;
-	  each(a, x) res = mod(res + sum(x));
-	  rtn res;
-	}
-89aba044fccd130429cfb730ea2cbe32|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|477|24|v|cpp
-	{
-	  int res = 0;
-	  each(a, x) res = mod(res + sum(x.s));
-	  rtn res;
-	}
-4717a7351a67fa278547828eea06099a|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|655|1|V|cpp
-	  using F = T (*)(T, T);
-076567cb32cffd87cbaddf103457ee91|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|653|1|V|cpp
-	
-	tcT struct ST {
-	  using F = T (*)(T, T);
-	
-	  F comb = sum;
-	  int n, ID = 0;
-	  V<T> seg;
-	
-	  ST(V<T> a) { init(a); }
-	  ST(V<T> a, T _ID) : ID(_ID) { init(a); }
-	  ST(V<T> a, F _comb) : comb(_comb) { init(a); }
-	  ST(V<T> a, F _comb, T ID) : comb(_comb), ID(ID) { init(a); }
-	
-	  void init(V<T> a) {
-	    n = sz(a);
-	    seg.assign(n, 0);
-	    each(a, x) seg.pb(x);
-	    ROF(i, n, 1) calc(i);
-	  }
-	
-	  void calc(int i) { seg[i] = comb(seg[2 * i], seg[2 * i + 1]); }
-	
-	  void u(int i, T val) {
-	    assert(i >= 0), assert(i < n);
-	    seg[i += n] = val;
-	    for (i /= 2; i; i /= 2) calc(i);
-	  }
-	
-	  T q(int L) { rtn q(L, L + 1); }
-	  T q(int L, int R) { rtn q(L, R, 0, n, 1); }
-	  T q(int L, int R, int l, int r, int i) {
-	    assert(L >= 0), assert(L < n);
-	    assert(R > 0), assert(R <= n);
-	    if (l >= R || r <= L) rtn ID;
-	    if (l >= L && r <= R) rtn seg[i];
-	    T ans = ID;
-	    ans = comb(ans, q(L, R, l, (l + r) / 2, 2 * i));
-	    ans = comb(ans, q(L, R, (l + r) / 2, r, 2 * i + 1));
-	    rtn ans;
-	  }
-	};
-	
-72da54b0a8879782ef454d9ef9410e08|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|708|1|V|cpp
-	  ST b(a, sum);
-909bb6dfd74a6a15f93376a2cc2699b4|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|699|1|V|cpp
-	
-	int cmp(int a, int b) { rtn a + b; }
-df1f22a855414aea62a86af2b5bea745|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|622|3|V|cpp
-	  a([&]() { out(1); });
-5efc93a36ab30121b07c985d706f806a|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|613|1|V|cpp
-	
-	template <typename F> void a(F b) { b(); }
-a57fed77c60553836fd5ee092875c955|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23737/Q1/a.cpp|532|11|v|cpp
-	INT_MIN
-c42a000df1fd0f4432e6fb88582d1a01|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23737/Q1/a.cpp|627|3|V|cpp
-	  out(max(a));
-4c14655774564924b4a659cb969da534|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23737/Q1/a.cpp|628|12|v|cpp
-	max(W) 
-f639032a752f43c3087faf1f1276ae5e|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23737/Q1/a.cpp|628|31|v|cpp
-	max(a)) 
-c401b4147eafc4e5787d8f18aa94a66a|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23737/Q1/main.in|3|1|V|
-	3 1 2
-	3
-	-7 -6 -6
-	3
-	2 2 2
-	4
-	17 3 5 -3
-9f768c0bb1c3e84ca086a85211e978ac|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23737/Q2/b.cpp|627|9|v|cpp
-	CONDITION
-6091ef8cc9572a092983c0c2d8884830|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23737/Q2/b.cpp|641|1|V|cpp
-	
-	  out(K);
-466c8c71a14fdbb8feb05d3d46573d9b|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23737/Q2/main.in|3|1|V|
-	6 3 4 2 1
-27bf068f94b43481da0af8281ae2a768|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23737/Q2/main.in|4|1|V|
-	4 2
-	1 -4 0 -2
-	5 1
-	1 2 3 4 5
-42561e83fef0ebc672a5761ee556d422|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23737/Q2/main.in|3|1|V|
-	2 2 2
-54d99d66f80795a1e9135b0b46e0f7b9|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23737/Q2/main.in|1|1|V|
-	1
-	3 1
-e495a0e0e19e9b6d0dcc8c3a2a7ac510|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23737/Q2/main.in|1|1|V|
-	3
-	5 4
-	6 3 4 2 1
-	4 2
-	1 -4 0 -2
-	5 1
-	1 2 3 4 5
-81d987cc8bd40a05241794c77aaf8f5e|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23737/Q2/b.cpp|636|3|V|cpp
-	  pi curr = {0,-1};
-a611fd24dfffadfc19b81c766ca8bb0e|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23737/Q2/main.in|2|1|V|
-	5 4
-	6 3 4 2 1
-	4 2
-	1 -4 0 -2
-	5 1
-	1 2 3 4 5
-e0d8cf145017ae77e0be0b7292ec9939|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23737/Q2/b.cpp|636|1|V|cpp
-	
-	  vp b;
-	  int K = 0, prev = a[0];
-	  FOR(i, 0, n - 1) {
-	    if (a[i] > a[i + 1]) {
-	      b.pb({prev, a[i]});
-	      prev = a[i + 1];
-	      K++;
-	    }
-	  }
-	
-	  out(K);
-	
-	  if (K >= k) {
-	    goto a;
-	  }
-12cba3ee81cf4a793796a51b6327c678|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23737/Q2/b.cpp|635|12|v|cpp
-	copy
-33f09e9778a1245de070109cdb3fbb04|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23737/Q2/b.cpp|637|3|V|cpp
-	  sort()
-1552c2a69822ce133ab469a747a7a0fc|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23737/Q2/b.cpp|640|5|V|cpp
-	    if (b[i] == a[i]) {
-ea5a1cbe764918679997181a3ea281d3|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23737/Q2/b.cpp|641|5|V|cpp
-	    }
-be32861f7c9020de9b509fdbd99eb382|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23737/Q2/b.cpp|639|5|V|cpp
-	    int x = 0;
-9df22f196a33acd0b372fe502de51211|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23737/Q2/b.cpp|635|3|v|cpp
-	auto
-99aed07678f32119596b7dee1f36206a|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23737/Q2/b.cpp|642|1|V|cpp
-	
-	  j
-eabbb0222358345cb6b31cdf56c5c961|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23737/Q2/b.cpp|648|3|V|cpp
-	  out(x);
-180a1fd0fb92e24011075f4485beb9e4|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23737/Q2/main.in|2|3|V|
-	5 4
-	6 3 4 2 1
-	4 2
-	1 -4 0 -2
-	5 1
-	1 2 3 4 5
-	5 2
-	1 3 5 2 4
-c7cab40575826be2d11c65614ca65692|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23737/Q3/c.cpp|620|7|v|cpp
-	INPUTS
-18496e8e4e0a6d42578d50bad4d8e589|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23737/Q2/b.cpp|644|3|V|cpp
-	  /* out(x, k); */
-27bc78023fed8622a2da658e68b769d6|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23737/Q2/main.in|1|1|V|
-	1
-	2 1
+	  sor(b);
+de56be7c84cf78b3aee7105c925c3206|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23710/Q4/d.cpp|773|1|V|cpp
+	  ROF(i, n, 1) b[i] = b[i] - b[i - 1];
+70e876b93a942ffc2d9c00a44d23c12e|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23710/Q4/d.cpp|774|1|V|cpp
+	    int a = b.top();
+	    b.pop();
+fd82039b723e49bd5703b899150f35fd|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23710/Q4/d.cpp|776|9|V|cpp
+	    int b = b.top();
+	    b.pop();
+0baa431f856c7e62fc362c0f622083ba|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23710/Q4/d.cpp|776|9|v|cpp
+	c == 
+870ea57156c0767bc8207b07162a7ebc|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23710/Q4/d.cpp|780|5|V|cpp
+	    out(b);
+2b6150192be6bb5988de57599f655997|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23710/Q4/main.in|4|1|V|
+	2
 	1 2
-97d4976549c2f71a56d68437ccec2707|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23737/Q2/main.in|3|1|V|
-	1 4 3 2
-b41254d2b92cbfcf819b0fb9fc4b3e27|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23737/Q2/main.in|3|1|V|
-	1 4 2 3
-caf9fc135ea2055e114e382222e49582|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23737/Q2/main.in|5|1|V|
-	1 3 2 4
-7ca26c5aadcc1f3a423241ff4a8c2673|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23737/Q2/main.in|6|1|V|
-	1 3 4 2
-85e445019f1d8b61ea95bd6e75a063be|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23737/Q2/main.in|5|1|V|
-	1 3 2 4
-	1 3 4 2
-5c21267fe83257f7a59a9b0407fd60b2|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23737/Q2/main.in|3|1|V|
-	1 2 3 4
-	1 2 4 3
-	1 3 2 4
-	1 3 4 2
-	1 4 2 3
-	1 4 3 2
-bf8b8d7abfcd748a681e207a4e650a63|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23737/Q3/c.cpp|620|3|V|cpp
-	  ROF() 
-debe07cd9025ee86ac317f3f146e17b5|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23737/Q3/c.cpp|620|3|V|cpp
-	  ROF(i, n, 0) 
-e4871e600e5ea6d53df9e42ecceabaf1|file:///Users/om/.config/coc/ultisnips/cpp/loops.snippets|11|12|v|snippets
-	A loop that repeats n times without an index
-76ac8153840b3082b96053154b6b3d22|file:///Users/om/.config/coc/ultisnips/cpp/loops.snippets|14|1|V|snippets
+	2
+	1 1
+	5
+	4 5 4 5 4
+	6
+	2 3 2 1 3 1
+6ef19733818dfd70849ceefb7670a4c3|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23710/Q4/d.cpp|779|5|V|cpp
+	    if (b.top() == 0) brk;
+138fcca1ecb04e24447cdad769ba3ab1|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23710/Q4/d.cpp|779|5|v|cpp
+	b.push(c); brk;
 	
-	snippet rep "A loop that repeats n times without an index"
-	FOR($1) $0
-	endsnippet
-64e3cfce0b56548d5cb52898e577d220|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23737/Q3/c.cpp|620|3|V|cpp
-	  FOR() 
-68934a3e9455fa72420237eb05902327|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23737/Q3/c.cpp|619|30|v|cpp
-	false
-0cf31b2c283ce3431794586df7b0996d|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23737/Q3/c.cpp|622|4|V|cpp
-	    
-f75c49494418f00c521b5564a6272b29|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23737/Q3/c.cpp|634|5|v|cpp
-	FOR(i, 0, n/2) 
-bb006980d9141c2980ef9d6826e90a35|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23737/Q3/c.cpp|635|9|v|cpp
-	ans + 1
-d1fa0615db272e027ef923a0af60d2fe|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23737/Q3/c.cpp|635|9|v|cpp
-	pow()
-e04db183aeeda75a022899f990bc0f93|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23737/Q3/c.cpp|628|1|V|cpp
-	tcT chos
-2d3b191072de9e1f281a6f1927cae63d|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23737/Q3/c.cpp|648|7|V|cpp
-	      ans += exp(n/2, i) * exp(2, (k - i) * n);
-ad5b31768d76b6031db3149c48565524|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23737/Q3/c.cpp|642|1|V|cpp
-	    for (int i = 0; i < n; i += 2) ans += choose(n, i);
-ea6715d5241eb64312848946af5cb5a9|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23737/Q3/c.cpp|648|5|V|cpp
-	      FOR(l, 0, n) 
-d1d62d59f0f27a0e3aac9bf7417aac73|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23737/Q3/c.cpp|650|7|V|cpp
-	      pow()
-eb340815708dd79bf39a3efa6d3b34e5|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|3|1|V|cpp
-	// Uncomment for integer overflow
-	/* #define int ll */
+b623d16e278491428e35bade988fd67c|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23710/Q4/d.cpp|779|9|v|cpp
+	b.top() == 0
+6dbd81345414b8c2e0cb2b2fc3c6a2af|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23710/Q4/d.cpp|780|7|V|cpp
+	      b.push(c);
+59d2d1540f512168e40c8030db048b7b|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23710/Q4/d.cpp|785|1|V|cpp
 	
-5f7a00613bfaea09e84d74f6aa67b1a1|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|527|1|V|cpp
-	tcT T max(T a) { rtn a[maxi(a)]; }
-82146eca40f036e870b984baeb703756|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|528|1|V|cpp
-	tcT T max(A<T,S> a) { rtn a[maxi(a)]; }
-abc3e9de671a3457ebf13a8eebe90cc8|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|528|27|v|cpp
-	maxi(a)
-3adbd46af728dc84149c3ed30721ef5e|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|527|1|V|cpp
-	tcT T max(T a) { rtn a[maxi(a)]; }
-	tcT T max(S<T> a) { rtn a.rbegin(); }
-c747bc79e0c6ef42a63cf077f0d6a134|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|531|1|V|cpp
-	tcT T min(S<T> a) { rtn a.rbegin(); }
-598fc8733f461c617553197e6d98b42a|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|528|1|V|cpp
-	tcT T max(S<T> a) { rtn a.rbegin(); }
-d6af6111b120b3b6d0edad7d1d3fc692|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|531|24|v|cpp
-	maxi
-1a3ce776d66dc5743dc43a898b2adee1|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|529|14|v|cpp
-	if () 
-c8d07c75de9c82aaf9f893c4455ee400|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|529|3|V|cpp
-	  each(a, x) if ( > ) 
-47b7a4727d96151f2516c7f3bd56bbc0|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|526|1|V|cpp
+	  out(sum(b));
+7f7cffb024c2a0cceca59cb47273f3fb|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23710/Q4/d.cpp|783|1|V|cpp
+	    b.push(c - b.top());
+9fd0252797b31555b7ff930c4caa8ff6|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23710/Q4/d.cpp|783|16|v|cpp
+	b.top(
+334e3b433412fbd3a6a20214c15d0d0a|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23710/Q4/d.cpp|784|12|v|cpp
+	c - b.top()
+053578fbc98eec37a58c780ecac1f3e2|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23710/Q4/main.in|1|1|V|
+	1
+	6
+	1 6 1 1 4 4
+36329624c2f8542e20b77e70cde140fc|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23710/Q4/main.in|2|1|V|
+	6
+	1 6 1 1 4 4
+598a849ed021bfa7c156e00420cc1f8d|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23710/Q4/main.in|2|1|V|
+	2
+	1 2
+de097a309d2bf9b6e5b3ac93f31971bd|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23710/Q4/main.in|4|1|V|
+	5
+	4 5 4 5 4
+	6
+	2 3 2 1 3 1
+aa68d182f931d555e2c6c05629566b7d|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23710/Q4/main.in|1|1|V|
+	1
+	2
+	1 1
+6c66821767efe59c55933606eb15aeff|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23710/Q4/main.in|2|1|V|
+	6
+	1 6 1 1 4 4
+	2
+	1 2
+	2
+	1 1
+	5
+	4 5 4 5 4
+36d706799503dd0776b029567422ac1f|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23710/Q4/d.cpp|774|1|V|cpp
 	
-	tcT T maxi(T a) {
-	  int mi = 0;
-	  FOR(i, sz(a)) if (a[i] > a[mi]) mi = i;
-	  rtn mi;
-	}
-4fef45b0b419417da4bcefb5b9702051|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|527|1|V|cpp
-	// ret
-2e6daa7837b8d7e2d080dae8db7e469a|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|528|3|V|cpp
-	  int mi = 0;
-c0907ace16b4a5e287c4ac9a8d9d2b4b|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|530|23|v|cpp
-	mi = i;
-317e1abfae6d258779c66897823b2558|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|530|33|v|cpp
-	, mi.pb();
-83cdc226eb95d5998206a570442bcb66|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|529|3|V|cpp
-	  mi.pb(0);
-1f7c6fa8b208a3657aa57fdc589287cf|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|526|1|V|cpp
+	  out();
+5f31bc676b83bc204a07c159dc318729|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23710/Q4/d.cpp|773|1|V|cpp
 	
-	tcT T amaxi(T a) {
-	  v mi{0};
-	  FOR(i, sz(a)) {
-	    if (a[i] > a[mi[0]]) mi.clear(), mi.pb(i);
-	    else if (a[i] == a[mi[0]]) mi.pb(i);
-	  }
-	  rtn mi;
-	}
-1ef5d302ae07079cb5b97825db76fe3b|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|544|1|V|cpp
+	  pq b;
+	  each(a, x) b.push(x.s);
 	
-	tcT T amini(T a) {
-	  int mi = 0;
-	  FOR(i, sz(a)) if (a[i] < a[mi]) mi = i;
-	  rtn mi;
-	}
-ec89a043916071267c8c4f0400356b6e|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|545|1|V|cpp
-	tcT T maxi(T a) { rtn amaxi(a)[0]; }
-338bcc6f25b1e95d2166a06daaca7464|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|555|1|V|cpp
-	
-	tcT T max(V<T> a) {
-	  assert(sz(a) > 0);
-	  T mx = -1;
-	  each(a, x) mx = max(mx, x);
-	  rtn mx;
-	}
-16ea9a3e31181d970edd12d286c1bff3|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|555|1|V|cpp
-	
-	tcTS T max(A<T, S> a) {
-	  assert(sz(a) > 0);
-	  T mx = -1;
-	  each(a, x) mx = max(mx, x);
-	  rtn mx;
-	}
-110afdcafa12c0b0b4e03e35fcd69bb5|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|555|1|V|cpp
-	
-	tcT int maxi(V<T> a) {
-	  assert(sz(a) > 0);
-	  T mx = 0;
-	  FOR(i, 1, sz(a)) if (a[i] > a[mx]) mx = i;
-	  rtn mx;
-	}
-b25e71f9deefbd5f5f4e751d91ae43f6|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|555|1|V|cpp
-	
-	tcTS int maxi(A<T, S> a) {
-	  assert(sz(a) > 0);
-	  T mx = 0;
-	  FOR(i, 1, sz(a)) if (a[i] > a[mx]) mx = i;
-	  rtn mx;
-	}
-89776d52b812ddacf3039ad8209a049c|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|555|1|V|cpp
-	
-	tcT T min(V<T> a) {
-	  assert(sz(a) > 0);
-	  T mn = a[0];
-	  FOR(i, 1, sz(a)) mn = min(mn, a[i]);
-	  rtn mn;
-	}
-7eab10964e83ea20fdfa70229da666a9|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|555|1|V|cpp
-	
-	tcTS T min(A<T, S> a) {
-	  assert(sz(a) > 0);
-	  T mn = a[0];
-	  FOR(i, 1, sz(a)) mn = min(mn, a[i]);
-	  rtn mn;
-	}
-98899dbf4888a11a87dc0c26620fd265|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|555|1|V|cpp
-	
-	tcT int mini(V<T> a) {
-	  assert(sz(a) > 0);
-	  T mn = 0;
-	  FOR(i, 1, sz(a)) if (a[i] > a[mn]) mn = i;
-	  rtn mn;
-	}
-2ca2bfbddea42bada7439a013fc1585a|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|555|1|V|cpp
-	
-	tcTS int mini(A<T, S> a) {
-	  assert(sz(a) > 0);
-	  T mn = 0;
-	  FOR(i, 1, sz(a)) if (a[i] > a[mn]) mn = i;
-	  rtn mn;
-	}
-a9c5a50a184d647faa9009ce50c23c82|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|460|1|V|cpp
-	
-	// Sum {{{
-	
-	// get the sum of values (plain integers, vectors, arrays, etc.)
-	
-	tcT int sum(T a);
-	tcTUU int sum(T a, U... b);
-	tcT int sum(V<T> a);
-	tcTS int sum(A<T, S> a);
-	tcT int sum(S<T> a);
-	tcT int sum(MS<T> a);
-	tcTU int sum(M<T, U> a);
-	
-	tcT int sum(T a) { rtn mod(a); }
-	
-	tcTUU int sum(T a, U... b) { rtn mod(sum(a) + sum(b...)); }
-	
-	tcT int sum(V<T> a) {
-	  int res = 0;
-	  each(a, x) res = mod(res + sum(x));
-	  rtn res;
-	}
-	
-	tcTS int sum(A<T, S> a) {
-	  int res = 0;
-	  each(a, x) res = mod(res + sum(x));
-	  rtn res;
-	}
-	
-	tcT int sum(S<T> a) {
-	  int res = 0;
-	  each(a, x) res = mod(res + sum(x));
-	  rtn res;
-	}
-	
-	tcT int sum(MS<T> a) {
-	  int res = 0;
-	  each(a, x) res = mod(res + sum(x));
-	  rtn res;
-	}
-	
-	tcTU int sum(M<T, U> a) {
-	  int res = 0;
-	  each(a, x) res = mod(res + sum(x.s));
-	  rtn res;
-	}
-	
-	// }}}
-	
-1c1b8720ce970720a4165ca8f8023a69|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|462|19|v|cpp
-	value(s)
-3c6575a55946d66573d237ceffd5e39b|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|462|27|v|cpp
-	plain 
-ca08ea8410f117e4edce3adab2fd5429|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|378|3|V|cpp
-	  if () 
-143371f99e975fb96629a9e035575d1a|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|379|5|V|cpp
-	    a *+=
-a8693c7854f1323bc7102eb15a71cb0f|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|105|1|V|cpp
-	#define FOR3(i, a, b) for (int i = (a); i < (b); i++)
-a489752ad53c10fa9f456269b226e810|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|106|23|v|cpp
-	for (int i = (a); i < (b); i++)
-71d2742123aa127c1f8347802e4f58f5|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|105|1|V|cpp
-	#define FOR4(i, a, b, c) for (int i = (a); i < (b); i += (c))
-fb531f5bd5215edfa1058b00eaddc770|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|110|1|V|cpp
-	#define ROF3(i, b, a) for (int i = (b)-1; i >= (a); i--)
-72f7f02c1d7b622c0b3a3029c3ef5d02|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|111|23|v|cpp
-	for (int i = (b)-1; i >= (a); i--)
-d4aaf2954fb3d21a1d32e7194c49495a|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23737/Q3/c.cpp|642|1|v|cpp
-	    for (int i = 0; i < n; i += 2)
-b514ff8d710c1d5b1a4e2d003a263d30|file:///Users/om/.config/coc/ultisnips/cpp/loops.snippets|6|1|V|snippets
-	
-	snippet for "An empty for loop"
-	FOR($1) $0
-	endsnippet
-b6ca631db940b9eed6a033cb59d1cca2|file:///Users/om/.config/coc/ultisnips/cpp/loops.snippets|10|1|V|snippets
-	
-	snippet fors "An empty for loop"
-	FOR($1) $0
-	endsnippet
-bd044bc0febadbe3c3293ed6f4f6ccfa|file:///Users/om/.config/coc/ultisnips/cpp/loops.snippets|2|1|V|snippets
-	
-	snippet f "A for loop"
-	FOR(i, 0, n) $0
-	endsnippet
-b31e9a9e4ed95164b4f5ff351968be27|file:///Users/om/.config/coc/ultisnips/cpp/loops.snippets|14|1|V|snippets
-	
-	snippet r "A reverse for loop"
-	ROF(i, n, 0) $0
-	endsnippet
-c873968c7d6f8016e6ec095544061094|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23737/Q3/c.cpp|649|7|v|cpp
-	for (int i = 0; i < n; i += 2) 
-94df2a6972ca1fa79411645fe9b42339|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|382|4|v|cpp
-	Utility
-93e39a5f1a53e0713c111a58554d7641|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|383|1|V|cpp
-	
-	// exponent function
-	tcT T exp(T a, T b, bool m = true) {
-	  T res = 1;
-	  FOR(b) {
-	    res *= a;
-	    if (m) res %= m;
-	  }
-	  rtn res;
-	}
-49373ad5b4e923df1d3bca1e8458b6bf|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|391|1|V|cpp
-	
-	// prime factorize an integer
-	tcT M<T, T> pfac(T a) {
-	  M<T, T> ans;
-	  T n = a;
-	  for (int i = 2; i * i <= a; i++) {
-	    while (n % i == 0) {
-	      n /= i;
-	      ans[i]++;
+	  while (true) {
+	    out(b);
+	    int c = b.top();
+	    b.pop();
+	    if (!sz(b)) {
+	      out(c);
+	      brk;
 	    }
-	  }
-	  if (n > 1) ans[n]++;
-	  rtn ans;
-	}
-74d87c77a12ef2a4a8e7cbbaa5ef90af|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|377|1|V|cpp
-	
-	tcT T fact() {  }
-86ee2ba55aa03b06900298d3c1884440|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|378|1|V|cpp
-	int 
-01e75eceda2d7ffaf01bb73fe2ab52dd|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|378|1|V|cpp
-	int fact[]
-a1c3aea0be962a0a12a0def6960625a5|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|136|15|v|cpp
-	 = 0
-3aee0c998b78ba8be7845eed50f90a8a|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|136|1|V|cpp
-	const int MAXN;
-b3947656415ea54f8493d730a06b9c63|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|378|1|V|cpp
-	vi fact(MAXN);
-652114246f3ac3f33a5e7e9fbe0e864c|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|387|3|V|cpp
-	  fact
-8f41bca236ab7a4bbd3ef5aaf08577f4|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|379|3|v|cpp
-	V<ll>
-da5849cf41fc8e2b1bd5852d62c3aa0f|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|379|11|v|cpp
-	MAXN
-b0da275520918e23dd615e2a747528f1|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|380|8|v|cpp
-	build
-394e975fedd742c36db7272d25b2691e|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|382|15|v|cpp
-	fact[i] = (curr *= i);
-3abcd4054f4f1192e6985f4baae6a84f|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|383|7|V|cpp
-	      fact[i] = (curr *= )
-b20c6f69032f9fbc1a4737c056ccdf90|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|385|9|V|cpp
-	        kjk
-19912f3e448189b168b68e4d837513d4|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|392|24|v|cpp
-	a % MOD
-4c6521f3dc2e05898bdbf88fc6af8aa1|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|397|29|v|cpp
-	 % MOD
-230a091930a82c5ae47e29610ee98ceb|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|431|1|V|cpp
-	
-	    
-e5d8f221cef68451a9636e1d6a95cd38|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|404|10|v|cpp
-	[MAXN]
-8d7233737efe32fc1e3de6454d748055|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|405|3|V|cpp
-	  ll inv;
-4b27c4ba46cc03055886aeeae6c212e4|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|404|1|V|cpp
-	  ll fact;
-59b5623cf4e89cf228d89a834afdf577|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|404|3|V|cpp
-	  int 
-cbc0495164bccafa63526f6a814aaa27|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|408|5|V|cpp
-	    fact[0] = 1;
-282f30bfda397a4e4f9fa5caa7f9b505|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|408|1|V|cpp
-	    fact.assign(n, 1),
-b82c91e2103d0a495c099f0a12f66363|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|409|5|v|cpp
-	fact
-ae253e036622a66c08e1225e6ffe1bfa|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|409|5|V|cpp
-	    inv[0] = 1;
-7729abb21ad30556e270c4a5c7734c48|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|409|5|V|cpp
-	    for (int i = 1; i < n; i++) {
-9ac9c3f5546e207488802e0613aad781|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|417|21|v|cpp
-	a % MOD;
-fd91271771b1a190391849a5886b4cf6|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|393|1|V|cpp
-	
-	  ll binexp(ll a, ll b) {
-	    if (b == 0) rtn 1ll;
-	    if (b == 1) rtn(m ? mod(a) : a);
-	    if (b % 2) rtn(m ? mod(a * binexp(a, b - 1)) : a * binexp(a, b - 1));
-	    rtn binexp(m ? mod(a * a) : a * a, b / 2);
-	  }
-	}
-3532b33fa6a264b41a4c8c6df960e5c5|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|382|1|V|cpp
-	
-	  void Comb(T _n, bool _m = true) : n(_n), m(_m) {
-	    fact.assign(n, 1);
-	    ll curr = 1;
-	    FOR(i, 1, n) {
-	      curr *= i;
-	      if (m) curr %= MOD;
-	      fact[i] = curr;
-	      inv[i] = binexp(fact[i], MOD - 2);
+	    int d = b.top();
+	    b.pop();
+	    if (d == 0) {
+	      out(c);
+	      brk;
 	    }
+	    b.push(c - d);
+	    b.push(0);
 	  }
-9f0f89f2d95d084d8488596dfdec7f98|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|377|1|V|cpp
-	
-	tcT struct Comb {
-	  T n;
-	  bool m;
-	  vl fact;
-c62921f41abdaea479e428129f436f89|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|406|1|V|cpp
-	tcT ll
-1d1de24c8c482d89759ef8e54d5e48f2|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|404|1|V|cpp
-	
-	// factorial function
-	fact(T n, bool m = true) {
-	  ll res = 1;
-	  FOR(i, n) {
-	    res *= n;
-	    if (m) res %= MOD;
-	  }
-	  rtn res;
 	}
-cb89593d1f9fe3ecdb2178215eee80ae|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|415|4|v|cpp
-	factorial
-2f10f65768e2849230ef8d96ef0e2950|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|417|9|V|cpp
-	  ll res = 1;
-	  FOR(i, n) {
-	    res *= n;
-	    if (m) res %= MOD;
-	  }
-	  rtn res;
-00331b8602ba65e7240208db292a9a35|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|417|3|V|cpp
-	  rtn fact();
-1b2d55ea69c95dda803de06d00db8775|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|414|1|V|cpp
 	
-	// choose function
-	ll choose(T r, T k, bool m = true) {
-	  ll res = 
-	}
-81aaa0ecbfff46feb2159868ed037dd1|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Random%20Problems/main.in|1|1|V|
+	/* stuff you should look for
+	 * int overflow, array bounds
+	 * special cases (n=1?)
+	 * do smth instead of nothing and stay organized
+	 * WRITE STUFF DOWN
+	 * DON'T GET STUCK ON ONE APPROACH
+	 */
+226eb56bb651db556a7270e98a4268ae|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23710/Q4/d.cpp|772|3|V|cpp
+	  FOR(i, 0, n) 
+e60a42e517365f848aab499d3bacbbd2|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23710/Q4/d.cpp|777|17|v|cpp
+	 max
+b904e84544a4fda025631084a403484f|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23710/Q4/d.cpp|679|37|V|cpp
+	tcT T max(T a, T b) { rtn(a >= b ? a : b); }
+	tcTUU T max(T a, U... b) { rtn min(a, min(b...)); }
+01d56992be961649c9a56c454dde7150|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23710/Q4/main.in|1|1|V|
+	1
+	6
+	2 3 2 1 3 1
+3bdf955e4b2f3694b5014681b5f4a0ff|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23710/Q4/main.in|2|1|V|
+	6
+	1 6 1 1 4 4
+	2
+	1 2
+	2
+	1 1
+	5
+	4 5 4 5 4
+	6
+	2 3 2 1 3 1
+2449c1a7a2bfdbdc1932122b0f218bbe|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23710/Q4/d.cpp|790|5|V|cpp
+	    b.push(0);
+21ea7bf80391ea894c1f08cbb93cc80a|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23710/Q4/main.in|2|1|V|
 	3
-	11
-	31
-	75
-3f38386e7353e66e751a4843a86c9a8e|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Random%20Problems/1091A.cpp|689|3|V|cpp
-	  if (min()) 
-327ecdadc736ac6c00e9276b79979a44|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Random%20Problems/1091A.cpp|689|3|V|cpp
-	  a = y, b = 
-f77aba003509367dc6e55befdc4ff7db|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Random%20Problems/1091A.cpp|689|3|V|cpp
-	  A = 
-35ada7322ab2945126224a5ded15e9ce|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Random%20Problems/1091A.cpp|689|1|V|cpp
-	  Y = y, B = y + 1, R = y + 2;
-921b99acc3d1267654be1c41054e38a0|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Random%20Problems/1091A.cpp|690|18|v|cpp
-	y + 1
-1ef4de2262ab307af52206c10552741a|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Random%20Problems/1091A.cpp|690|25|v|cpp
-	y + 2
-3d5767f74e4d1946844a4ec4d3981e3b|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Random%20Problems/1091A.cpp|690|1|V|cpp
-	  Y = b - 1, B = b, R = b + 1;
-2117c36a7d4ffb499a7711f2f728394a|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Random%20Problems/1091A.cpp|691|29|v|cpp
-	b + 1
-f2e3feb9955a804631e268a8e0b62689|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Random%20Problems/1091A.cpp|690|1|V|cpp
-	  if (Y <= y && B <= b && R <= r) ans = max(ans, Y + B+R);
-34a57fa375013352939fdcb1cf606048|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Random%20Problems/1091A.cpp|383|3|v|cpp
-	void 
-e93acb146e114b5dfa6ce2d12dcb96e4|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|442|10|v|cpp
-	Functions
-ccdd1bcbcb1d29793d2200a4e0e27960|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Random%20Problems/main.in|1|1|V|
-	8 13 9
-050f4fbc94ede81f5a0f45f8fa64fc37|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Random%20Problems/main.in|1|1|V|
-	Replacing Elements
-b48189d267a2b5ea8e9df094bedc4782|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Random%20Problems/1473A.cpp|737|3|V|cpp
-	  FOR(i, 0, n)
-d01469405f2859135f03ec65ce93d0bd|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Random%20Problems/1473A.cpp|737|3|V|cpp
-	  a[0]
-7c777293365222dc39809c186a272ef7|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Random%20Problems/1473A.cpp|449|1|V|cpp
-	
-	// seg tree data type
-	tcT struct ST {
-	  using F = T (*)(T, T);
-	
-	  F comb = sum;
-	  int n, ID = 0;
-	  V<T> seg;
-	
-	  ST(V<T> a) { init(a); }
-	  ST(V<T> a, T _ID) : ID(_ID) { init(a); }
-	  ST(V<T> a, F _comb) : comb(_comb) { init(a); }
-	  ST(V<T> a, F _comb, T ID) : comb(_comb), ID(ID) { init(a); }
-	
-	  void init(V<T> a) {
-	    n = sz(a);
-	    seg.assign(n, 0);
-	    each(a, x) seg.pb(x);
-	    ROF(i, n, 1) calc(i);
-	  }
-	
-	  void calc(int i) { seg[i] = comb(seg[2 * i], seg[2 * i + 1]); }
-	
-	  void u(int i, T val) {
-	    assert(i >= 0), assert(i < n);
-	    seg[i += n] = val;
-	    for (i /= 2; i; i /= 2) calc(i);
-	  }
-	
-	  T q(int L) { rtn q(L, L + 1); }
-	  T q(int L, int R) { rtn q(L, R, 0, n, 1); }
-	  T q(int L, int R, int l, int r, int i) {
-	    assert(L >= 0), assert(L < n);
-	    assert(R > 0), assert(R <= n);
-	    if (l >= R || r <= L) rtn ID;
-	    if (l >= L && r <= R) rtn seg[i];
-	    T ans = ID;
-	    ans = comb(ans, q(L, R, l, (l + r) / 2, 2 * i));
-	    ans = comb(ans, q(L, R, (l + r) / 2, r, 2 * i + 1));
-	    rtn ans;
-	  }
-	};
-	
-8eed5a24d0c880defd4fe099832c21d0|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Random%20Problems/1473A.cpp|444|1|V|cpp
-	// Seg Tree {{{
-	
-	// seg tree data type
-	tcT struct ST {
-	  using F = T (*)(T, T);
-	
-	  F comb = sum;
-	  int n, ID = 0;
-	  V<T> seg;
-	
-	  ST(V<T> a) { init(a); }
-	  ST(V<T> a, T _ID) : ID(_ID) { init(a); }
-	  ST(V<T> a, F _comb) : comb(_comb) { init(a); }
-	  ST(V<T> a, F _comb, T ID) : comb(_comb), ID(ID) { init(a); }
-	
-	  void init(V<T> a) {
-	    n = sz(a);
-	    seg.assign(n, 0);
-	    each(a, x) seg.pb(x);
-	    ROF(i, n, 1) calc(i);
-	  }
-	
-	  void calc(int i) { seg[i] = comb(seg[2 * i], seg[2 * i + 1]); }
-	
-	  void u(int i, T val) {
-	    assert(i >= 0), assert(i < n);
-	    seg[i += n] = val;
-	    for (i /= 2; i; i /= 2) calc(i);
-	  }
-	
-	  T q(int L) { rtn q(L, L + 1); }
-	  T q(int L, int R) { rtn q(L, R, 0, n, 1); }
-	  T q(int L, int R, int l, int r, int i) {
-	    assert(L >= 0), assert(L < n);
-	    assert(R > 0), assert(R <= n);
-	    if (l >= R || r <= L) rtn ID;
-	    if (l >= L && r <= R) rtn seg[i];
-	    T ans = ID;
-	    ans = comb(ans, q(L, R, l, (l + r) / 2, 2 * i));
-	    ans = comb(ans, q(L, R, (l + r) / 2, r, 2 * i + 1));
-	    rtn ans;
-	  }
-	};
-	
-	// }}}
-	
-05924302054261823aa7d47fb524792e|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|702|5|v|cpp
-	uery
-e37f0136aa3ffaf149b351f6a4c948e9|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|700|8|v|cpp
-	init
-bf7ff6ff086b26da70386619a34ccbb0|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|700|7|v|cpp
-	 Seg
-3a7e0091527a9fe56df912d178657798|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|700|7|v|cpp
-	int _n
-83d7aa817fc8a57d775157584ed21c8c|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|696|16|v|cpp
-	1e18
-be7acf9150b397faa67be53225cf682f|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|697|28|v|cpp
-	 min(a, b)
-b2c1bc79e7de79d51a475e32656293aa|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|702|1|V|cpp
-	    each(a, x) seg.pb(x);
-24e16103ad7e562396981bf5827b6687|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|704|5|V|cpp
-	    seg.assign(2 * n, ID);
-9da4b5207aff9c24cb3e33a25ae536da|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|702|5|V|cpp
-	    each(a, x) seg.pb(0);
-d826c3b9871d1ae7a262710a5c41ab48|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|702|5|V|cpp
-	    FOR(i, n) {  }
-1927a74dc4c3b6cf44bd7483c29214ca|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|702|5|V|cpp
-	    FOR() 
-614e111f7f35ca8316830c748bed467d|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|703|25|v|cpp
-	, pu
-d321504c1b7af6ef3864fd5d38835683|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|703|25|v|cpp
-	ll()
-9d80840a410019ba536fc8c15222be9b|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.in|1|1|V|
-	8 4
-	3 2 4 5 1 1 5 3
-	2 1 4
-	2 5 6
-	1 2 3
-	2 1 4
-01a368f61e1e127f522bef06a2e3e155|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|704|13|V|cpp
-	    out(seg);
-	    ROF(i, n, 1) pull(i);
-dfaed00f61c97467a180524edcdf6708|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|702|15|v|cpp
-	seg.pb(0);
-49b79f497c7828d4b843178a355e64c0|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|703|18|v|cpp
-	 + 1
-f69fdffb82267fca1be8c6913635b318|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|703|15|v|cpp
-	n - 1
-63be4ea2d87f2da23fdafe1a60c87b99|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|703|5|V|cpp
-	    FOR(i, 1, sz(a) + 1) u(i, a[i - 1]);
-15754aa59c153f650f392de5a28d29bc|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|700|7|v|cpp
-	V<T> a
-45c928ce1fe487c70e6b344e35c7b4ea|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|711|1|V|cpp
-	
-	template <class T> struct Seg { // comb(ID,b) = b
-	  const T ID = 0;
-	  T comb(T a, T b) { return a + b; }
-	  int n;
-	  vector<T> seg;
-	  Seg(int ) {
-	    n = sz(a) + 1;
-	    seg.assign(2 * n, ID);
-	  }
-	  void pull(int p) { seg[p] = comb(seg[2 * p], seg[2 * p + 1]); }
-	  void u(int p, T val) { // set val at position p
-	    seg[p += n] = val;
-	    for (p /= 2; p; p /= 2) pull(p);
-	  }
-	  T q(int l, int r) { // min on interval [l, r]
-	    T ra = ID, rb = ID;
-	    for (l += n, r += n + 1; l < r; l /= 2, r /= 2) {
-	      if (l & 1) ra = comb(ra, seg[l++]);
-	      if (r & 1) rb = comb(seg[--r], rb);
+	1 3 2
+eaece9ac72715fe3b98173b56264d2d7|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23710/Q4/d.cpp|776|1|V|cpp
+	    /* out(b); */
+	    int c = b.top();
+	    b.pop();
+	    if (!sz(b)) {
+	      out(c);
+	      brk;
 	    }
-	    return comb(ra, rb);
-	  }
-	};
-d3626a2599e7960638c67fc8b049984b|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|721|9|V|cpp
-	  V<int> a(n);
-	  in(a);
-3b4937704b893b108b8f7c9f7739d0f4|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|723|3|V|cpp
-	  ST b;
-b11cf00dcdf69d58076c676f6a31a430|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|743|20|v|cpp
-	 - 1
-e93d98574bdf59038e4e02d438941f9b|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|703|18|v|cpp
-	seg.u
-3ddf1d38e4810f976d3c0248ebfc13d2|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|735|10|v|cpp
-	a(n)
-2752a670729db9a0b2b763d94618074e|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|740|1|V|cpp
-	  FOR(i, 1, n + 1) {
-	    int a;
-	    in(a);
-	    b.upd(i - 1, a);
-	  }
-3e56bb3d561eccb8ac4468b64423745c|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|739|1|V|cpp
-	  b.init(n + 1);
-0703fd7bef7575e22a0884b4479e2dee|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|737|6|v|cpp
-	<ll>
-1b1cc7f086b3f074da452bc3129981eb|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|715|5|v|cpp
-	query
-933dd8674c563081260867dfa95b5e74|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|491|3|v|cpp
-	each
-5b328cabedca4f5cc0c835515c82738c|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|465|1|V|cpp
-	#define tcTUVV template<class T, class U, class... V>
-6129b5fa63365731da59ad79bb8e8c2a|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|502|3|v|cpp
-	iUnt
-a7691af96de5caf64579885c5b53482b|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|461|1|V|cpp
-	// Sum {{{
-	
-	// get the sum of values (plain integers, vectors, arrays, etc.)
-	
-	#define tcTUV template <class T, class U, class V>
-	#define tcTUVV template <class T, class U, class... V>
-	
-	tcTU U sum(T a);
-	tcTUVV U sum(T a, V... b);
-	tcTUV V sum(P<T, U> a);
-	tcTU U sum(V<T> a);
-	tcTUS U sum(A<T, S> a);
-	tcTU U sum(S<T> a);
-	tcTU U sum(MS<T> a);
-	tcTUV V sum(M<T, U> a);
-	
-	tcTU U sum(T a) { rtn mod(a); }
-	
-	tcTUVV U sum(T a, V... b) { rtn mod(sum(a) + sum(b...)); }
-	
-	tcTUV V sum(P<T, U> a) { rtn mod(sum(a.f) + sum(a.s)); }
-	
-	tcTU U sum(V<T> a) {
-	  U res = 0;
-	  each(a, x) res = mod(res + sum(x));
-	  rtn res;
-	}
-	
-	tcTUS U sum(A<T, S> a) {
-	  U res = 0;
-	  each(a, x) res = mod(res + sum(x));
-	  rtn res;
-	}
-	
-	tcTU U sum(S<T> a) {
-	  U res = 0;
-	  each(a, x) res = mod(res + sum(x));
-	  rtn res;
-	}
-	
-	tcTU U sum(MS<T> a) {
-	  U res = 0;
-	  each(a, x) res = mod(res + sum(x));
-	  rtn res;
-	}
-	
-	tcTUV V sum(M<T, U> a) {
-	  V res = 0;
-	  each(a, x) res = mod(res + sum(x.s));
-	  rtn res;
-	}
-	
-06e5a88cfccf302a17cc2ac9eb7b0289|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|464|10|V|cpp
-	tcT T sum() {  }
-	
-3cf1612a33ec43bd159e5bf5b62b4e5e|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|464|1|V|cpp
-	#define tcTUV template <class T, class U, class V>
-	#define tcTUVV template <class T, class U, class... V>
-489f8ed9e7a8d8098b35e5348d83d50e|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|473|21|v|cpp
-	 mod
-c81abc3e49488bf2282a7b41e2a16d63|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|475|44|v|cpp
-	 rtn mod(sum(a) + sum(b...)); 
-df2559b62e8c264ec6f9ee23c3d9f0bb|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|473|38|v|cpp
-	mod(a)
-870268db1c6f928737ba7851d7cdc6f0|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|479|1|V|cpp
-	
-	tcTU T sum(P<T, U> a) { rtn mod(sum(a.f) + sum(a.s)); }
-152ea584084f1f00535d0841492fdf0c|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|511|3|V|cpp
-	  PQU<>
-9ad039781d6664402f9096d16c59fb01|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|514|3|V|cpp
-	  } 
-95fbc61bedbad98b6a3c57f7ea36e8ca|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|511|11|v|cpp
-	 copy
-38968ff31be91518342286507f69b739|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|513|23|v|cpp
-	 sumw
-b01d6a2b00b2d4f53df97e3fbb4df127|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|506|18|v|cpp
-	= mod(res + 
-740db5a36144a1110c9808c4dcc9124e|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|506|14|v|cpp
-	res += x.s;
-0aba0e811d015d2acc56f7966f6ba82c|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|509|1|V|cpp
-	    res += x;
-	    if (m) res %= x;
-5a98432f9bd1bbe0db538991d957e556|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|503|3|V|cpp
-	  }res = mod(res + sum(x));
-9ada78a6dae4e2de9b5b0e0ff81ad4c1|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|500|1|V|cpp
-	  each(a, x) {
-	    res += x;
-	    if (m) res %= MOD;
-	  }
-00930ad9c8e1759669401896447f0773|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|494|3|V|cpp
-	  each(a, x) { res = mod(res + sum(x)); }
-1bef08914b1f47318de3cb07b8f90bf1|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|488|3|V|cpp
-	  each(a, x) res = mod(res + sum(x));
-e125f81954fdfc2302904186bacf0ea1|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|464|8|V|cpp
-	tcTU U sum(T a);
-	tcTUVV U sum(T a, V... b);
-	tcTUV V sum(P<T, U> a);
-	tcTU U sum(V<T> a);
-	tcTUS U sum(A<T, S> a);
-	tcTU U sum(S<T> a);
-	tcTU U sum(MS<T> a);
-	tcTUV V sum(M<T, U> a);
-	
-1f59dd3dfaaba2e3dda445d973c72137|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|466|24|v|cpp
-	, bool m = false
-405ffd4cd02cd3aad2183112aed52f4b|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|470|3|V|cpp
-	  bool m = false;
-d30b273b679e585a6247b44fad2a6db1|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|469|1|V|cpp
-	tcTUU T sum(T a, U... b, bool m) {
-	  T res = sum(a) + sum(b...);
-	  if (m) res %= MOD;
-	  rtn res;
-	}
-d906f76911a1df1e8a665ccb875db312|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|474|24|v|cpp
-	, bool m
-bed4bc7144d744d6df9402bda76f4dc7|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|465|1|V|cpp
-	tcT T sum(T a) {
-	  bool m = false;
-	  rtn(m ? mod(a) : a);
-	}
-6b4d90f903adc479399c92f7f4e8abdf|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|467|22|V|cpp
-	  rtn(m ? mod(a) : a);
-	}
-f6b04a90b8ef13a066dc7bd104e8ecf6|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|465|1|V|cpp
-	tcT T sum(T a) {
-	  bool m = false;
-82d86fd798d1f18c0fad48388058acc5|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|469|6|v|cpp
-	(m ? mod(a) : a);
-94daaa46c0d8bd37d014df5b221906da|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|477|20|V|cpp
-	  T res = sum(a) + sum(b...);
-	  if (m) res %= MOD;
-	  rtn res;
-3fd29c42ea36137b7c53a13250f1f69c|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|473|44|v|cpp
-	 false
-63c094c00dd976e117ed9a5e896e29d8|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|468|19|v|cpp
-	 = false
-d7e83e47e55201fc29bd5464e23f929b|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|466|34|v|cpp
-	, false
-c46a139c6becd3ee1923329e20c7a572|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|465|11|v|cpp
-	bool m, 
-316c9a9b86b731b040832efe9eee812e|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|468|13|v|cpp
-	bool m
-e297546462b1fad2a07bf85fa485233c|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|717|1|V|cpp
-	
-	template <class T> struct Seg { // comb(ID,b) = b
-	  const T ID = 0;
-	  T comb(T a, T b) { return a + b; }
-	  int n;
-	  vector<T> seg;
-	  Seg(V<T> a) {
-	    n = sz(a) + 1;
-	    seg.assign(2 * n, ID);
-	    FOR(i, 0, sz(a)) u(i, a[i]);
-	  }
-	  void init(int _n) {
-	    n = _n;
-	    seg.assign(2 * n, ID);
-	  }
-	  void pull(int p) { seg[p] = comb(seg[2 * p], seg[2 * p + 1]); }
-	  void u(int p, T val) { // set val at position p
-	    p++;
-	    seg[p += n] = val;
-	    for (p /= 2; p; p /= 2) pull(p);
-	  }
-	  T q(int l, int r) { // sum on interval [l, r]
-	    l++;
-	    T ra = ID, rb = ID;
-	    for (l += n, r += n + 1; l < r; l /= 2, r /= 2) {
-	      if (l & 1) ra = comb(ra, seg[l++]);
-	      if (r & 1) rb = comb(seg[--r], rb);
+	    int d = b.top();
+	    b.pop();
+	    if (d == 0) {
+	      out(c);
+	      brk;
 	    }
-	    return comb(ra, rb);
+	    if (c != d) b.push(c - d);
+460e4109c150cb8642918ff1627635d3|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23710/Q4/d.cpp|776|7|V|cpp
+	  while (true) {
 	  }
-	};
-7774695f8994cf7f995c756e39aff0de|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|723|10|V|cpp
-	    n = _n;
-	    seg.assign(2 * n, ID);
-9597acdc7317a912a9fa3369bec6ad7c|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|724|21|v|cpp
-	 + 2
-995b83369ffbc5f9101fec0cdaeac8b8|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|727|1|V|cpp
-	    out(seg);
-dcdec3496f769012d109a9f9bb951727|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|690|8|v|cpp
-	 ceil
-7b1a5a4dd8df61dc8e4ea38fa24f4490|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|690|8|v|cpp
-	log2
-e488d9e3475ea5008007f43adb156b59|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|691|5|V|cpp
-	    n = pow(2, n);
-98ff67e6d8c22fcfafe5743e4f4efc1a|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|694|9|v|cpp
-	i, 0, n
-6ecc5e84dcc78e7c89245b82d0b3e716|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|690|9|V|cpp
-	    n = pow(2, ceil(log2(sz(a))));
-	    out(n);
-300fc0f5a692b852877ed9d5fff57bba|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|696|5|V|cpp
-	    /* out(seg); */
-5bb6d79da6de606203be18bba0073173|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|691|3|V|cpp
-	    /* out(n); */
-6dcd11763628732d696e35277fad2eeb|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|718|1|V|cpp
+2027d83a4e65258c686d20dc2afa593e|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23710/Q4/d.cpp|777|1|V|cpp
+	    int c = b.top();
+	    b.pop();
+3a9078eea7245d6b5358a98010daff2c|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23710/Q4/d.cpp|781|5|V|cpp
+	    int 
+91664ebd5026609902a493af086d4ac3|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23710/Q4/d.cpp|782|1|V|cpp
+	    if (c > 1) b.push(c - 1);
+0fb26edb623c28b695679aeb61ce364e|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23710/Q4/d.cpp|765|1|V|cpp
+	int ins
+27e20a94b8822c843154b9f08d3e3874|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23710/Q4/d.cpp|766|2|V|cpp
+	  inse
+694a4aadf85284b321d52d1260c8d655|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23710/Q4/d.cpp|767|3|V|cpp
+	  FOR(i, 0, n) a[i]
+bd19c8c4bd70e90612e19e19eca0cfe3|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23710/Q4/d.cpp|767|26|v|cpp
+	i < 
+a5c84f0f5bd9e2a985d576d61e261389|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23710/Q5/e.cpp|764|1|V|cpp
+	  V<int> ;
+	  in();
 	
-	template <class T> struct Seg { // comb(ID,b) = b
-	  const T ID = 0;
-	  T comb(T a, T b) { return a + b; }
-	  int n;
-	  vector<T> seg;
-	  Seg(V<T> a) {
-	    n = sz(a);
-	    seg.assign(2 * n + 2, ID);
-	    FOR(i, 0, n) u(i, a[i]);
-	    out(seg);
+44555ce334e4417e06aacfce544bd88b|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23710/Q5/e.cpp|770|2|V|cpp
+	  
+	  
+1b329faef3961d25afecb621940bfeae|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23710/Q5/e.cpp|771|3|V|cpp
+	  vi d;
+b6b5f01c1589007c7c51792ce9ea18f4|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23710/Q5/e.cpp|780|1|V|cpp
+	  each(d, x) a1[x] = a[x]
+7629d391269f6f236d09b068e35aed2e|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23710/Q5/e.cpp|780|41|v|cpp
+	, c.erase(a1[x])
+0b0d045933fc84918adbbfa9bf6ccf77|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23710/Q5/e.cpp|781|24|v|cpp
+	lower_bound
+36e9620325a8ebcd3e106c18dc76ce32|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23710/Q5/e.cpp|782|3|V|cpp
+	  st y = c;
+8f74f8f50f70608286333372df5222b5|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23710/Q5/e.cpp|783|3|V|cpp
+	  each(d, x) a2[x] = *y.lb(a[x]), y.erase(a2[x]), out(a1[x]);
+b54fe2f1d52131a6b4e86dce21f223b4|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23710/Q5/e.cpp|782|1|V|cpp
+	  each(d, x) a1[x] = *c.lb(a[x]), c.erase(a1[x]), out(a1[x]);
+4ca7725b573d50d1622017224a897664|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23710/Q5/e.cpp|783|33|v|cpp
+	, c.erase(a2[x]), out(a1[x])
+40c3a9bc21c78c106951cbf6835435c0|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23710/Q5/e.cpp|782|33|v|cpp
+	, c.erase(a1[x]), out(a1[x])
+8c5d937b9a23eeed1618101ff18b7841|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23710/Q5/e.cpp|783|45|v|cpp
+	, i++
+dde06c724a3108a74a32b1bc4af79936|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23710/Q5/e.cpp|782|3|V|cpp
+	  int i = 0;
+810f0be982096c75add4ba1a9fa02b15|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23710/Q5/e.cpp|778|1|V|cpp
+	
+	  out(c);
+3aff586521836130df84fa8da2224da4|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23710/Q5/e.cpp|782|53|v|cpp
+	, out(a2[x])
+b1fdfc9c3d41e9c20bdb3a2b33ebc887|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|764|3|V|cpp
+	  int
+4dc42ccef36adc3768be88c88a013903|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|677|1|V|cpp
+	tcT T max(T a, T b) { rtn(a >= b ? a : b); }
+9b67ec93c555917bd659e72be04d1367|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|674|1|V|cpp
+	tcT T min(T a, T b) { rtn(a <= b ? a : b); }
+2ad3b22fa0d315724f34e7c7e5f1fae3|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|762|1|V|cpp
+	  out(min(a));
+c9ed30e555d1d2443999a7d72ed5e083|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|761|1|V|cpp
+	  vi a{1, 1, 3, 4};
+4b77549849e862a62a26a3752bc5949e|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|763|1|V|cpp
+	  out(amini(a));
+	  out(mini(a));
+	  out(min(a));
+e6aa50d226b697bf7ac3bd697bb2b132|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|762|3|V|cpp
+	  st b{1, 1, 3, 4};
+8afc9172b399458893147cdd2881f233|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|767|3|V|cpp
+	  out(amini(b));
+ed3abb19b6991c1d6dc5229b0912b15b|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|651|1|V|cpp
+	
+	tcT vi amini(T a) {
+	  vi mi{0};
+	  FOR(i, 1, sz(a)) {
+	    if (a[i] < a[mi[0]])
+	      mi.clear(), mi.pb(i);
+	    else if (a[i] == a[mi[0]])
+	      mi.pb(i);
 	  }
-	  void pull(int p) { seg[p] = comb(seg[2 * p], seg[2 * p + 1]); }
-	  void u(int p, T val) { // set val at position p
-	    p++;
-	    seg[p += n] = val;
-	    for (p /= 2; p; p /= 2) pull(p);
-	  }
-	  T q(int l, int r) { // sum on interval [l, r]
-	    l++;
-	    T ra = ID, rb = ID;
-	    for (l += n, r += n + 1; l < r; l /= 2, r /= 2) {
-	      if (l & 1) ra = comb(ra, seg[l++]);
-	      if (r & 1) rb = comb(seg[--r], rb);
-	    }
-	    return comb(ra, rb);
-	  }
-	};
-a7cafc61e3402cfd6ce3581f2adaf06e|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|614|1|V|cpp
-	min();
-3388fbad3d3997542cda4941948aa7a5|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.in|1|1|V|
-	7 4
-	3 2 4 5 1 1 5
-	2 1 4
-	2 5 6
-	1 3 1
-	2 1 4
-df9e1aa4940f7a34263d65ef41b87cf1|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Sum%20Queries/main.cpp|730|11|v|cpp
-	 min
-754a56a027d2484eb23495a7c7e2afe6|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.in|1|1|V|
+	  rtn mi;
+	}
+c01e8645b17f798f8d0f745ab2ef460a|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|767|3|V|cpp
+	  out(mini(b));
+d3a6bdaeefb0da6d4ab3bb84a05c0bdb|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|766|1|V|cpp
+	  st b{1, 1, 3, 4};
+	  out(min(b));
+f49a5d49f4f5e894b33a119b3cf80dbd|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|761|1|V|cpp
+	  vi a{1, 1, 3, 4};
+	  out(amini(a));
+	  out(mini(a));
+	  out(min(a));
 	
-	 wh
-1d17e10dd16b67afff98baa82db9b98d|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Sum%20Queries/main.cpp|676|1|V|cpp
+	  st b{1, 1, 3, 4};
+	  out(min(b));
 	
-	tcT struct Seg {
-	  using F = T (*)(T, T);
+	  pq b{1, 1, 3, 4};
+	  out(min(b));
+2a9c326af34d4f1f628f731e91700004|file:///Users/om/.config/nvim/scripts/mappings/which-key-leader.vim|41|13|v|vim
+	'Go to the Bottom of the Solve Function'
+56b58b993b2cc4b4a98f803f851838e3|file:///Users/om/.config/nvim/scripts/mappings/which-key-leader.vim|41|74|v|vim
+	End 
+c0120ad52366805e43ddda51b17b3078|file:///Users/om/.config/nvim/scripts/mappings/which-key-leader.vim|41|1|V|vim
+	      \ 'b': [ ':normal G{kk'                                 , 'Jump To Solve Function'      ] ,
+634cf8585be5d765b09e04ac76f4739c|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|755|1|V|cpp
+	bool TC() { rtn true; }
+25f0809afeed9cf8729c1a89c5d4d5f7|file:///Users/om/.config/nvim/scripts/mappings/which-key-leader.vim|45|17|v|vim
+	:normal G{kk
+3362bc408e57920e080b0dbcaa529087|file:///Users/om/.config/nvim/scripts/mappings/which-key-leader.vim|42|1|V|vim
+	      \ 'c':'Toggle Comment'                                  ,
+1545e945d5c3e7d9fa642d0a57fc8432|file:///Users/om/.config/nvim/scripts/mappings/which-key-leader.vim|45|47|v|vim
+	     
+80682abaac02c76c1e49f57a7df824ed|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|762|1|V|cpp
+	    fdsa
 	
-	  F comb = sum;
-	  int n, ID = 0;
-	  V<T> seg;
-	
-	  Seg(V<T> a) { init(a); }
-	  Seg(V<T> a, T _ID) : ID(_ID) { init(a); }
-	  Seg(V<T> a, F _comb) : comb(_comb) { init(a); }
-	  Seg(V<T> a, F _comb, T ID) : comb(_comb), ID(ID) { init(a); }
-	
-	  void init(V<T> a) {
-	    n = pow(2, ceil(log2(sz(a))));
-	    seg.assign(n, 0);
-	    each(a, x) seg.pb(x);
-	    FOR(n - sz(a)) seg.pb(0);
-	    ROF(i, n, 1) calc(i);
-	  }
-	
-	  void calc(int i) { seg[i] = comb(seg[2 * i], seg[2 * i + 1]); }
-	
-	  void u(int i, T val) {
-	    assert(i >= 0), assert(i < n);
-	    seg[i += n] = val;
-	    for (i /= 2; i; i /= 2) calc(i);
-	  }
-	
-	  T q(int L) { rtn q(L, L + 1); }
-	  T q(int L, int R) { rtn q(L, R, 0, n, 1); }
-	  T q(int L, int R, int l, int r, int i) {
-	    assert(L >= 0), assert(L < n);
-	    assert(R > 0), assert(R <= n);
-	    if (l >= R || r <= L) rtn ID;
-	    if (l >= L && r <= R) rtn seg[i];
-	    T ans = ID;
-	    ans = comb(ans, q(L, R, l, (l + r) / 2, 2 * i));
-	    ans = comb(ans, q(L, R, (l + r) / 2, r, 2 * i + 1));
-	    rtn ans;
-	  }
-	};
-	
-17d60674ceab4c9ce8731393c299efd5|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Sum%20Queries/main.cpp|725|1|V|cpp
-	  int n, q;
-	  in(n, q);
-	
-	  V<ll> a(n);
-	  in(a);
-	  Seg b(a);
-	
-	  while (q--) {
-	    int x, c, d;
-	    in(x, c, d);
-	
-	    if (x == 1) {
-	      b.u(c - 1, d);
-	    } else {
-	      out(b.q(c - 1, d));
-	    }
-	  }
-a1d0ec6d56f8833a078b5a7ac4caf2d4|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Sum%20Queries/main.cpp|1|33|v|cpp
-	Minimum
-ee149d705d028b5669aebe01cc60959a|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Sum%20Queries/main.cpp|460|1|V|cpp
-	
-	// Sum {{{
-	
-	// get the sum of values (plain integers, vectors, arrays, etc.)
-	
+57748fc727f285dda3c13c2580b61d31|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|761|1|V|cpp
+	  asdf
+02b84cddffac552cda142a23a0e07d82|file:///Users/om/.config/nvim/scripts/mappings/which-key-leader.vim|41|7|V|vim
+	      \ 'e': [ ':normal G{kk'                                 , 'Jump To Solve Function'      ] ,
+84d2e92e9584db6afd4bad5e1c325804|file:///Users/om/.config/nvim/scripts/mappings/which-key-leader.vim|44|7|V|vim
+	      \ 'b': [ ':%s/\/\* rtn true;/rtn true;/'                , 'Jump To Solve Function'      ] ,
+bf65fb0876f5957905849fbf1eaee27d|file:///Users/om/.config/nvim/scripts/mappings/which-key-leader.vim|41|66|v|vim
+	Jump To Solve Function
+12c2fb34111a4fa9c7b49282aebae96b|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|761|1|V|cpp
+	  out(max({
+	      6,
+	      1,
+	      12,
+	      4,
+	  }));
+6530bb4312757be27fff430350a769e3|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|761|3|V|cpp
+	  int a = 0;
+798a5bd7329c4ac69cec9721211bf6a8|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|762|3|V|cpp
+	  out(sum(a, 6));
+fafa8f33f9f7321252de05b5aef8000c|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|761|3|V|cpp
+	  vi a{1, 2, 5, 1};
+6f24478011fcb911d6104c7ffa8883a4|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|529|19|v|cpp
+	bool m = false
+68934a3e9455fa72420237eb05902327|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|520|26|v|cpp
+	false
+945b028052f9fc9f5f61873ec2a404f7|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|520|1|V|cpp
+	tcT T sum(T a) { rtn sum(a, false); }
+154017f209a53d01160420d958503464|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|519|1|V|cpp
 	tcT T sum(bool m, T a) { rtn(m ? mod(a) : a); }
-	tcT T sum(T a) { rtn sum(false, a); }
+f1dbb05ac6c204d0a52dec6bd0e5bc05|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|519|11|v|cpp
+	bool m, T a
+7a4dfbcc21431c5f22b09142f5359655|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|519|29|v|cpp
+	(m ? mod(a) : a)
+d11bef189293309b23a1c4525e654bd1|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|519|1|V|cpp
+	tcT T sum(bool m, T a) { rtn sum(a, m); }
+04885126264852b89571c575e75e218e|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|519|10|v|cpp
+	(bool m, T a)
+3b41e6dde37c1c8b4f33158468abfb93|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|515|1|V|cpp
+	// Sum {{{
+	
+	// get the sum of values (plain integers, vectors, arrays, etc.)
+	
+	
+	
+	tcT T sum(T a, bool m) { rtn(m ? mod(a) : a); }
+	tcT T sum(bool m, T a) { rtn sum(a, m); }
+	tcT T sum(T a) { rtn sum(a, false); }
 	
 	tcTUU T sum(bool m, T a, U... b) {
 	  T res = sum(m, a) + sum(m, b...);
@@ -1258,455 +369,937 @@ ee149d705d028b5669aebe01cc60959a|file:///Users/om/Google%20Drive/OmMahesh/Progra
 	  rtn b;
 	}
 	
-	// }}}
-f78b8b6edbb1e1578a7a3fcadedc5417|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|626|1|V|cpp
-	
+a6e9e596b771733c42ec18a97c5db1ff|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|519|1|V|cpp
 	// Sum {{{
 	
-	// get the sum of things (integers, vectors, arrays, etc.)
+2db1a4314baea52082a9517c1a37f888|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|519|1|V|cpp
+	// get the sum of values (plain integers, vectors, arrays, etc.)
 	
-	tcT int sum(T a);
-	tcTUU int sum(T a, U... b);
-	tcT int sum(V<T> a);
-	tcTS int sum(A<T, S> a);
-	tcT int sum(S<T> a);
-	tcT int sum(MS<T> a);
-	tcTU int sum(M<T, U> a);
-	
-	tcT int sum(T a) { rtn mod(a); }
-	
-	tcTUU int sum(T a, U... b) { rtn mod(sum(a) + sum(b...)); }
-	
-	tcT int sum(V<T> a) {
-	  int res = 0;
-	  each(a, x) res = mod(res + sum(x));
-	  rtn res;
-	}
-	
-	tcTS int sum(A<T, S> a) {
-	  int res = 0;
-	  each(a, x) res = mod(res + sum(x));
-	  rtn res;
-	}
-	
-	tcT int sum(S<T> a) {
-	  int res = 0;
-	  each(a, x) res = mod(res + sum(x));
-	  rtn res;
-	}
-	
-	tcT int sum(MS<T> a) {
-	  int res = 0;
-	  each(a, x) res = mod(res + sum(x));
-	  rtn res;
-	}
-	
-	tcTU int sum(M<T, U> a) {
-	  int res = 0;
-	  each(a, x) res = mod(res + sum(x.s));
-	  rtn res;
-	}
-	
-	// }}}
-89f62cddd9e807a618bd753f11674506|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Sum%20Queries/main.cpp|676|1|V|cpp
-	
-	tcT struct Seg {
-	  using F = T (*)(T, T);
-	
-	  F comb = sum;
-	  int n, ID = 0;
-	  V<T> seg;
-	
-	  Seg(V<T> a) { init(a); }
-	  Seg(V<T> a, T _ID) : ID(_ID) { init(a); }
-	  Seg(V<T> a, F _comb) : comb(_comb) { init(a); }
-	  Seg(V<T> a, F _comb, T ID) : comb(_comb), ID(ID) { init(a); }
-	
-	  void init(V<T> a) {
-	    n = pow(2, ceil(log2(sz(a))));
-	    seg.assign(n, 0);
-	    each(a, x) seg.pb(x);
-	    FOR(n - sz(a)) seg.pb(0);
-	    ROF(i, n, 1) calc(i);
-	  }
-	
-	  void calc(int i) { seg[i] = comb(seg[2 * i], seg[2 * i + 1]); }
-	
-	  void u(int i, T val) {
-	    assert(i >= 0), assert(i < n);
-	    seg[i += n] = val;
-	    for (i /= 2; i; i /= 2) calc(i);
-	  }
-	
-	  T q(int L) { rtn q(L, L + 1); }
-	  T q(int L, int R) { rtn q(L, R, 0, n, 1); }
-	  T q(int L, int R, int l, int r, int i) {
-	    assert(L >= 0), assert(L < n);
-	    assert(R > 0), assert(R <= n);
-	    if (l >= R || r <= L) rtn ID;
-	    if (l >= L && r <= R) rtn seg[i];
-	    T ans = ID;
-	    ans = comb(ans, q(L, R, l, (l + r) / 2, 2 * i));
-	    ans = comb(ans, q(L, R, (l + r) / 2, r, 2 * i + 1));
-	    rtn ans;
-	  }
-	};
-	
-	bool TC() {
-	  /* rtn true; // Uncomment this line for multiple test cases */
-	  rtn false;
-	}
-	
-	void solve(int32_t T) {
-	  int n, q;
-	  in(n, q);
-	
-	  V<ll> a(n);
-	  in(a);
-	  Seg b(a);
-	
-	  while (q--) {
-	    int x, c, d;
-	    in(x, c, d);
-	
-	    if (x == 1) {
-	      b.u(c - 1, d);
-	    } else {
-	      out(b.q(c - 1, d));
-	    }
-	  }
-	}
-	
-	/* stuff you should look for
-	 * int overflow, array bounds
-	 * special cases (n=1?)
-	 * do smth instead of nothing and stay organized
-	 * WRITE STUFF DOWN
-	 * DON'T GET STUCK ON ONE APPROACH
-	 */
-f9ad108c3905848af050f1d6d2cc252a|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|755|1|V|cpp
-	
-	/* stuff you should look for
-	 * int overflow, array bounds
-	 * special cases (n=1?)
-	 * do smth instead of nothing and stay organized
-	 * WRITE STUFF DOWN
-	 * DON'T GET STUCK ON ONE APPROACH
-	 */
-063498f936adf14cfd013b92865295fb|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|751|1|V|cpp
-	
-	void solve(int32_t T) {
-7551ba8c314f9e244969b8765b703e78|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|746|1|V|cpp
-	
-	bool TC() {
-	  /* rtn true; // Uncomment this line for multiple test cases */
-	  rtn false;
-	}
-29f72f435580674a27dd0a4cbe1e992f|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|743|1|V|cpp
-	
-	// Uncomment for integer overflow
-	/* #define int ll */
-34ffede0039ac8fc8bf610d98beb8828|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|742|13|V|cpp
-	// ––– CODE –––
-	
-57c577c7df4923024ce1f0d0950aaaaf|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|699|1|V|cpp
-	tcTUU T min(T a, U... b) { rtn min(a, min(b...)); }
-aa891c882cdc039b50148d81e87ea7fc|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|699|16|v|cpp
-	, U... b
-0d2d2501ca0ea87c3e336d727362945b|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|699|24|v|cpp
-	min(a, min(b...))
-3db172154e76f86eb79b729bb4281803|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|756|17|v|cpp
-	INT_MAX
-8f5b3ea3237ff8dc64a483b51fad6bbe|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|716|5|V|cpp
-	    out(ID);
-4c5fceb0b8ba5d3e4be8801adfba86a0|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|702|1|V|cpp
-	tcT struct Seg {
-	  using F = T (*)(T, T);
-	
-	  F comb = sum;
-	  int n;
-	  T ID = 0;
-	  V<T> seg;
-	
-	  Seg(V<T> a) { init(a); }
-	  Seg(V<T> a, T _ID) : ID(_ID) { init(a); }
-	  Seg(V<T> a, F _comb) : comb(_comb) { init(a); }
-	  Seg(V<T> a, F _comb, T ID) : comb(_comb), ID(ID) { init(a); }
-	
-	  void init(V<T> a) {
-	    n = pow(2, ceil(log2(sz(a))));
-	    seg.assign(n, 0);
-	    each(a, x) seg.pb(x);
-	    FOR(n - sz(a)) seg.pb(0);
-	    ROF(i, n, 1) calc(i);
-	  }
-	
-	  void calc(int i) { seg[i] = comb(seg[2 * i], seg[2 * i + 1]); }
-	
-	  void u(int i, T val) {
-	    assert(i >= 0), assert(i < n);
-	    seg[i += n] = val;
-	    for (i /= 2; i; i /= 2) calc(i);
-	  }
-	
-	  T q(int L) { rtn q(L, L + 1); }
-	  T q(int L, int R) { rtn q(L, R, 0, n, 1); }
-	  T q(int L, int R, int l, int r, int i) {
-	    assert(L >= 0), assert(L < n);
-	    assert(R > 0), assert(R <= n);
-	    if (l >= R || r <= L) rtn ID;
-	    if (l >= L && r <= R) rtn seg[i];
-	    T ans = ID;
-	    ans = comb(ans, q(L, R, l, (l + r) / 2, 2 * i));
-	    ans = comb(ans, q(L, R, (l + r) / 2, r, 2 * i + 1));
-	    rtn ans;
-	  }
-	};
-1a2e123f0293511f5b5270247d7946e3|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|488|15|v|cpp
+04aece04169bf3772f4cc9d83b12c2f2|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|519|24|v|cpp
+	{ rtn(m ? mod(a) : a); }
+ce2a74ecac39932ec1c3c0187078b75d|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|520|24|v|cpp
+	{ rtn sum(a, m); }
+a8441beadac85cc84b0469398ea53889|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|521|16|v|cpp
+	{ rtn sum(a, false); }
+87e64359f7481d3d25090180b68b75a0|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|523|34|v|cpp
 	{
-	  using F = T (*)(T, T);
-	
-	  F comb = sum;
-	  int n, ID = 0;
-	  V<T> seg;
-	
-	  ST(V<T> a) { init(a); }
-	  ST(V<T> a, T _ID) : ID(_ID) { init(a); }
-	  ST(V<T> a, F _comb) : comb(_comb) { init(a); }
-	  ST(V<T> a, F _comb, T ID) : comb(_comb), ID(ID) { init(a); }
-	
-	  void init(V<T> a) {
-	    n = sz(a);
-	    seg.assign(n, 0);
-	    each(a, x) seg.pb(x);
-	    ROF(i, n, 1) calc(i);
-	  }
-	
-	  void calc(int i) { seg[i] = comb(seg[2 * i], seg[2 * i + 1]); }
-	
-	  void u(int i, T val) {
-	    assert(i >= 0), assert(i < n);
-	    seg[i += n] = val;
-	    for (i /= 2; i; i /= 2) calc(i);
-	  }
-	
-	  T q(int L) { rtn q(L, L + 1); }
-	  T q(int L, int R) { rtn q(L, R, 0, n, 1); }
-	  T q(int L, int R, int l, int r, int i) {
-	    assert(L >= 0), assert(L < n);
-	    assert(R > 0), assert(R <= n);
-	    if (l >= R || r <= L) rtn ID;
-	    if (l >= L && r <= R) rtn seg[i];
-	    T ans = ID;
-	    ans = comb(ans, q(L, R, l, (l + r) / 2, 2 * i));
-	    ans = comb(ans, q(L, R, (l + r) / 2, r, 2 * i + 1));
-	    rtn ans;
-	  }
+	  T res = sum(m, a) + sum(m, b...);
+	  if (m) res %= MOD;
+	  rtn res;
 	}
-dc1ddac6451520bb9940297e0042a102|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|488|1|V|cpp
-	tcT struct ST ;
-476e24ad382dc099e342b23fa449dde4|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|450|1|V|cpp
-	
-	// seg tree data type
-	tcT struct Seg {
-	  using F = T (*)(T, T);
-	
-	  F comb = sum;
-	  int n;
-	  T ID = 0;
-	  V<T> seg;
-	
-	  Seg(V<T> a) { init(a); }
-	  Seg(V<T> a, T _ID) : ID(_ID) { init(a); }
-	  Seg(V<T> a, F _comb) : comb(_comb) { init(a); }
-	  Seg(V<T> a, F _comb, T ID) : comb(_comb), ID(ID) { init(a); }
-	
-	  void init(V<T> a) {
-	    n = pow(2, ceil(log2(sz(a))));
-	    seg.assign(n, 0);
-	    each(a, x) seg.pb(x);
-	    FOR(n - sz(a)) seg.pb(0);
-	    ROF(i, n, 1) calc(i);
+06b3fd4481535e9763c6ea2df5a79048|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|524|26|v|cpp
+	{ rtn sum(false, a, b...); }
+85765667a037b42410b2ac0a13cf1cbd|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|526|35|v|cpp
+	{
+	  T res = 0;
+	  each(a, x) {
+	    res += x;
+	    if (m) res %= MOD;
 	  }
-	
-	  void calc(int i) { seg[i] = comb(seg[2 * i], seg[2 * i + 1]); }
-	
-	  void u(int i, T val) {
-	    assert(i >= 0), assert(i < n);
-	    seg[i += n] = val;
-	    for (i /= 2; i; i /= 2) calc(i);
+	  rtn res;
+	}
+e4e12752ffea68b5410b2b482b79ddea|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|534|39|v|cpp
+	{
+	  U res = 0;
+	  each(a, x) {
+	    res += x.s;
+	    if (m) res %= MOD;
 	  }
-	
-	  T q(int L) { rtn q(L, L + 1); }
-	  T q(int L, int R) { rtn q(L, R, 0, n, 1); }
-	  T q(int L, int R, int l, int r, int i) {
-	    assert(L >= 0), assert(L < n);
-	    assert(R > 0), assert(R <= n);
-	    if (l >= R || r <= L) rtn ID;
-	    if (l >= L && r <= R) rtn seg[i];
-	    T ans = ID;
-	    ans = comb(ans, q(L, R, l, (l + r) / 2, 2 * i));
-	    ans = comb(ans, q(L, R, (l + r) / 2, r, 2 * i + 1));
-	    rtn ans;
+	  rtn res;
+	}
+1abfaa990d2666c52429522488a11a36|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|536|41|v|cpp
+	{
+	  auto b = copy(a);
+	  T res = 0;
+	  while (sz(b)) {
+	    res += b.top(), b.pop();
+	    if (m) res %= MOD;
 	  }
-	};
+	  rtn b;
+	}
+94af4daecbf7e4557939c17ce9a62c9a|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|518|1|V|cpp
 	
-e3da06753abde0af082fca8e7a36845b|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|444|1|V|cpp
+	tcT T sum(T a, bool m);
+	tcT T sum(bool m, T a);
+	tcT T sum(T a);
+	tcTUU T sum(bool m, T a, U... b);
+	tcTUU T sum(T a, U... b);
+	tcT T sum(V<T> a, bool m = false);
+	tcTS T sum(A<T, S> a, bool m = false);
+	tcT T sum(S<T> a, bool m = false);
+	tcT T sum(MS<T> a, bool m = false);
+	tcTU U sum(M<T, U> a, bool m = false);
+	tcTU T sum(PQU<T, U> a, bool m = false);
 	
-	// Seg Tree {{{
+ea79670d44c336ec602fac8b78b95e00|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|522|1|V|cpp
 	
-	// seg tree data type
-	tcT struct Seg {
-	  using F = T (*)(T, T);
+	tcTUU T sum(bool m, T a, U... b) {
+	  T res = sum(m, a) + sum(m, b...);
+	  if (m) res %= MOD;
+	  rtn res;
+	}
+	tcTUU T sum(T a, U... b) { rtn sum(false, a, b...); }
+d148bd3c4a85358d4e1977aabbbf4788|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|518|1|V|cpp
 	
-	  F comb = sum;
-	  int n;
-	  T ID = 0;
-	  V<T> seg;
+	tcT T sum(T a, bool m) { rtn(m ? mod(a) : a); }
+	tcT T sum(bool m, T a) { rtn sum(a, m); }
+	tcT T sum(T a) { rtn sum(a, false); }
+026b8deb5f63a9554140bbc2536b4c29|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|763|12|v|cpp
+	, 1, 3, 6, 1
+0dd7f1d9865f92300c71743cb53a34a7|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|576|1|V|cpp
 	
-	  Seg(V<T> a) { init(a); }
-	  Seg(V<T> a, T _ID) : ID(_ID) { init(a); }
-	  Seg(V<T> a, F _comb) : comb(_comb) { init(a); }
-	  Seg(V<T> a, F _comb, T ID) : comb(_comb), ID(ID) { init(a); }
+	tcTUU T sum(bool m, T a, U... b) {
+	  T res = sum(m, a) + sum(m, b...);
+	  if (m) res %= MOD;
+	  rtn res;
+	}
+a7be75594af15c589a2878c741391fce|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|574|1|V|cpp
+	tcT T sum(T a, bool m) { rtn(m ? mod(a) : a); }
+efda1fc1ae5c56eb309681bc0c9d1931|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|574|21|v|cpp
+	 sum
+5555b6abef19f647588cf5efcd3c0758|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|569|5|V|cpp
+	    if (m) res %= MOD;
+c361aba300692964e7e39027d0aafa6b|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|574|1|V|cpp
+	tcT int sum(int a) { rtn sum(a); }
+92f1c58ff696832cfe80a56a4ad13624|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|575|1|V|cpp
+	tcTT int sum(int a, T... b) { rtn a + sum(b...); }
+eb32b1229a458ed7c56349ff75f5cc92|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|576|1|V|cpp
+	tcTUU T sum(V<T> a, U... b) { rtn a + sum(b...); }
+9cc5b0677562feb0088b119402605a03|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|577|1|V|cpp
+	tcTUU T sum(S<T> a, U... b) { rtn sum(a) + sum(b...); }
+dd914493e38c2d12efabbd9b75fcb24a|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|578|1|V|cpp
+	tcTUVV T sum(P<T,U> a, V... b) { rtn sum(a) + sum(b...); }
+06b8272685f0c9c68466a6aada23a3d3|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|577|1|V|cpp
+	tcTUU T sum(V<T> a, U... b) { rtn sum(a) + sum(b...); }
+eff3e5030af6b435e5e87cbc617ea312|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|580|1|V|cpp
+	tcTUVV T sum(PQU<T,U> a, V... b) { rtn sum(a) + sum(b...); }
+29ceaf959137c1c4818b3999657ed697|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|13|1|V|cpp
+	#define tcTUU template <class T, class... U>
+f21fd2d1f1ec276fe0a5e62556d17097|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|14|1|V|cpp
+	#define tcTUV template <class T, class U, class V>
+ac2858f3e8028060ca28561f9403f3e7|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|17|41|v|cpp
+	, size_t S
+2be63e77f65d0811260760c97e13c75e|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|18|1|V|cpp
+	#define tcSTU template <size_t S, class T, class U>
+bc4cf67293f2e77b86cbe06d4ba88f66|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|17|1|V|cpp
+	#define tcST template <size_t S, class T>
+b41b9f49d88a396fc2c6a2f8a90daf55|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|21|1|V|cpp
+	#define tcSTUV template <size_t S, class T, class U, class V>
+76bc949110467f344e2b8be60756a252|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|17|24|v|cpp
+	size_t S, 
+8425774890c06d97eecf45d9c54308f2|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|18|1|V|cpp
+	#define tcTT template <class... T>
+1debf9864f459ab110f1bdcd2abf3f70|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|19|1|V|cpp
+	#define tcTSUU template <class T, class... U>
+dd88f5b0cea146cee97ec1cab023225b|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|767|1|V|cpp
+	  a.push(1);
+48b3559c0a8ddb0ba5570241ee784933|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|768|1|V|cpp
+	  a.push(5);
+52bc3757ed424fe9f336e49bc51c5fdd|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|590|1|V|cpp
 	
-	  void init(V<T> a) {
-	    n = pow(2, ceil(log2(sz(a))));
-	    seg.assign(n, 0);
-	    each(a, x) seg.pb(x);
-	    FOR(n - sz(a)) seg.pb(0);
-	    ROF(i, n, 1) calc(i);
+	// Copy {{{
+	
+	tcT T copy(T a);
+	tcTS A<T, S> copy(A<T, S> a);
+	tcT V<T> copy(V<T> a);
+	tcT S<T> copy(S<T> a);
+	tcT MS<T> copy(MS<T> a);
+	tcTU M<T, U> copy(M<T, U> a);
+	tcTU PQU<T, U> copy(PQU<T, U> a);
+	
+	tcT T copy(T a) { rtn a; }
+	
+	tcTS A<T, S> copy(A<T, S> a) {
+	  A<T, S> b;
+	  FOR(i, S) b[i] = copy(a[i]);
+	  rtn b;
+	}
+	
+	tcT V<T> copy(V<T> a) {
+	  vi b;
+	  each(a, x) b.pb(copy(x));
+	  rtn b;
+	}
+	
+	tcT S<T> copy(S<T> a) {
+	  S<T> b;
+	  each(a, x) b.ins(copy(x));
+	  rtn b;
+	}
+	
+	tcT MS<T> copy(MS<T> a) {
+	  MS<T> b;
+	  each(a, x) b.ins(copy(x));
+	  rtn b;
+	}
+	
+	tcTU M<T, U> copy(M<T, U> a) {
+	  M<T, U> b;
+	  each(a, x) b[copy(x.f)] = copy(x.s);
+	  rtn b;
+	}
+	
+	tcTU PQU<T, U> copy(PQU<T, U> a) {
+	  PQU<T, U> b;
+	  while (sz(a)) {
+	    b.push(copy(a.top()));
+	    a.pop();
 	  }
-	
-	  void calc(int i) { seg[i] = comb(seg[2 * i], seg[2 * i + 1]); }
-	
-	  void u(int i, T val) {
-	    assert(i >= 0), assert(i < n);
-	    seg[i += n] = val;
-	    for (i /= 2; i; i /= 2) calc(i);
-	  }
-	
-	  T q(int L) { rtn q(L, L + 1); }
-	  T q(int L, int R) { rtn q(L, R, 0, n, 1); }
-	  T q(int L, int R, int l, int r, int i) {
-	    assert(L >= 0), assert(L < n);
-	    assert(R > 0), assert(R <= n);
-	    if (l >= R || r <= L) rtn ID;
-	    if (l >= L && r <= R) rtn seg[i];
-	    T ans = ID;
-	    ans = comb(ans, q(L, R, l, (l + r) / 2, 2 * i));
-	    ans = comb(ans, q(L, R, (l + r) / 2, r, 2 * i + 1));
-	    rtn ans;
-	  }
-	};
+	  rtn b;
+	}
 	
 	// }}}
-f87a7a16716eba675e81dbe4c08da159|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|698|1|V|cpp
+76c4032a6287a96cc9b9e32017f4f386|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|770|15|v|cpp
+	 true
+0ccf83bc387c4eb6ad26d31a9fa691c3|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|766|1|V|cpp
+	  PQ<ll> a;
+	  a.push(1);
+	  a.push(5);
+	  a.push(7);
+	  out(sum(a, 1));
+87677c86a778339d37eb8c9947efb0b2|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|767|29|v|cpp
+	sum(MOD, 1)
+da5171c12f7e76fbfe7e6e80aeec9c57|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|760|5|v|cpp
+	operator+
+b1b64f329b54f228deafd7b1b13d51a6|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|7|1|V|cpp
 	
-	tcT T min(T a, T b) { rtn(a <= b ? a : b); }
-	tcTUU T min(T a, U... b) { rtn min(a, min(b...)); }
-08c955376ace3300601c7b62f47f32de|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Sum%20Queries/main.cpp|771|9|V|cpp
-	  Seg a() {
+	// Declarations {{{
 	
+	tcT T add(T a, T b);
+	
+	// }}}
+0ba41bd7dd03a38a417a8aea89361895|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|508|7|v|cpp
+	O++;
+3e9deadf9788956f620506b2ea9a7ec2|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|510|7|V|cpp
+	      E++;
+ee748ad98837b352465c394ed55bbd22|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|519|7|V|cpp
+	      O++;
+d5d04098485f6d1c170dc813645dddc7|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|519|1|V|cpp
+	      O = add(O, 1);
+60cbe3cf749b8339b4f068e3acd3b9cc|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|622|1|V|cpp
+	    res = add(res, x.s);
+74b2d8d919edabf02d5d28482a2e70ef|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|632|5|V|cpp
+	    res += b.top(), b.pop();
+617ff4768015d8331861eca305d67465|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|717|9|v|cpp
+	i = add(i, n)
+3d47f30de9380ce5bb8a9b4f71772545|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|729|33|v|cpp
+	l + r
+d26960e9b8b6cd08cbcd38504e0dfdee|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|730|29|v|cpp
+	(l + r)
+cbb722cd0f2a691bf5df3994e4c9b52e|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|776|24|v|cpp
+	 out((MOD, 1)); 
+800fbf0ec7c8e2d719eb1c463a3a7456|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|40|1|V|cpp
+	tcT T add(T a, T b);
+bbb720d26c49ce700927eefd48ba0399|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|767|7|v|cpp
+	do_mod
+1f3bf47a9d6cee68cf31e63b31381c3e|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|767|17|v|cpp
+	T a, T b
+e090ca1d33cb40c80aaea97a1611b062|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|767|1|v|cpp
+	tcT 
+31c3f3e9cbf7003667f5228c0222995b|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|768|1|V|cpp
+	  /* rtn mod(a + b); // Uncomment this line for problems mod 1e9+7 */
+	  rtn a + b;
+518253890fea8032fcbbc0835e1cfa43|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|772|1|V|cpp
+	  /* rtn true; // Uncomment this line for multiple test cases */
+	  rtn false;
+90f4771507e27e0bcc9d90b5fd84942b|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|768|43|v|cpp
+	multiple test cases 
+94fff52a6fc8dc4829e2ac2a37986492|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|38|4|v|cpp
+	Declarations
+972e73b7a882d0802a4e3a16946a2f94|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|38|4|v|cpp
+	Basic
+57fb8aee1d6e0f4df0e4958194536958|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|40|22|v|cpp
+	 a + b 
+590a605ce2e931f806ef007c6d495caa|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|40|1|V|cpp
+	bool is_mod();
+a856cecefd263c4c6b610059da0a51ed|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|150|1|V|cpp
+	tcT int mod(T n) { rtn(n % MOD); }
+5c71ef94f32c57d0c7951ddaf10176f2|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|41|1|V|cpp
+	bool mod();
+6bcc3c71435080995bacb8e0f2c4b14c|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|148|1|V|cpp
+	
+	const int MOD = 1e9 + 7;
+	tcT int mod(T n) { rtn(n % MOD); }
+a61984f0c7f0c6cb298efbe88c95feb5|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|44|1|V|cpp
+	tcT T add(T a, T b) { rtn is_mod() ? mod(a + b); };
+de6bd8834bf123b2572883436ea5ff25|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|46|1|V|cpp
+	tcT T mult(T a, T b);
+ed07bf9c9f1814a0059905754c58fbc9|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|421|16|v|cpp
+	, bool m = true
+301abd620633d431d22ef172e1d088eb|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|432|5|V|cpp
+	    if (m) res %= m;
+9e8b9cda63ae7755da9100bff822192b|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|37|1|V|cpp
+	
+	// Mod Calculations {{{
+	
+	const int MOD = 1e9 + 7;
+	tcT int mod(T n) { rtn(n % MOD); }
+	
+	bool is_mod();
+	tcT T add(T a, T b) { rtn is_mod() ? mod(a + b) : a + b; };
+	tcT T mult(T a, T b) { rtn is_mod() ? mod(mod(a) * mod(b)) : a *b; };
+	
+	// }}}
+d18adb7cf6369700533e3d3f6480e4b5|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|772|29|v|cpp
+	fact(20)
+2e8f27f2918d39506b0d42bbdfd2b989|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|772|24|v|cpp
+	 out(mult(MOD, 2)); 
+f8ed2ca359e6e94f50593575679f5e1c|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23740/Q1/a.cpp|789|7|V|cpp
+	      if () 
+f800aafcd2a578363a1625ff7e706df1|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23740/Q1/a.cpp|788|18|v|cpp
+	{
+	      if (a[i] < a[i - 1]) 
+	    }
+273f238662cc51a1c69cbfc5128cf18c|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23740/Q1/a.cpp|787|5|V|cpp
+	    }
+	    FOR(i, 0, n) 
+3bb9358f03ad336988a09d5fb6447b6c|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23740/Q1/a.cpp|788|5|V|cpp
+	    FOR(i, 0, n) 
+096f3068cf6275dfd33f0ae58628c8ba|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23740/Q1/a.cpp|783|7|V|cpp
+	      b = false;
+ca6e95677602271c71f3ea8cc0cf2f38|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23740/Q1/a.cpp|791|5|V|cpp
+	    ans++;
+b4bac327b4e7b3023e2870a0816c0563|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23740/Q1/a.cpp|790|5|V|cpp
+	    out(a);
+7348020f2ac22da05360616884d68109|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23740/Q1/main.in|3|1|V|
+	3 2 1
+	7
+	4 5 7 1 3 2 6
+	5
+	1 2 3 4 5
+c90101ebc07066f808c032a692cd7d5e|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23740/Q1/a.cpp|784|7|V|cpp
+	        b = false;
+578ebfc83583f4943e0aa5579ce2c9d3|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23740/Q1/main.in|1|1|V|
+	1
+	3
+	1 3 2
+9f56c817b9cbf8e0a78facd2684b8c55|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23740/Q1/main.in|7|1|V|
+	1 2 3 4 5
+b5c6384095a820469515300445fed8d2|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23740/Q1/a.cpp|789|10|V|cpp
+	    FOR(i, 1, n) {
+	      if (a[i] < a[i - 1]) b = false;
+	    }
+7fe0c2e65ab51892467301b9313aba73|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23740/Q1/a.cpp|793|5|V|cpp
+	    if (b) goto a;
+f6226697a4fe13b3b683fd5545956d54|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23740/Q2/b.cpp|778|16|v|cpp
+	swap(a, b);
+fef976e73356a85a4335193ba0617bea|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23740/Q2/b.cpp|780|7|V|cpp
+	      b = 
+fc6754d08d70b4ffd1d83102980b0fc7|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23740/Q2/b.cpp|784|5|V|cpp
+	    x - a;
+bf36886671fcdacc1baf63cc2fa468bd|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23740/Q2/b.cpp|785|5|V|cpp
+	    int z = y;
+506102bfcd6ae20be2050ca916da8b32|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23740/Q2/b.cpp|785|15|v|cpp
+	z + 1) {
+	      ans.pb(y);
+	      y += 2;
+	    }
+	  } else {
 	  }
-c709e62cb76452888098c89f4a94c868|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Sum%20Queries/main.cpp|777|1|V|cpp
-	    if (x == 1) b.u(a, b);
-b5c55343fd0f7ccc5e44d08dd64affc1|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Sum%20Queries/main.cpp|778|5|v|cpp
-	if (x == 1) 
-ff1ef1408be78e4fce0f62b2ad1b5b64|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Sum%20Queries/main.cpp|781|7|v|cpp
-	b.q(a, b);
-a127fd1f86e4ab650f2216f09992afa4|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Sum%20Queries/main.cpp|781|6|V|cpp
-	      
-72ffe5ab515029dab95d1589b2d97344|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Sum%20Queries/main.cpp|684|1|V|cpp
-	// seg tree data type
-cf2140b30f84f65868d32dec23d17af1|file:///Users/om/.config/coc/ultisnips/cpp/basic.snippets|11|1|V|snippets
+49b79f497c7828d4b843178a355e64c0|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23740/Q2/b.cpp|785|15|v|cpp
+	 + 1
+68d03fefbad0ba3dacb0c560cef16dcb|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23740/Q2/b.cpp|790|5|V|cpp
+	    out();
+ca54efa759f56cdd21953b47f72c8229|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23740/Q2/b.cpp|790|18|v|cpp
+	out()
+9baee3edb662d32b4575bea9275f1016|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23740/Q2/b.cpp|779|16|V|cpp
+	    if (a > b) {
+	      int tmp = a;
+	      a = b;
+	      b = tmp;
+	    }
+d94a2dfe6879c8c6da17023e876f6135|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23740/Q2/b.cpp|783|13|v|cpp
+	 || b == 0
+897d92e2bb66ebf40cca0319f8d7bf1d|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23740/Q2/b.cpp|784|11|V|cpp
+	    out(2);
+	    out((a + b) / 2);
+716f06e1a219f6be251df0384dbf5e9c|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23740/Q2/b.cpp|784|1|V|cpp
+	    ans.pb((a+b)/2);
+79f9c97eefda8b37c6c532c16dbe5976|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23740/Q2/main.in|2|3|V|
+	2 1
+	1 1
+	0 5
+3faf6c9d7f1852a7b0f1600d912b7391|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23740/Q3/c.cpp|777|2|V|cpp
+	  in(a);
 	
-	snippet while "A while statement"
-	while (${1:CONDITION}) $0
-	endsnippet
-1243c0ea0fd0e27e8c84cd4837bb5bab|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|771|5|V|cpp
-	  while (q--) {
+8f864e2c6871af244c65c8fd6ca65dd3|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23740/Q3/c.cpp|776|3|v|cpp
+	V<int>
+5cda41d8582f9ce1a1090a4918cdc248|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23740/Q3/c.cpp|777|3|V|cpp
+	  in(a);
+230a091930a82c5ae47e29610ee98ceb|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23740/Q3/c.cpp|783|1|V|cpp
 	
+	    
+e139c04267bd22b049a7ec8426fd0562|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23740/Q3/c.cpp|785|3|V|cpp
+	  out(a);
+f5475eefd4550898fcb390a2ac0e113d|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23740/Q2/main.in|15|3|V|
+	1 13
+8df4202286dfa61f03ac2b3f270c990c|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23740/Q2/main.in|14|4|V|
+	1 13
+	1 14
+bc0dde25975cd47b3bf493cfe1867992|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23740/Q2/main.in|12|1|V|
+	1 11
+	1 12
+c5c7be47a174e1bb610586e42350e7e2|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23740/Q2/main.in|2|1|V|
+	1 1
+	1 2
+	1 3
+	1 4
+	1 5
+	1 6
+	1 7
+	1 8
+	1 9
+	1 10
+afc38a4f593010cc549c245ea87fd099|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23740/Q2/main.in|12|1|V|
+	2 1
+	2 2
+	2 3
+	2 4
+	2 5
+	2 6
+	2 7
+	2 8
+	2 9
+	2 10
+dea0d3f2a46cdfd14556c162b61e79a3|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23740/Q2/main.in|41|1|V|
+	3 1
+	3 2
+	3 3
+	3 4
+	3 5
+	3 6
+	3 7
+	3 8
+	3 9
+	3 10
+0d9d350fe60ae980d9eb9bd59f62712f|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23740/Q2/main.in|91|1|V|
+	8 1
+	8 2
+	8 3
+	8 4
+	8 5
+	8 6
+	8 7
+	8 8
+	8 9
+	8 10
+e7cf846ae228757ce6a675c6340663ab|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23740/Q2/main.in|101|3|V|
+	9 1
+	9 2
+	9 3
+	9 4
+	9 5
+	9 6
+	9 7
+	9 8
+	9 9
+	9 10
+ca08ea8410f117e4edce3adab2fd5429|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23740/Q2/b.cpp|798|3|V|cpp
+	  if () 
+e589bd4da947a55a4b081242e5f9624a|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23740/Q2/main.in|1|1|V|
+	100
+	1 1
+	1 2
+	1 3
+	1 4
+	1 5
+	1 6
+	1 7
+	1 8
+	1 9
+	1 10
+	2 1
+	2 2
+	2 3
+	2 4
+	2 5
+	2 6
+	2 7
+	2 8
+	2 9
+	2 10
+	3 1
+	3 2
+	3 3
+	3 4
+	3 5
+	3 6
+	3 7
+	3 8
+	3 9
+	3 10
+	4 1
+	4 2
+	4 3
+	4 4
+	4 5
+	4 6
+	4 7
+	4 8
+	4 9
+	4 10
+	5 1
+	5 2
+	5 3
+	5 4
+	5 5
+	5 6
+	5 7
+	5 8
+	5 9
+	5 10
+	6 1
+	6 2
+	6 3
+	6 4
+	6 5
+	6 6
+	6 7
+	6 8
+	6 9
+	6 10
+	7 1
+	7 2
+	7 3
+	7 4
+	7 5
+	7 6
+	7 7
+	7 8
+	7 9
+	7 10
+	8 1
+	8 2
+	8 3
+	8 4
+	8 5
+	8 6
+	8 7
+	8 8
+	8 9
+	8 10
+	9 1
+	9 2
+	9 3
+	9 4
+	9 5
+	9 6
+	9 7
+	9 8
+	9 9
+	9 10
+	10 1
+	10 2
+	10 3
+	10 4
+	10 5
+	10 6
+	10 7
+	10 8
+	10 9
+	10 10
+32c8f9507454288d7626d9657b69158e|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23740/Q2/b.cpp|799|1|V|cpp
+	
+	  int mx = 
+1a3dec0e17507bf5a6e6507e5ba81719|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23740/Q2/b.cpp|781|1|V|cpp
+	
+	  vi ans;
+	  if (a == 0 && (a + b) % 2) {
+	    ans.pb((a + b) / 2);
+	    ans.pb((a + b + 1) / 2);
+	    goto a;
 	  }
-7b6ebeef7042c11acff3fbf49e98c634|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|771|9|v|cpp
-	, [&](int a, int b) { ; 
-02584cda0d87e4bbdd6dcb91f8d81de5|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CSES/Dynamic%20Range%20Minimum%20Queries/main.cpp|771|11|v|cpp
-	[&](int a
-a386660baa537f74b3039a242d0386a9|file:///Users/om/.config/coc/ultisnips/cpp/other.snippets|26|1|V|snippets
+	  if ((a + b) % 2 == 0) {
+	    int x = (a + b) / 2;
+	    int y = x - a;
+	    FOR(i, 0, a + 1) {
+	      ans.pb(y);
+	      y += 2;
+	    }
+	  } else {
+	    FOR(i, 1, b + 1) ans.pb(i);
+	    if (b - a == 1) ans.pb(0);
+	  }
+fdb2405a21611380df9edece506d82cf|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23740/Q2/b.cpp|775|1|V|cpp
 	
-	snippet seg "A seg tree" b
-	ST b$1(a$2${3:, [&](${4:int} a, $4 b) { $5; }}${6:, ${7:ID}});
-	endsnippet
-1e05b11a9eecb5d1af6c7cfcc8b3cee5|file:///Users/om/.config/coc/ultisnips/cpp/other.snippets|28|12|v|snippets
-	${3:, [&](${4:int} a, $4 b
-ce516df52dbe2b049b5828371cb4e8c2|file:///Users/om/.config/coc/ultisnips/cpp/other.snippets|28|12|v|snippets
-	) { $5; }}${6:, ${7:ID}}
-b04c26159019ebc533fb3504b725089c|file:///Users/om/.config/coc/ultisnips/cpp/other.snippets|28|1|V|snippets
-	Seg b$1(a$2, sum$3, 0$4);
-416a44c489a98592fd7e419ac721e279|file:///Users/om/.config/coc/ultisnips/cpp/other.snippets|33|1|V|snippets
-	ST b$1(a$2${3:, [&](${4:int} a, $4 b) { $5; }}${6:, ${7:ID}});
-1ba97dc733f7e628b69ca4ffec40ca01|file:///Users/om/.config/coc/ultisnips/cpp/other.snippets|22|1|V|snippets
+	  if (a > b) {
+	    int tmp = a;
+	    a = b;
+	    b = tmp;
+	  }
+08ca845c1cd6594bc1c2b475027226b4|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23740/Q2/b.cpp|775|1|V|cpp
 	
-	snippet lambda "A lambda function"
-	[&]($1) { $0 }
-	endsnippet
-62cee4f6615d45910cb610c1689c530b|file:///Users/om/.config/coc/ultisnips/cpp/other.snippets|4|1|V|snippets
-	sort(${1:a}, $1 + n$2);
-39b63355ba457980999d1c1b3580ff98|file:///Users/om/.config/coc/ultisnips/cpp/other.snippets|4|1|V|snippets
-	sor(a$1);
-a5518a41392bd44466e9f3e8e6a7bddc|file:///Users/om/.config/coc/ultisnips/cpp/other.snippets|2|1|V|snippets
+	a:
+	  /* out(a, b); */
+	  out(sz(ans));
+	  out(ans);
+c7676ee7b379734373a933b0ff6e954f|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|774|1|V|cpp
+	  out(a, b);
+3b1e0b382dde397e12d3dde3ca3bd60b|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|493|27|v|cpp
+	{
+	  T tmp = a;
+	  a = b;
+	  b = tmp;
+	}
+44e003d37d68ed2ed1d927fef799ccf5|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|493|1|V|cpp
+	tcT void swap(T &a, T &b) 
+df1015bcfd72a04171b60d4e15732f76|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|774|1|V|cpp
+	  int a = 5, b = 3;
+	  out(a, b);
+	  swap(a, b);
+	  out(a, b);
+90b045bfd4eb44138a7d3c38cf42a45d|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23740/Q2/b.cpp|778|3|V|cpp
+	  int A = (a + b)/2, B = A;
+104dda1cea88446b70bbf7d2bf51d99d|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23740/Q2/b.cpp|780|5|V|cpp
+	    int A = (a + b) / 2, B = A;
+72664ee1e56894129056080accc4772e|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23740/Q2/b.cpp|779|1|V|cpp
+	  int A = (a + b) / 2, B = A;
+b43359ffd8c6c3999298476e9ccc380b|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23740/Q2/b.cpp|778|1|V|cpp
 	
-	snippet sort "Sort an array or vector"
-	sor(a$1);
-	endsnippet
-efe8b4d4b1728f273116ea625bc39b34|file:///Users/om/.config/coc/ultisnips/cpp/other.snippets|18|1|V|snippets
+	  int A = (a + b) / 2, B = A;
+	  vi c(A), d(B);
+bdd12ab34bf9f2d578fdffb306deebf1|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23740/Q2/b.cpp|775|1|V|cpp
 	
-	snippet sortr "Sort an array in reverse"
-	sort(${1:a}, $1 + n$2, greater<${3:int}>());
-	endsnippet
-743e601b0f2a84d355b24ca2d409570c|file:///Users/om/.config/coc/ultisnips/cpp/other.snippets|18|1|V|snippets
+	  if (a > b) {
+	  }
+ac0e101bc3a7550a948018d5341b2c05|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23740/Q2/b.cpp|779|1|V|cpp
+	    while () {
 	
-	snippet sr "Sort an array in reverse"
-	sort(${1:a}, $1 + n$2, greater<${3:int}>());
-	endsnippet
-ba3faec7f7db97c2f935a73b1ef13d62|file:///Users/om/.config/coc/ultisnips/cpp/other.snippets|20|1|V|snippets
-	sort(${1:a}, $1 + n$2, greater<${3:int}>());
-6a5f99846ebbe44b9c81edc0aca98e8e|file:///Users/om/.config/coc/ultisnips/cpp/other.snippets|20|1|V|snippets
-	rsor(a$1);
-97c4350aff6339ef53f8b059013cf938|file:///Users/om/.config/coc/ultisnips/cpp/other.snippets|26|1|V|snippets
+	    }
+ceefada7aae29350c0475ab7f7e2adf6|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23740/Q2/b.cpp|779|5|V|cpp
+	    if () 
+b76b5cea88b1ece359114931790e5131|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23740/Q2/b.cpp|784|15|V|cpp
+	  out(sz(ans));
+	  out(ans);
+b0788e5840ced72e1af13e2bbc27de75|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23740/Q2/b.cpp|780|24|v|cpp
+	 - 2
+e755619ffc89d7c611e1c8f2571ddd55|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23740/Q2/b.cpp|783|12|V|cpp
+	    out(sz(ans));
+	    out(ans);
+c721384c3d762bf55bb6791b4c1cd3c8|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23740/Q2/b.cpp|784|5|V|cpp
+	    int x = 
+4aede3dfe3be3d8020766c38f8a69255|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23740/Q2/b.cpp|786|5|V|cpp
+	    int x = (b - a) / 2;
+de22db4f1971e4c87c5aef56264994e0|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23740/Q2/b.cpp|785|1|V|cpp
+	    ans.pb(x);
+557828a9d09770f75de747b87615aecf|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23740/Q2/b.cpp|785|5|v|cpp
+	ans.pb(x);
+9c8522915c04655669077a7b98f23795|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23740/Q2/b.cpp|789|1|V|cpp
+	    FOR(i, 0, a) ans.pb(x += 2);
+0cf31b2c283ce3431794586df7b0996d|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23740/Q2/b.cpp|786|4|V|cpp
+	    
+b5a15cac2a258306f7110ec7cf4b293e|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23740/Q3/main.in|1|1|V|
+	2
+	1
+	1 42
+	2
+	3 10 15 8
+	2 12 11
+e6f6639557da629abbd58559789e573e|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23740/Q3/c.cpp|786|6|V|cpp
+	    kf
+	  }
+595711c58954cfc2eb727cba561e3512|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23740/Q3/c.cpp|785|24|v|cpp
+	a[i]
+173f66c29a0fca39b1c8f7ed833757e1|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23740/Q3/c.cpp|789|3|V|cpp
+	  out(c);
+3c193d4fa18dcd3c6993037f36183581|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23740/Q3/c.cpp|789|3|V|cpp
+	  each(a, x) 
+627e80a5679136a196ab1722764110fc|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23740/Q3/c.cpp|784|1|V|cpp
 	
-	snippet sortr "Sort an array in reverse"
-	rsor(a$1);
-	endsnippet
-819f4d411b826566eee923125ed21921|file:///Users/om/.config/coc/ultisnips/cpp/other.snippets|31|9|v|snippets
-	sortr
-7aa2b00b983d895e8bf8e8dd09c6caaa|file:///Users/om/.config/coc/ultisnips/cpp/other.snippets|30|1|V|snippets
+	  vp c(n);
+	  FOR(i, 0, n) c[i] = {max(a[i]), i};
+	  sor(c);
+7a1b971d2807e66b513d15f9af1166b5|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23740/Q3/c.cpp|786|1|V|cpp
 	
-	snippet rs "Sort an array in reverse"
-	rsor(a$1);
-	endsnippet
-7b10590bca0b64ee1bed9c88059a6292|file:///Users/om/.config/coc/ultisnips/cpp/other.snippets|30|1|V|snippets
+	  FOR(i, 0, n) sz(c[i].s);
+2d1eb9d247ba05c77c7f097bc3291b10|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23740/Q3/c.cpp|785|1|V|cpp
+	  each(a, x) FOR(i, 0, sz(x)) x[i] += i;
+a0b6e43d91cb442d54157a6d22697507|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23740/Q3/c.cpp|789|3|V|cpp
+	  sor(c);
+e4133ed78792c566990434957d9e1431|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23710/Q4/main.in|1|1|V|
+	5
+	6
+	1 6 1 1 4 4
+	2
+	1 2
+	2
+	1 1
+	5
+	4 5 4 5 4
+	6
+	2 3 2 1 3 1
+92b3e7b8d8b2e64b2170a73a591105c5|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23710/Q4/main.in|1|1|V|
+	1
+	3
+	1 2 3
+b7a782741f667201b54880c925faec4b|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23710/Q4/main.in|1|1|V|
+	10000
+4e16f34ff728b14303f3760cfcd8073c|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23710/Q4/main.in|20|1|V|
+	3
+	3 1 3
+	3
+	2 2 2
+bdd1bdddcaf44c2861aa574a005f4953|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23710/Q4/main.in|2|1|V|
+	1
+	1
+	2
+	1 1
+	2
+	1 2
+	2
+	2 2
+	3
+	1 1 1
+	3
+	1 2 1
+	3
+	1 1 3
+	3
+	1 2 2
+ca97559cc87986b14564b8e0ef12fa9c|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23710/Q4/d.cpp|792|16|v|cpp
+	b.push(d - 1);
+a5d13533f88593b6fd9094e489a323ea|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23710/Q4/d.cpp|792|5|V|cpp
+	    if (d > 1) 
+3d5bdf4f85b7c41d10236e8cdea568fc|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23740/Q3/c.cpp|792|3|V|cpp
+	  out(*c.lb({5, 5}));
+b0ced96984223023c68409f1b734fdfd|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23740/Q3/c.cpp|793|5|V|cpp
+	    c[i]
+9f768c0bb1c3e84ca086a85211e978ac|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23740/Q3/c.cpp|792|10|v|cpp
+	CONDITION
+d6c15c632a5ed44e0acf6549f27bd6eb|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23740/Q3/c.cpp|794|1|V|cpp
+	    if (p < min(c).f) {
 	
-	snippet rsor "Sort an array in reverse"
-	rsor(a$1);
-	endsnippet
-4526ce756359eeb725a4baeaedc864bc|file:///Users/om/.config/coc/ultisnips/cpp/other.snippets|18|1|V|snippets
+	    } else {
 	
-	snippet sr "Sort an array in reverse"
-	rsor(a$1);
-	endsnippet
-fe7d3eee558d69b49a0ddcba1c93a6c1|file:///Users/om/.config/coc/ultisnips/cpp/other.snippets|46|1|V|snippets
+	    }
+859ae3fd890b0572467c3a39751b9c90|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23740/Q3/c.cpp|787|3|v|cpp
+	S<pi>
+0884cb90d7228015724297d68906be16|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23740/Q3/c.cpp|791|1|V|cpp
 	
-	snippet sortv "Sort a vector"
-	sort(${1:a}.begin(), $1.end());
-	endsnippet
-36f34bc206f0a3b39d588f1e34e62ba0|file:///Users/om/.config/coc/ultisnips/cpp/other.snippets|46|1|V|snippets
+	  /* FOR(i, 0, n) sz(c[i].s); */
+ceebe6f71292dac983c5206492b2d630|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23740/Q3/c.cpp|795|5|V|cpp
+	    d.f
+e6731af513a82ba88fe3f50a5e96bf4b|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23740/Q3/c.cpp|795|5|V|cpp
+	    out(d);
+424718df973d9eb3889419be40fc605e|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23740/Q3/c.cpp|793|3|V|cpp
+	  while (sz(c)) {
+d7c7afad49ab6ad4494f49c643df37f8|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23740/Q3/c.cpp|793|6|v|cpp
+	(i, 0, n)
+b38733bed218de283ab009cb85ffc690|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23740/Q3/c.cpp|794|5|V|cpp
+	    pi d = c.top();
+400fedd3832326a1823e7f65ac442a34|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23740/Q3/c.cpp|796|3|V|cpp
+	    c.pop();
+b11cf00dcdf69d58076c676f6a31a430|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23740/Q3/c.cpp|785|40|v|cpp
+	 - 1
+4902f25c7e468f1efe6ae390a9096a71|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23740/Q3/c.cpp|787|3|v|cpp
+	RPQ<pi>
+21a361d96e3e13f5f109748c2a9d2434|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23740/Q3/c.cpp|788|18|v|cpp
+	push
+7551ba8c314f9e244969b8765b703e78|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|767|1|V|cpp
 	
-	snippet sortrv "Sort a vector in reverse"
-	sort(${1:a}.rbegin(), $1.rend());
-	endsnippet
-f9d6e8dd9256d774bcee119eaaf19442|file:///Users/om/.config/coc/ultisnips/cpp/other.snippets|13|34|v|snippets
-	 or vector
-b104454adf7641d0983fc27d0e18b364|file:///Users/om/.config/coc/ultisnips/cpp/other.snippets|13|14|v|snippets
-	Sort an array/vector
-913c4b9ef49727cff32f8d4a0bd3ea66|file:///Users/om/.config/coc/ultisnips/cpp/other.snippets|9|33|v|snippets
-	Sort an array or vector
+	bool TC() {
+	  /* rtn true; // Uncomment this line for multiple test cases */
+	  rtn false;
+	}
+bf4b15b1a98242812a62c579451a876f|file:///Users/om/.config/nvim/scripts/mappings/which-key-leader.vim|41|27|v|vim
+	tn true;
+58623d9d8c1336e29da2baf9fe5025b3|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|457|9|v|cpp
+	a[m]
+8f3decc71d06df4a9bcf6fb287de3685|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|454|3|v|cpp
+	int l = 0, r = sz(a);
+346ac669412efe5a2622f19c3f2d151a|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|785|3|V|cpp
+	  a = 
+69797ddd1b4b3994ce1ba657ae5f49a7|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|785|3|V|cpp
+	  vi a{1, 2, 3}:
+46a61258a1bcfa89b06ec202601550fe|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|785|3|V|cpp
+	  vi a
+65da6f6a15e02b4076df0d83ac11dc37|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|791|3|V|cpp
+	  sor(a);
+2acb648384044b8c11d1c855554e1255|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|457|7|v|cpp
+	rtn m
+6dcdf1dd648cda9216334baf0d06eb74|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|456|5|v|cpp
+	inwt 
+f402786ae2d293a849f73a427a1fbade|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|458|5|V|cpp
+	      brk;
+06e9c65205cbd630b6ed29d98b658808|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|464|1|V|cpp
+	  if (b > a[m]) rtn (m + 1);
+9a024b6dfde0eac503463525db4e566e|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|796|8|v|cpp
+	 out
+d34899df160ea7b6d922d66574d1ecad|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|451|1|V|cpp
+	
+	// search through a sorted vector with binary search
+	tcT int se(V<T> a, T b) {
+	  int m;
+	  for (int l = 0, r = sz(a); r - l > 1;) {
+	    m = (l + r) / 2;
+	    if (b == a[m])
+	      rtn m;
+	    else if (b > a[m])
+	      l = m;
+	    else
+	      r = m;
+	  }
+	  if (b > a[m])
+	    rtn(m + 2);
+	  else
+	    rtn(m);
+	}
+79be7bc374a611798fcc23bad5dd1087|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|469|1|V|cpp
+	
+	// get the lower bound of se
+	tcT int lse(V<T> a, T b) {
+	  int c = se(a, b);
+	  while (a[c] == b && c >= 0) c--;
+	  rtn (c + 1);
+	}
+81e073b428b50247daba38531dcf412a|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|477|12|v|cpp
+	lower
+e2ecfc76cb545d9f105f5d293db164e9|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|812|5|V|cpp
+	    se(a, 5));
+8b3e89e222d5c2b5b39e8d8b66e76312|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|811|1|V|cpp
+	  out(se(a, 1));
+d67e11dfd6204dfef1427c37d539dd2d|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|814|13|V|cpp
+	  out(se(a, 2));
+	  out(se(a, k));
+38cb6f57ad63a4652ba20e9e1dc03ec8|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|812|1|V|cpp
+	  out(se(a, 2));
+	  out(se(a, 2));
+f27d91f52ffdb94df71bdd616c5986cb|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|464|1|V|cpp
+	  if (b > a[m])
+	    rtn(m + 2);
+	  else
+	    rtn(m);
+86b068e242177e4bab48c8a712349cab|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|472|6|v|cpp
+	(c + 1)
+14548521bddc8de9317f20c80c370b32|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|464|15|V|cpp
+	  if (b > a[m])
+	    rtn(m + 1);
+	  else
+	    rtn(m - 1);
+33518c0cbec8ede223405a9cd5e1b879|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|454|1|V|cpp
+	  if (b < a[0]) rtn 0;
+043be816ac7bb6d31bc7ad4a3a41eb81|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|466|3|V|cpp
+	  rtn m + 1;
+8c93cc0335387c79ffa55890a78786cc|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|466|3|V|cpp
+	  out(l, r);
+62687960c8f347bb517e4f05336622e5|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|457|3|v|cpp
+	fiwr
+3f0280a82b456e4c57aad8e569ad74e6|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|457|10|v|cpp
+	int l = 0, r = sz(a)
+86ee2ba55aa03b06900298d3c1884440|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|456|10|v|cpp
+	int 
+19cb499a2edef9fb618b747312ccc67c|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|455|3|V|cpp
+	  /* if (b > a.bk) rtn sz(a); */
+2c64d2cb08b0ceaa284bf1f560c45e00|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.cpp|806|1|V|cpp
+	  V<int> a(9);
+	  in(a);
+	  sor(a);
+	
+	  int n = 10;
+	  out(a);
+	  FOR(i, 0, n) out(i, se(a, i));
+d0a4eaa966c362cc97f8f70495e6d72a|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/Templates/std%20io/main.in|1|1|V|
+	1 2 4 6 8 2 2 2 2
+90ea800a155a94bb3abdc2e366fef227|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23737/Q2/main.in|1|1|V|
+	24
+	4 0
+	1 2 3 4
+	4 0
+	1 2 4 3
+	4 0
+	1 3 2 4
+	4 0
+	1 3 4 2
+	4 0
+	1 4 2 3
+	4 0
+	1 4 3 2
+	4 0
+	2 1 3 4
+	4 0
+	2 1 4 3
+	4 0
+	2 3 1 4
+	4 0
+	2 3 4 1
+	4 0
+	2 4 1 3
+	4 0
+	2 4 3 1
+	4 0
+	3 1 2 4
+	4 0
+	3 1 4 2
+	4 0
+	3 2 1 4
+	4 0
+	3 2 4 1
+	4 0
+	3 4 1 2
+	4 0
+	3 4 2 1
+	4 0
+	4 1 2 3
+	4 0
+	4 1 3 2
+	4 0
+	4 2 1 3
+	4 0
+	4 2 3 1
+	4 0
+	4 3 1 2
+	4 0
+	4 3 2 1
+23d7cc37be0805cd602a461ed304b552|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23737/Q2/b.cpp|627|1|V|cpp
+	  int n, k;
+	  in(n, k);
+	
+	  V<int> a(n);
+	  in(a);
+	
+	  auto b = addind(a);
+	  sor(b);
+	
+	  int x = 0;
+	  FOR(i, 0, n - 1) {
+	    while (b[i].s + 1 == b[i + 1].s && i < n - 1) i++, x++;
+	  }
+	  x = n - x;
+	
+	  out(a, x);
+	
+	  if (x > k) {
+	    goto a;
+	  }
+	
+	  out("YES");
+	  rtn;
+	a:
+	  out("NO");
+d3594ff3c16cd61534999e022b6161cc|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23737/Q2/main.in|1|1|V|
+	1
+	2
+	1 2
+c31f2eda7738e6219204ccdf4b253144|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23737/Q2/b.cpp|627|1|V|cpp
+	  int INPUTS;
+	  in(INPUTS);
+	
+c7cab40575826be2d11c65614ca65692|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23737/Q2/b.cpp|627|7|v|cpp
+	INPUTS
+c5e85b4efa03f53389d621936efa633c|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23737/Q2/b.cpp|630|2|V|cpp
+	  int n;
+	  in(n);
+	
+	  V<int> a(n);
+	  in(a);
+	
+	  
+1e4d1e1865ffeb559aace193ae3625b8|file:///Users/om/.config/nvim/scripts/mappings/which-key-leader.vim|41|17|v|vim
+	:s/\/\* r/r
+19056de798abd8fa8cb21134a13f6e36|file:///Users/om/Google%20Drive/OmMahesh/Programming/Comp%20Prog/CodeForces/Round%20%23742/Q1/main.in|1|1|V|
+	ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDGflryrhPrXCEeLldFBVoxjZFet67fOoR8hTBVgP/7wBlQYDqWonyoa6oxT9GipQk
+	Kv8N6eBteJhFKdB/Gt25ztNok+KzAqWlJFK93EcyGkctNN+o38Cxi70mAWNZvbmkOHoaBxrA45NdAY+zrT+EMJ1jSVfXXtKzmg+PW2+
+	9fpAj1o+5Ia/Kl5vZ56sic8VMe7kgs2PpZ3QAUBq3WWQ/xBtx04dxzYpHGaWEjwzIc2JU6MNK9bnJ2zm1KBzon7z8l4slHSy8dsGM5p
+	DHO6hjcRkjAXo67YtCrtblV4pRoC9Jwcz5uZ2NRqVeMd27Mfp+AsLbln+nzyB+BHPBChNucIu8Q0ca/aCLTXGBTX7FG9idDk6grHMHc
+	eesblAKYN3diY4srX5ZgDINnAC586qlfvGtI2i5IrU+8sg8+/eSe4YfSic7ynSLTxPKujp0zgwttMBJF3j3KcOWMlJA+Wr0tV/jTevY
+	YcoWClbQGPtf6d2hvW2Eh3qsdF9A7bpzHrhU= 2om.mahesh@gmail.com
